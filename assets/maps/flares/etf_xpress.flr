@@ -1,0 +1,338 @@
+flareScript
+{
+	flareDef
+	{
+		origin -1476 224 -256
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1476 -224 -256
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1208 252 -248
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1208 -252 -248
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -792 -4 -220
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -360 -4 -220
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1272 -480 -188
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1272 480 -188
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+
+	flareDef
+	{
+		origin 1476 -224 -256
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1476 224 -256
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1208 -252 -248
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1208 252 -248
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 792 4 -220
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 360 4 -220
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1272 480 -188
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1272 -480 -188
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+
+	flareDef
+	{
+		origin -1476 -6624 -256
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1476 -7072 -256
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1208 -6596 -248
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1208 -7100 -248
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -792 -6852 -220
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -360 -6852 -220
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1272 -7328 -188
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -1272 -6368 -188
+		color 0.388501 0.793140 1.000000
+		light 150
+	}
+
+	flareDef
+	{
+		origin 1476 -7072 -256
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1476 -6624 -256
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1208 -7100 -248
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1208 -6596 -248
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 792 -6844 -220
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 360 -6844 -220
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1272 -6368 -188
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 1272 -7328 -188
+		color 1.000000 0.485294 0.485294
+		light 150
+	}
+
+	flareDef
+	{
+		origin 224 -5372 -256
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -224 -5372 -256
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 252 -5640 -248
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -252 -5640 -248
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -4 -6056 -220
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -4 -6488 -220
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -480 -5576 -188
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 480 -5576 -188
+		color 0.388501 1.000000 0.388501
+		light 150
+	}
+
+	flareDef
+	{
+		origin -224 -8324 -256
+		color 1 0.793133 0.388235
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 224 -8324 -256
+		color 1 0.793133 0.388235
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -252 -8056 -248
+		color 1 0.793133 0.388235
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 252 -8056 -248
+		color 1 0.793133 0.388235
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 4 -7640 -220
+		color 1 0.793133 0.388235
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 4 -7208 -220
+		color 1 0.793133 0.388235
+		light 150
+	}
+	
+	flareDef
+	{
+		origin 480 -8120 -188
+		color 1 0.793133 0.388235
+		light 150
+	}
+	
+	flareDef
+	{
+		origin -480 -8120 -188
+		color 1 0.793133 0.388235
+		light 150
+	}
+}

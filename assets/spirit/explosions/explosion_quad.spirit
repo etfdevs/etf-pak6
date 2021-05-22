@@ -1,0 +1,57 @@
+#include "include/spirit.h"
+
+//The explosion sound
+sound "sound/weapons/rocket/rocket_hit.wav"
+
+//The animating explosion sprite
+system {
+	model		1.2 0	2.3 0	"models/weaphits/sphere.md3"
+	alpha		1	0	0.8
+	customshader
+	count		1
+	life		0.40
+}
+
+//The tracers
+
+system {
+	tracer		0.8	5 2	0 4
+	shader		"spirit/firetracer"
+	count		50
+	life		1
+
+	direction	-1 2	-1 2	-1 2
+	distance	2 3
+
+	collision	COL_SOLID
+	bouncefactor	0.7
+//	dietouch
+
+	accel		0	0	-800
+	velocity	600 100
+	friction	-0.06
+
+	alpha		1	0	0.5
+}
+
+//The light
+/* Ensiform - CustomRGB Support */
+system {
+	dlight		8	300 0	-200 0
+	customrgb
+	count		1
+	life		0.7
+	alpha		1	0	0.8
+}
+
+
+
+/*system {
+	dlight		8	300 0	-200 0
+	rgb		0.2	0.2	0.7
+	count		1
+	life		0.7
+	alpha		1	0	0.8
+}
+
+*/

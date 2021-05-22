@@ -1,0 +1,13 @@
+mapinfo {
+	map		"etf_vilify";
+	longname	"Vilify";
+	type		"etf";
+	gameindices	"1";
+	shaderremap "textures/q3f_vilify/badomen_skyportal=textures/q3f_vilify/badomen,textures/q3f_vilify/badomen_skyportal_nolight=textures/q3f_vilify/badomen_nolight";
+
+	gameindexDef 1 {
+		longname	"Vifily Hold The Orb Map";
+		mapinfo		"2-8 Players, Hold The Orb Style";
+	}
+}
+

@@ -1,0 +1,20 @@
+#include "include/spirit.h"
+
+system {
+	sprite		1 0.5	3 0.5
+	cullrange	25
+
+	offset		-5 10	-5 10	10 10
+	angles		0 0	0 0	0 360
+	avelocity	0 0	0 0	18 36
+
+
+	//shader		"smokepuff"
+	shader		"spirit/tranqed"
+	rgb		0.1	0.1	0.1
+	accel		0	0	-50
+	alpha		1	0	0.8
+
+	spawnrate	3
+	life		2
+}

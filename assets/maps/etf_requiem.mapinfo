@@ -1,0 +1,15 @@
+mapinfo {
+	map		"etf_requiem";		
+	longname	"Requiem";		
+	type		"etf";			
+	gameindices	"1";			
+	shaderremap "textures/q3f_requiem/sky_01_portal=textures/q3f_requiem/sky_01,textures/q3f_requiem/sky_01_portal_nolight=textures/q3f_requiem/sky_nolight";
+	
+	maxplayers 12;
+	gameindexDef 1 {					
+		index		"1";			
+		longname	"Requiem: Basic Assault";	
+		mapinfo	"1.Use your engineer to open the doors in Stage 1 and the big door access panels in Stage 2.\n\n2.Then have your grenadier HE charge the area below to open the doors.\n\n3.Finally, destroy the eye!";
+	}
+}
+
