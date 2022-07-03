@@ -37,7 +37,7 @@
 		textalignx	100
 		textaligny	10
 		textalign	ITEM_ALIGN_AUTO
-		text		"Video Mode:"
+		text		"(Windowed) Video Mode:"
 		textscale	.25
 		cvar		ui_r_mode
 		forecolor	.8 .8 .8 1
@@ -116,7 +116,7 @@
 		textscale	.25
 		cvar		ui_r_lodbias
 		forecolor	.8 .8 .8 1
-		cvarFloatList  { "Low" 1 "High" 0 }
+		cvarFloatList  { "Low" 1 "High" 0 "High (-1)" -1 "Ultra High (-2)" -2 }
 		tooltip		"Select the level of detail shown in models"
 		visible		1
 	}
@@ -302,7 +302,7 @@
 		type		ITEM_TYPE_MULTI
 		cvar		s_khz
 		forecolor	.8 .8 .8 1
-		cvarFloatList  { "Low" 11 "High" 22 }
+		cvarFloatList  { "Low" 11 "High" 22 "Very High" 44 "Ultra (may break)" 48 }
 		tooltip		"Modifies the sound quality"
 		visible		1
 	}
@@ -359,39 +359,6 @@
 		visible		1
 		action		{ uiScript setMem }
 	}
-
-
-// ---- Punkbuster
-
-	SIMPLEGROUPBOX("Punkbuster", 10, 320, 590, 49)
-
-	itemDef {
-		visible MENU_TRUE
-		rect 25 346 80 15
-		textalignx 5
-		textaligny 10
-		textscale .25
-		textalign ITEM_ALIGN_LEFT
-		text "Current status:"
-		backcolor	1 .77 .33 .8
-		decoration
-	}
-
-	itemDef {
-		rect		120 345 80 15
-		ownerdraw	UI_PBSTATUS
-		textscale	.25
-		textalignx 	1
-		textaligny 	6
-		backcolor	.4 .4 .4 .8
-		bordercolor	.7 .7 .7 1
-		visible		1
-	}
-
-	
-	FORT_BUTTONTT(btnpbenable, "Enable Punkbuster", 16, 250, 340, 140, 24, .22, "", exec pb_cl_enable, "This enables Punkbuster anti-cheat protection")
-
-	FORT_BUTTONTT(btnpbdisable, "Disable Punkbuster", 16, 415, 340, 140, 24, .22, "", exec pb_cl_disable, "This disables Punkbuster anti-cheat protection (requires a restart)")
 
 	}
 }

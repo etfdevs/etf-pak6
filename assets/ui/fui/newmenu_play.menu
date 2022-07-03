@@ -1,0 +1,29 @@
+#include "ui/menudef.h"
+
+{
+	//
+	// Main Menu - Play
+	//
+
+	#define MENU_X 55
+	#define MENU_Y 330
+	#define MENU_WIDTH 145
+	#define MENU_HEIGHT 90
+
+	#define MENU_NAME "menu_play"
+
+	#include "ui/etfmenu.h"
+
+	menuDef {
+		POPUPMENUSTYLE
+		outOfBoundsClick
+
+		POPUPMENUBG
+		POPUPMENUBORDERS
+
+		POPUPMENUITEM(10, 10, "Play Online", "btnplay", menu_findgame)
+		POPUPMENUITEMACTION(10, 25, "Reconnect Last", "reconlast", exec reconnect)
+		POPUPMENUITEM(10, 40, "Quick Connect", "quickcon", menu_quickconnect)//25
+		POPUPMENUITEM(10, 55, "Find a Friend", "ffriend", menu_findplayer)//40
+		POPUPMENUITEM(10, 70, "Start a Game", "start", menu_creategame)//55
+}
