@@ -162,7 +162,7 @@
 			name "serverlist_background"
 			group "svlistBck"
 			visible MENU_TRUE
-			rect 12 244 4799 18
+			rect 12 244 479 18
 			decoration
 			backcolor .5 .5 .5 .25
 			style WINDOW_STYLE_FILLED
