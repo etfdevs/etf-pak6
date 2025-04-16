@@ -73,7 +73,7 @@
             visible MENU_TRUE
             decoration
             text FORTS_VERSION " " BUILD_ARCH " " FORTS_RELEASE " [" BUILD_MONTH "/" BUILD_DAY "/" BUILD_YEAR "] (c)2003-" BUILD_YEAR ", ETF Development Team.  All Rights Reserved"
-            textalign ITEM_ALIGN_CENTER         
+            textalign ITEM_ALIGN_CENTER
             textalignx 320
             textaligny 8
             textscale .24

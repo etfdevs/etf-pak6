@@ -18,7 +18,7 @@
 		MENUSCREENSTYLE
 
 		onOpen { conditionalScript isconnected 2 ( "uiScript ServerStatus ; uiScript MoveMenuToY menu_serverinfo 12" ) ( "uiScript InGameServerStatus ; uiScript MoveMenuToY menu_serverinfo 60" ) }
-		onEsc { }
+		onEsc { conditionalScript isconnected 2 ( "uiScript setFORTBackModelOpenMenu menu_findgame" ) ( "uiScript closeFORTBackModels" ) }
 		onClose { }
 		//onEsc { conditionalScript isconnected 2 ( "open menu_findgame ; close menu_serverinfo" ) ( "close menu_serverinfo" ) }
 		//onClose { conditionalScript isconnected 2 ( "open menu_findgame ; close menu_serverinfo" ) ( "close menu_serverinfo" ) }

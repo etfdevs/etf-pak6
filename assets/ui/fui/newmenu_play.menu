@@ -7,10 +7,32 @@
 
 	#define MENU_X 55
 	#define MENU_Y 330
-	#define MENU_WIDTH 145
+	#define MENU_WIDTH 130
 	#define MENU_HEIGHT 90
 
 	#define MENU_NAME "menu_play"
+	
+#define POPUPMENUITEMACTION_DISABLER(X, Y, ITEMTEXT, ITEMNAME, ACTION, CVAR, TESTVALUE) \
+	itemDef {										\
+		name		ITEMNAME					\
+		rect		X Y $evalint(MENU_WIDTH - 22) 14	\
+		visible		MENU_TRUE							\
+		text		ITEMTEXT							\
+		textalignx	3									\
+		textaligny	11									\
+		textscale	.22									\
+		forecolor	1 1 1 1								\
+		type		ITEM_TYPE_BUTTON					\
+		textstyle	ITEM_TEXTSTYLE_SHADOWED				\
+		backcolor	.3 .3 .3 0							\
+		style		WINDOW_STYLE_FILLED					\
+		noPulseOnFocus									\
+		cvarTest	CVAR								\
+		disableCvar	{ TESTVALUE }						\
+		action {ACTION }	\
+		mouseEnter { setitemcolor ITEMNAME backcolor .8 .1 .1 .9 }	\
+		mouseExit  { setitemcolor ITEMNAME backcolor .3 .3 .3 0 }		\
+	}
 
 	#include "ui/etfmenu.h"
 
@@ -22,7 +44,7 @@
 		POPUPMENUBORDERS
 
 		POPUPMENUITEM(10, 10, "Play Online", "btnplay", menu_findgame)
-		POPUPMENUITEMACTION(10, 25, "Reconnect Last", "reconlast", exec reconnect)
+		POPUPMENUITEMACTION_DISABLER(10, 25, "Reconnect Last", "reconlast", exec reconnect, "cl_reconnectArgs", "")
 		POPUPMENUITEM(10, 40, "Quick Connect", "quickcon", menu_quickconnect)//25
 		POPUPMENUITEM(10, 55, "Find a Friend", "ffriend", menu_findplayer)//40
 		POPUPMENUITEM(10, 70, "Start a Game", "start", menu_creategame)//55
