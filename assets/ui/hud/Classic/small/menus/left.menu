@@ -1,0 +1,304 @@
+	menuDef {
+		name "classic_small_mapinfopreteam"
+		fullscreen MENU_FALSE
+		rect 0 300 640 150
+		visible MENU_TRUE
+		class {spectator}
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+		itemDef {
+			visible MENU_TRUE
+			rect 0 12 640 16
+			ownerDraw CG_MAPNAME
+			textalignx 10
+			textaligny 15
+			textscale .35
+			textstyle ITEM_TEXTSTYLE_SHADOWEDMORE
+			decoration
+		}
+		itemDef {
+			visible MENU_TRUE
+			rect 0 14 590 16
+			ownerDraw CG_MOTD
+			textalignx 10
+			textaligny 15
+			textscale .25
+			textstyle ITEM_TEXTSTYLE_SHADOWEDMORE
+			textalign ITEM_ALIGN_LEFT
+			decoration
+		}	
+		itemDef {
+			visible MENU_TRUE
+			rect 10 50 560 72
+			ownerDraw CG_MAPINFO
+			textaligny 10
+			textscale .25
+			textstyle ITEM_TEXTSTYLE_SHADOWEDMORE
+			decoration
+			useAssetFont
+			special 13
+		}
+	}
+
+	menuDef {
+		name "classic_small_health"
+		fullScreen MENU_FALSE				
+		rect 0 445 160 20
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_ON_TEAM
+
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+
+		itemDef {
+			name "playerhealth"
+			rect 70 14 36 10
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			textscale .45
+			textalign ITEM_ALIGN_RIGHT
+			ownerDraw CG_PLAYER_HEALTH
+		}
+		itemDef {
+			name "health_icon"
+			rect 0 0 30 30
+			visible MENU_TRUE
+			decoration
+			background "ui/gfx/hud/TFC_x"
+			forecolor 1 1 1 .75
+			style WINDOW_STYLE_SHADER
+		}
+		itemDef {
+			name "vbar"
+			rect 80 6 1 17
+			visible MENU_TRUE
+			decoration
+			bordercolor .8 .5 .1 .7
+			border 3
+			bordersize 1
+		}	
+	}	
+		
+	menuDef {
+		name "classic_small_armor"
+		fullScreen MENU_FALSE				
+		rect 90 450 160 20
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_ON_TEAM
+
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+  	  	
+		itemDef {
+			rect 0 0 20 20
+			visible MENU_TRUE
+			decoration
+			background "ui/gfx/hud/TFC_guy"
+			forecolor 1 .7 .5 .75
+			style WINDOW_STYLE_SHADER
+		}  	
+		itemDef {
+			name "playerarmor"
+			rect 70 9 36 10
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			textscale .45
+			textalign ITEM_ALIGN_RIGHT
+			ownerDraw CG_PLAYER_ARMOR_VALUE
+		}
+	
+	}
+
+	menuDef {
+		name "classic_small_agentstatus"
+		fullScreen MENU_FALSE				
+		rect 3 435 80 17
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_PLAYER_IS_AGENT
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+
+		itemDef {
+			rect 0 0 300 10
+			visible MENU_TRUE
+			decoration
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			forecolor .8 .5 .1 .7
+			textalign ITEM_ALIGN_LEFT
+			textaligny 12
+			textscale .23
+			ownerDraw CG_AGENTDISGUISE_FULLINFO
+		}
+	}
+	
+	menuDef {
+		name "classic_small_sentrycam"
+		fullScreen MENU_FALSE				
+		rect 0 331 156 117
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_PLAYER_HAS_SENTRYCAM
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+		itemDef {
+			name "camerascreen"
+			rect 1 2 140 105
+			visible MENU_TRUE
+			decoration
+			ownerDraw CG_ENGINEER_SENTRYCAM
+		}
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 141 106
+			decoration
+			border 1
+			bordersize 1
+			bordercolor 0 0 0 1
+		}		
+
+	}
+	
+	menuDef {
+		name "classic_small_sentrystatus"
+		fullScreen MENU_FALSE				
+		rect 0 425 35 100
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_PLAYER_HAS_SENTRY
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+
+		itemDef {
+			name "sentry_health_text"
+			rect 4 10 12 12
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 1
+			textscale .2
+			textstyle ITEM_TEXTSTYLE_SHADOWED			
+			text "Autosentry Health:"
+		}
+		itemDef {
+			name "sentryhealth"
+			rect 117 0 22 10
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 1
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_ENGINEER_SENTRYHEALTH
+		}
+		itemDef {
+			name "sentry_ammo_text"
+			rect 150 10 12 12
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 1
+			textscale .2
+			textstyle ITEM_TEXTSTYLE_SHADOWED			
+			text "Ammo:   /"
+		}
+
+		itemDef {
+			name "sentry_bullets_count"
+			rect 180 0 22 10
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 1
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_ENGINEER_SENTRYBULLETS
+		}
+
+		itemDef {
+			name "sentry_rockets_count"
+			rect 210 0 22 10
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 1
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_ENGINEER_SENTRYROCKETS
+		}
+	}
+
+	menuDef {
+		name "classic_small_supstationstatus"
+		fullScreen MENU_FALSE				
+		rect 0 438 32 8
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_PLAYER_HAS_SUPSTATION
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+  	  	
+		itemDef {
+			name "sentry_health_text"
+			rect 4 10 12 12
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 1
+			textscale .2
+			textstyle ITEM_TEXTSTYLE_SHADOWED			
+			text "Supplystation Health:"
+		}
+		itemDef {
+			name "supstationhealth"
+			rect 135 0 22 10
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 1
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_ENGINEER_SUPSTATIONHEALTH
+		}
+	}
+
+	menuDef {
+		name "classic_small_grentimerbar"
+		fullScreen MENU_FALSE				
+		rect 1 471 175 2
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_GREN_PRIMED
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 220 8
+			decoration
+			forecolor .8 .5 .1 .5
+			ownerDraw CG_GREN_TIMER
+		}
+
+	}
+
+	menuDef {
+		name "classic_small_hud_icons"
+		fullScreen MENU_FALSE
+		rect 10 94 128 300
+		visible MENU_TRUE
+
+	 	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 130 300
+			decoration
+			ownerDraw CG_HUDICONS
+			textscale 0.27
+			special 0.8
+		}
+	}

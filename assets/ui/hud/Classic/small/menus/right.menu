@@ -1,0 +1,513 @@
+	menuDef {
+		name "classic_small_powerupblob"
+		fullScreen MENU_FALSE				
+		rect 610 350 48 48
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+		
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 30 30
+			decoration
+			textscale .4
+			forecolor .8 .5 .1 1
+			ownerDraw CG_POWERUP_ICON
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+		}
+	}	
+
+	menuDef {
+		name "classic_small_ammostatus"
+		fullScreen MENU_FALSE				
+		rect 430 400 40 72
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_ON_TEAM
+
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+
+		itemDef {
+			name "grenade_1_count"
+			rect 145 37 18 10
+			visible MENU_TRUE
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_PRIMARY_GRENADE_VALUE
+		}
+		itemDef {
+			name "vbar"
+			rect 155 31 1 16
+			visible MENU_TRUE
+			decoration
+			bordercolor .8 .5 .1 .7
+			border 3
+			bordersize 1
+		}
+		itemDef {
+			name "grenade_2_count"
+			rect 185 37 22 10
+			visible MENU_TRUE
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_SECONDARY_GRENADE_VALUE
+		}		
+		itemDef {
+			name "grenade_icon"
+			rect 189 28 15 20
+			visible MENU_TRUE
+			decoration
+			forecolor 1 .5 0 .5
+			background "ui/gfx/hud/icons/icon_grenade"
+			style WINDOW_STYLE_SHADER
+		}
+		
+		itemDef {
+			name "ammo_rocket_count"
+			rect 185 57 22 10
+			visible MENU_TRUE
+			weapon {grenadelauncher;rocketlauncher;pipelauncher;napalmcannon}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMOSLOT_ROCKET_VALUE
+		}
+		itemDef {
+			name "ammo_shells_count"
+			rect 185 57 22 10
+			visible MENU_TRUE
+			weapon {sniperrifle;minigun;assaultrifle;shotgun;supershotgun}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMOSLOT_SHELLS_VALUE
+		}
+		itemDef {
+			name "ammo_nails_count"
+			rect 185 57 22 10
+			visible MENU_TRUE
+			weapon {nailgun;supernailgun;railgun;dartgun}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMOSLOT_NAILS_VALUE
+		}
+		itemDef {
+			name "ammo_cells_count"
+			rect 185 57 22 10
+			visible MENU_TRUE
+			weapon {flamethrower}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMOSLOT_CELLS_VALUE
+		}		
+		itemDef {
+			name "ammo_cells_count"
+			rect 185 57 22 10
+			visible MENU_TRUE
+			class {engineer}
+			weapon {axe}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMOSLOT_CELLS_VALUE
+		}	
+		itemDef {
+			name "cells_icon"
+			rect 187 50 20 20
+			visible MENU_TRUE
+			class {engineer}
+			weapon {axe}			
+			decoration
+			forecolor .8 .5 .1 .7
+			background "ui/gfx/hud/icons/icon_cells"
+			style WINDOW_STYLE_SHADER
+		}
+		itemDef {
+			name "cells_icon"
+			rect 187 50 20 20
+			visible MENU_TRUE
+			weapon {flamethrower}
+			decoration
+			forecolor .8 .5 .1 .7
+			background "ui/gfx/hud/icons/icon_cells"
+			style WINDOW_STYLE_SHADER
+		}
+		itemDef {
+			name "rockets_icon"
+			rect 187 50 20 20
+			weapon {grenadelauncher;rocketlauncher;pipelauncher;napalmcannon}
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			background "ui/gfx/hud/icons/icon_rockets"
+			style WINDOW_STYLE_SHADER
+		}
+		itemDef {
+			name "shells_icon"
+			rect 187 50 20 20
+			weapon {sniperrifle;minigun;assaultrifle;shotgun;supershotgun}
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			background "ui/gfx/hud/icons/icon_shells"
+			style WINDOW_STYLE_SHADER
+		}
+		itemDef {
+			name "nails_icon"
+			rect 187 50 20 20
+			weapon {nailgun;supernailgun;railgun;dartgun}
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			background "ui/gfx/hud/icons/icon_nails"
+			style WINDOW_STYLE_SHADER
+		}		
+		itemDef {
+			name "vbar"
+			rect 135 51 1 16
+			visible MENU_TRUE
+			decoration
+			bordercolor .8 .5 .1 .7
+			border 3
+			bordersize 1
+		}	
+		itemDef {
+			name "clipcount"
+			rect 130 47 36 20
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			textalign ITEM_ALIGN_RIGHT
+			textscale .4
+			ownerDraw CG_PLAYER_AMMO_CLIP_VALUE
+		}		
+		itemDef {
+			name "Weapon_icon"
+			rect  187 51 20 20
+			class {paramedic}
+			weapon {axe}
+			visible MENU_TRUE
+			decoration
+			ownerDraw CG_ACTIVE_WEAPON_ICON
+		}
+		itemDef {
+			name "ammo_cells_count"
+			rect 185 57 22 10
+			visible MENU_TRUE
+			class {paramedic}
+			weapon {axe}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMO_VALUE
+		}		
+		itemDef {
+			name "ammo_cells_count"
+			rect 108 47 36 20
+			visible MENU_TRUE
+			weapon {minigun}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMOSLOT_CELLS_VALUE
+		}
+		itemDef {
+			name "cells_icon"
+			rect 110 50 20 20
+			visible MENU_TRUE
+			weapon {minigun}			
+			decoration
+			forecolor .8 .5 .1 .7
+			background "ui/gfx/hud/icons/icon_cells"
+			style WINDOW_STYLE_SHADER
+		}
+		itemDef {
+			name "ammo_cells_count"
+			rect 185 13 22 10
+			visible MENU_TRUE
+			class {recon,agent}
+			decoration
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			textscale .4
+			ownerDraw CG_PLAYER_AMMOSLOT_CELLS_VALUE
+		}	
+		itemDef {
+			name "cells_icon"
+			rect 187 6 20 20
+			visible MENU_TRUE
+			class {recon,agent}			
+			decoration
+			forecolor .8 .5 .1 .7
+			background "ui/gfx/hud/icons/icon_cells"
+			style WINDOW_STYLE_SHADER
+		}
+	}
+
+	menuDef {
+		name "classic_small_speed"
+		fullScreen MENU_FALSE				
+		rect 597 20 96 96
+		visible MENU_TRUE
+
+ 	   	font "fonts/standard-2" 24
+  	  	smallFont "fonts/standard-2" 12
+  	  	bigFont "fonts/standard-2" 36
+
+
+		itemDef {
+			name "speed"
+			rect 0 43 48 8
+			cvarTest "cg_lagometer"
+			showCvar { "1" }			
+			visible MENU_TRUE
+			decoration
+			special 10
+			forecolor .8 .5 .1 .7
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_SYSTEM_SPEED
+		}
+		itemDef {
+			name "speed"
+			rect 0 2 48 8
+			cvarTest "cg_lagometer"
+			showCvar { "0" }			
+			visible MENU_TRUE
+			decoration
+			special 10
+			forecolor .8 .5 .1 .7
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_SYSTEM_SPEED
+		}		
+	}
+	menuDef {
+		name "classic_small_FPS"
+		fullScreen MENU_FALSE				
+		rect 597 10 96 96
+		visible MENU_TRUE
+
+ 	   	font "fonts/standard-2" 24
+  	  	smallFont "fonts/standard-2" 12
+  	  	bigFont "fonts/standard-2" 36
+
+
+		itemDef {
+			name "fps"
+			rect 0 43 48 8
+			cvarTest "cg_lagometer"
+			showCvar { "1" }			
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_SYSTEM_FPS
+		}
+		itemDef {
+			name "fps"
+			rect 0 2 48 8
+			cvarTest "cg_lagometer"
+			showCvar { "0" }			
+			visible MENU_TRUE
+			decoration
+			forecolor .8 .5 .1 .7
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .2
+			ownerDraw CG_SYSTEM_FPS
+		}		
+	}
+	
+	menuDef {
+		name "classic_small_Timer"
+		fullScreen MENU_FALSE				
+		rect 597 0 96 96
+		visible MENU_TRUE
+
+ 	   	font "fonts/standard-2" 24
+  	  	smallFont "fonts/standard-2" 12
+  	  	bigFont "fonts/standard-2" 36
+  	  	
+		itemDef {
+			name "timer"
+			rect 0 43 48 8
+			visible MENU_TRUE
+			decoration
+			cvarTest "cg_lagometer"
+			showCvar { "1" }			
+			forecolor .8 .5 .1 .7
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .25
+			ownerDraw CG_SYSTEM_TIMER
+		}
+		itemDef {
+			name "timer"
+			rect 0 2 48 8
+			visible MENU_TRUE
+			decoration
+			cvarTest "cg_lagometer"
+			showCvar { "0" }			
+			forecolor .8 .5 .1 .7
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			textscale .25
+			ownerDraw CG_SYSTEM_TIMER
+		}		
+	}
+	
+	menuDef {
+		name "classic_small_systemstatus"
+		fullScreen MENU_FALSE				
+		rect 594 0 96 96
+		visible MENU_TRUE
+  	  	
+		itemDef {
+			name "back_lagometer"
+			rect 2 0 45 40
+			visible MENU_TRUE
+			cvarTest "cg_lagometer"
+			showCvar { "1" }			
+			decoration
+			backcolor .5 .5 .5 .3
+			style WINDOW_STYLE_FILLED
+		}
+
+		itemDef {
+			name "lagometer"
+			rect 2 0 45 40
+			visible MENU_TRUE
+			cvarTest "cg_lagometer"
+			showCvar { "1" }			
+			decoration
+			ownerDraw CG_SYSTEM_LAGOMETER
+			backcolor 0 0 0 .5
+			style WINDOW_STYLE_FILLED
+		}		
+	}
+
+	menuDef {
+		name "classic_small_drawattacker"
+		fullScreen MENU_FALSE				
+		rect 590 85 48 48
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+ 	   	font "fonts/standard-2" 24
+  	  	smallFont "fonts/standard-2" 12
+  	  	bigFont "fonts/standard-2" 36	
+
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 48 48
+			textscale .25
+			decoration
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			forecolor .8 .5 .1 .7
+			ownerDraw CG_DRAWATTACKER
+		}
+	}
+
+	menuDef {
+		name "classic_small_alerticonblob"
+		fullScreen MENU_FALSE				
+		rect 605 375 48 48
+		visible MENU_TRUE
+		ownerDrawFlag CG_SHOW_ALERT_ICON
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+				
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 40 40
+			special 8
+			anchorx 3
+			decoration
+			ownerDraw CG_ALERT_ICON
+		}
+	}
+	menuDef {
+		name "classic_small_HE_indicator"
+		fullScreen MENU_FALSE				
+		rect 565 410 35 35
+		visible MENU_TRUE
+		class {grenadier}
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 20 20
+			decoration
+			ownerDraw CG_CHARGE_ICON
+		}
+	}
+	menuDef {
+		name "classic_small_pipe_counters"
+		fullScreen MENU_FALSE				
+		rect 620 400 30 30
+		visible MENU_TRUE
+		class {grenadier}
+		ownerDrawFlag CG_SHOW_NO_SCOREBOARD
+
+ 	   	font "fonts/veramono" 20
+  	  	smallFont "fonts/veramono" 12
+  	  	bigFont "fonts/veramono" 36
+  	  	
+		itemDef {
+			visible MENU_TRUE
+			rect 3 11 18 18
+			decoration
+			forecolor 1 1 1 .5
+			background "icons/iconw_pipe"
+			style WINDOW_STYLE_SHADER
+		}
+		itemDef {
+			visible MENU_TRUE
+			rect 0 0 20 20
+			decoration
+			textscale .2
+			forecolor .8 .5 .1 .7
+			ownerDraw CG_PLAYER_PIPES
+		}
+		itemDef {
+			visible MENU_TRUE
+			rect 0 20 20 20
+			decoration
+			textscale .2
+			textalign ITEM_ALIGN_RIGHT			
+			forecolor .8 .5 .1 .7
+			text "You:"
+		}		
+		itemDef {
+			visible MENU_TRUE
+			rect 0 8 20 20
+			decoration
+			textscale .2
+			forecolor .8 .5 .1 .7
+			ownerDraw CG_TEAM_PIPES
+		}
+		itemDef {
+			visible MENU_TRUE
+			rect 0 27 20 20
+			decoration
+			textscale .2
+			textalign ITEM_ALIGN_RIGHT
+			forecolor .8 .5 .1 .7
+			text "Team:"
+		}			
+	}		
