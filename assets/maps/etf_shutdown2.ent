@@ -1,0 +1,5939 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_location"
+"origin" "1056 816 -616"
+"message" "Trainway"
+}
+{
+"message" "Trainway"
+"origin" "1056 280 -616"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "944 8 -616"
+"message" "Trainway"
+}
+{
+"message" "Trainway"
+"origin" "216 0 -616"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-328 8 -616"
+"message" "Trainway"
+}
+{
+"message" "Trainway"
+"origin" "-728 -8 -616"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1392 0 -616"
+"message" "Trainway"
+}
+{
+"message" "Trainway"
+"origin" "-2120 0 -616"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-2392 -264 -616"
+"message" "Trainway"
+}
+{
+"message" "Trainway"
+"origin" "-2392 -640 -616"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-2392 -896 -608"
+"message" "Trainway"
+}
+{
+"classname" "item_quad"
+"origin" "-960 0 -1144"
+"wait" "240"
+"count" "20"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1120 0 -616"
+"targetname" "t338"
+}
+{
+"model" "*1"
+"classname" "trigger_teleport"
+"target" "t338"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t337"
+}
+{
+"model" "*3"
+"classname" "func_door"
+"angle" "-1"
+"targetname" "t337"
+}
+{
+"model" "*4"
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"wait" "10"
+"gameindex" "1"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_all_message" "~%N has CAPTURED the ^4BLUE* flag!"
+"active_message" "You have scored 2 frags for capturing the flag."
+"give" "score=+2,health=+100,armor=+200,ammo_shells=+200,ammo_bullets=+200,ammo_cells=+200,ammo_rockets=+200,ammo_medikit=+50,ammo_charge=+1,gren1=+4,gren2=+2"
+"classname" "trigger_multiple"
+"holding" "blueflag"
+"teamscore" "10"
+"activetarget" "red_bonus,blueflag=~inactive"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_all_sound" "~sound/teamplay/voc_red_scores.wav"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"model" "*5"
+"angle" "270"
+"classname" "func_button"
+"activetarget" "hold_l2_4=~inactive,hold_l2_1=~inactive,hold_l2_2=~inactive,hold_l2_3=~inactive"
+}
+{
+"model" "*6"
+"classname" "func_button"
+"angle" "270"
+"activetarget" "hold_l1_4=~inactive,hold_l1_1=~inactive,hold_l1_2=~inactive,hold_l1_3=~inactive"
+}
+{
+"angle" "270"
+"origin" "-2464 -888 -624"
+"classname" "path_corner"
+"targetname" "t283"
+"target" "t284"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "-2560 -1184 -624"
+"angle" "245"
+"classname" "path_corner"
+"targetname" "t289"
+"target" "t290"
+"wait" "0"
+"speed" "650"
+}
+{
+"angle" "225"
+"classname" "path_corner"
+"origin" "-2344 56 -624"
+"targetname" "t280"
+"target" "t281"
+"wait" "0"
+"speed" "650"
+}
+{
+"angle" "270"
+"classname" "path_corner"
+"origin" "-2560 -1200 -624"
+"targetname" "t286"
+"target" "t287"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "896 1192 -624"
+"angle" "270"
+"targetname" "t303"
+"target" "t270"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "896 1176 -624"
+"classname" "path_corner"
+"angle" "290"
+"targetname" "t302"
+"target" "t303"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "992 904 -627"
+"angle" "290"
+"targetname" "t301"
+"target" "t302"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "992 888 -624"
+"classname" "path_corner"
+"angle" "270"
+"targetname" "t300"
+"target" "t301"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "992 208 -624"
+"angle" "270"
+"targetname" "t299"
+"target" "t300"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "992 192 -624"
+"classname" "path_corner"
+"angle" "225"
+"targetname" "t298"
+"target" "t299"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "872 72 -624"
+"angle" "225"
+"targetname" "t297"
+"target" "t298"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "856 64 -624"
+"classname" "path_corner"
+"angle" "180"
+"targetname" "t296"
+"target" "t297"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "-2328 64 -624"
+"angle" "180"
+"targetname" "t295"
+"target" "t296"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "-2344 56 -624"
+"classname" "path_corner"
+"angle" "225"
+"targetname" "t294"
+"target" "t295"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "-2448 -56 -624"
+"angle" "225"
+"targetname" "t293"
+"target" "t294"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "-2464 -64 -624"
+"classname" "path_corner"
+"angle" "270"
+"targetname" "t292"
+"target" "t293"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "-2464 -904 -624"
+"angle" "270"
+"targetname" "t290"
+"target" "t291"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "-2560 -1200 -624"
+"classname" "path_corner"
+"angle" "270"
+"targetname" "hold_l2_4"
+"target" "t289"
+"wait" "3"
+"speed" "650"
+}
+{
+"activetarget" "hold_l2_4=~disabled,hold_l2_1=~disabled,hold_l2_2=~disabled,hold_l2_3=~disabled"
+"classname" "path_corner"
+"origin" "-2560 -1448 -624"
+"angle" "270"
+"targetname" "t287"
+"target" "hold_l2_4"
+}
+{
+"classname" "path_corner"
+"angle" "245"
+"origin" "-2560 -1184 -624"
+"targetname" "t285"
+"target" "t286"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"angle" "245"
+"targetname" "t284"
+"target" "t285"
+"origin" "-2464 -904 -624"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "-2464 -888 -624"
+"angle" "270"
+"targetname" "t291"
+"target" "t292"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "-2464 -64 -624"
+"classname" "path_corner"
+"angle" "270"
+"targetname" "t282"
+"target" "t283"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "-2448 -56 -624"
+"angle" "225"
+"targetname" "t281"
+"target" "t282"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "-2328 64 -624"
+"angle" "180"
+"targetname" "t279"
+"target" "t280"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "856 64 -624"
+"classname" "path_corner"
+"angle" "180"
+"targetname" "t278"
+"target" "t279"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "872 72 -624"
+"angle" "225"
+"targetname" "t277"
+"target" "t278"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "992 192 -624"
+"classname" "path_corner"
+"angle" "225"
+"targetname" "t276"
+"target" "t277"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "992 208 -624"
+"angle" "270"
+"targetname" "t275"
+"target" "t276"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "992 888 -624"
+"classname" "path_corner"
+"angle" "270"
+"targetname" "t274"
+"target" "t275"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "992 904 -624"
+"angle" "290"
+"targetname" "t273"
+"target" "t274"
+"wait" "0"
+"speed" "650"
+}
+{
+"origin" "896 1176 -624"
+"classname" "path_corner"
+"angle" "290"
+"targetname" "t272"
+"target" "t273"
+"wait" "0"
+"speed" "650"
+}
+{
+"classname" "path_corner"
+"origin" "896 1192 -624"
+"angle" "270"
+"targetname" "hold_l2_1"
+"target" "t272"
+"wait" "3"
+"speed" "650"
+}
+{
+"activetarget" "hold_l2_4=~disabled,hold_l2_1=~disabled,hold_l2_2=~disabled,hold_l2_3=~disabled"
+"origin" "896 1424 -624"
+"classname" "path_corner"
+"angle" "270"
+"targetname" "t270"
+"target" "hold_l2_1"
+}
+{
+"classname" "path_corner"
+"origin" "896 1440 -624"
+"angle" "270"
+"targetname" "t153"
+"target" "t270"
+}
+{
+"model" "*7"
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+}
+{
+"targetname" "watchredflag"
+"_q3f_comment_1" "Advanced CTF entities"
+"carriedtarget" "redflaghud=~carried,reset_red_bonus"
+"activetarget" "redflaghud=~active"
+"inactivetarget" "redflaghud=~inactive"
+"wait" "45"
+"flags" "revealagent,showcarry"
+"inactive_flaginfo" "The ^1RED^* flag is at the red base."
+"active_flaginfo" "The ^1RED^* flag has been dropped at $l."
+"carried_flaginfo" "%N has the ^1RED^* flag."
+"inactive_all_message" "The ^1RED^* flag has returned."
+"carried_all_message" "~%N has TAKEN the ^1RED^* flag!"
+"carried_message" "You have taken the ^1RED^* flag!"
+"allowteams" "red"
+"groupname" "redflag"
+"sparkle" "1 0 0"
+"color" "1 0 0"
+"light" "150"
+"model" "models/flags/r_flag.md3"
+"classname" "func_goalitem"
+"origin" "-2432 2688 192"
+"gameindex" "3"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"active_all_message" "~%N has DROPPED the ^1RED^* flag!"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+}
+{
+"model" "*8"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_sound" "~sound/teamplay/voc_blue_scores.wav"
+"wait" ".25"
+"gameindex" "3"
+"classname" "trigger_multiple"
+"holding" "blueflag"
+"active_message" "You have scored 2 frags for capturing the flag."
+"active_all_message" "~%N has CAPTURED the ^4BLUE^* flag in the ^1RED^* base!"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"teamscore" "10"
+"activetarget" "respawner,blueflag=~inactive,blue_bonus"
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+}
+{
+"model" "*9"
+"wait" ".25"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"_q3f_comment_1" "Advanced CTF entities"
+"active_message" "You have scored 2 frags for capturing the flag."
+"active_all_sound" "~sound/teamplay/voc_blue_scores.wav"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"gameindex" "2"
+"classname" "trigger_multiple"
+"holding" "oneflag"
+"active_all_message" "%N has captured the flag in the ^1RED^* base!"
+"activetarget" "respawner,oneflag=~inactive,one_bonus"
+"allowteams" "blue"
+"teamscore" "10"
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"carried_all_message" "~%N has TAKEN the ^1RED^* flag!"
+"active_all_message" "~%N has DROPPED the ^1RED^* flag!"
+"inactive_all_message" "The ^1RED^* flag has returned."
+"inactive_flaginfo" "The ^1RED^* flag is at the red base."
+"active_flaginfo" "The ^1RED^* flag has been dropped at $l."
+"carried_flaginfo" "%N has the ^1RED^* flag."
+"carried_team_sound" "~sound/teamplay/voc_team_flag.wav"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"gameindex" "1"
+"origin" "-2432 2688 192"
+"classname" "func_goalitem"
+"model" "models/flags/r_flag.md3"
+"light" "150"
+"color" "1 0 0"
+"sparkle" "1 0 0"
+"groupname" "redflag"
+"allowteams" "blue"
+"flags" "revealagent,showcarry"
+"wait" "45"
+"inactivetarget" "red_flaggrab=~inactive,redflaghud=~inactive"
+"activetarget" "redflaghud=~active"
+"carriedtarget" "red_flaggrab,redflaghud=~carried,reset_blue_bonus"
+"carried_message" "You have taken the ^1RED^* flag!"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"targetname" "watchredflag"
+"carried_nonteam_sound" "~sound/teamplay/voc_enemy_flag.wav"
+}
+{
+"origin" "-2432 2688 208"
+"targetname" "watchredcappoint"
+"classname" "info_notnull"
+"gameindex" "2,3"
+}
+{
+"classname" "panel_scoresummary"
+"origin" "-788 -2078 72"
+}
+{
+"light" "50"
+"origin" "8 -3160 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-64 -3008 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-64 -2880 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-64 -2752 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-64 -2624 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-64 -2496 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-64 -2352 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "0 -2224 128"
+"light" "50"
+}
+{
+"classname" "light"
+"origin" "1096 -2512 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "1096 -2256 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "912 -2032 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "720 -2032 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "464 -2032 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "208 -2032 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-48 -2032 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-232 -1840 128"
+"classname" "light"
+}
+{
+"light" "50"
+"origin" "-896 -2488 -40"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-680 -2488 -40"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-680 -2352 -40"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-680 -2216 -40"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-976 -1056 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-776 -1056 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-560 -1056 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-368 -1056 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-368 -1232 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-560 -1232 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-976 -1232 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-776 -1232 96"
+"light" "50"
+}
+{
+"classname" "light"
+"origin" "-1104 -2008 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1104 -1840 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-184 -1648 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-184 -1456 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-1104 -1648 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1104 -1456 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-976 -1296 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-776 -1296 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-368 -1296 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-560 -1296 96"
+"classname" "light"
+}
+{
+"height" "64"
+"width" "144"
+"distance" "1024"
+"classname" "panel_scoresummary"
+"origin" "-672 -38 252"
+"angle" "360"
+}
+{
+"model" "*10"
+"origin" "-2240 -1440 -584"
+"target" "t269"
+"classname" "func_train"
+}
+{
+"target" "t14"
+"origin" "-1432 -2744 -136"
+"spawnflags" "4"
+"targetname" "blue_speaker2"
+"noise" "sound/q3f_sd2/blue_up.wav"
+"classname" "target_speaker"
+}
+{
+"groupname" "speaker_blue"
+"initialstate" "inactive"
+"origin" "-1400 -2744 -136"
+"wait" "90"
+"target" "blue_speaker2"
+"classname" "target_delay"
+}
+{
+"spawnflags" "4"
+"noise" "sound/q3f_sd2/blue_down.wav"
+"classname" "target_speaker"
+"origin" "-1376 -2744 -144"
+"groupname" "speaker_blue"
+"initialstate" "inactive"
+}
+{
+"model" "*11"
+"wait" "90"
+"inactivetarget" "laser_blue_hurt1=~inactive,light2=~disabled,speaker_blue=~inactive,bluesechud=~inactive"
+"activetarget" "laser_blue_hurt1=~disabled,speaker_blue=~active,light2=~inactive,bluesechud=~active"
+"angle" "270"
+"classname" "func_button"
+"allowteams" "red"
+"active_message" "~You have deactivated the Blue Laser !"
+"active_all_message" "~BlueSecurety is deactivated"
+"sound" "sound/q3f_sd2/blue_down.wav"
+"inactive_all_message" "~Blue Securety is now Operating"
+"inactive_message" "~Blue Securety is now Operating"
+}
+{
+"wait" ".1"
+"origin" "-3176 -472 -96"
+"failtarget" "blue_has_possession=~inactive,red_has_possession=~disabled"
+"activetarget" "blue_has_possession=~disabled,red_has_possession=~inactive"
+"allowteams" "red"
+"groupname" "change_possession"
+"classname" "info_notnull"
+}
+{
+"initialstate" "disabled"
+"groupname" "blue_has_possession,possession"
+"gameindex" "2"
+"victimallowteams" "red"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "-3288 -504 -96"
+"holding" "oneflag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"activetarget" "one_bonus_frag"
+"wait" ".25"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+}
+{
+"initialstate" "disabled"
+"groupname" "blue_has_possession,possession"
+"gameindex" "2"
+"classname" "misc_onkill"
+"victimholding" "oneflag"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"origin" "-3288 -440 -96"
+"active_all_message" "%N killed the red team's flag carrier!"
+"wait" ".25"
+"allowteams" "red"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"give" "score=+1"
+}
+{
+"initialstate" "disabled"
+"groupname" "red_has_possession,possession"
+"gameindex" "2"
+"active_all_message" "%N killed the blue team's flag carrier!"
+"origin" "-3048 -440 -96"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"victimholding" "oneflag"
+"classname" "misc_onkill"
+"wait" ".25"
+"allowteams" "blue"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"give" "score=+1"
+}
+{
+"initialstate" "disabled"
+"groupname" "red_has_possession,possession"
+"gameindex" "2"
+"victimallowteams" "blue"
+"wait" ".25"
+"activetarget" "one_bonus_frag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"holding" "oneflag"
+"origin" "-3048 -504 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+}
+{
+"initialstate" "disabled"
+"groupname" "blue_has_possession,possession"
+"gameindex" "2"
+"wait" ".25"
+"active_all_message" "%N teamkilled the red team's flag carrier!"
+"origin" "-3288 -472 -96"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"victimholding" "oneflag"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "Punishes a player for teamkilling."
+"give" "score=-2"
+}
+{
+"victimallowteams" "red"
+"initialstate" "disabled"
+"groupname" "red_has_possession,possession"
+"gameindex" "2"
+"classname" "misc_onkill"
+"victimholding" "oneflag"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"origin" "-3048 -472 -96"
+"active_all_message" "%N teamkilled the blue team's flag carrier!"
+"wait" ".25"
+"allowteams" "red"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "Punishes a player for teamkilling."
+"give" "score=-2"
+}
+{
+"initialstate" "disabled"
+"groupname" "blue_has_possession,possession"
+"gameindex" "2"
+"wait" ".25"
+"spawnflags" "5"
+"active_message" "^4Assist!^*"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "-3344 -472 -96"
+"checkstate" "oneflag=carried"
+"watch" "watchoneflag"
+"watchrange" "512"
+"give" "score=+1"
+"_q3f_comment_1" "Advanced CTF entities"
+"victimallowteams" "red"
+"active_all_message" "%N defends the blue flag carrier!"
+"active_sound" "~sound/feedback/assist.wav"
+"notholding" "oneflag"
+}
+{
+"notholding" "oneflag"
+"initialstate" "disabled"
+"groupname" "red_has_possession,possession"
+"gameindex" "2"
+"wait" ".25"
+"spawnflags" "5"
+"active_sound" "~sound/feedback/assist.wav"
+"active_all_message" "%N defends the red flag carrier!"
+"victimallowteams" "blue"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag carrier"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchoneflag"
+"checkstate" "oneflag=carried"
+"origin" "-2984 -472 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"active_message" "^1Assist!^*"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"notholding" "redflag"
+"gameindex" "3"
+"active_message" "^1Assist!^*"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "-2984 -184 -96"
+"checkstate" "redflag=carried"
+"watch" "watchredflag"
+"watchrange" "512"
+"give" "score=+1"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag carrier"
+"victimallowteams" "blue"
+"active_all_message" "%N defends the red flag carrier!"
+"active_sound" "~sound/feedback/assist.wav"
+"spawnflags" "5"
+"wait" ".25"
+}
+{
+"_q3f_comment_1" "Give frag bonus for enemies killed near the flag carrier"
+"notholding" "blueflag"
+"gameindex" "3"
+"active_sound" "~sound/feedback/assist.wav"
+"active_all_message" "%N defends the blue flag carrier!"
+"victimallowteams" "red"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchblueflag"
+"checkstate" "blueflag=carried"
+"origin" "-3344 -184 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"active_message" "^4Assist!^*"
+"spawnflags" "5"
+"wait" ".25"
+}
+{
+"_q3f_comment_1" "Give frag bonus for enemies killed near the flag"
+"wait" ".25"
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the blue base!"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchbluecappoint"
+"origin" "-3344 -216 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"active_message" "^4Defense!^*"
+"spawnflags" "5"
+"gameindex" "3"
+"victimholding" "redflag"
+}
+{
+"give" "score=-2"
+"_q3f_comment_2" "Punishes a player for teamkilling."
+"_q3f_comment_1" "Advanced CTF entities"
+"allowteams" "blue"
+"gameindex" "3"
+"wait" ".25"
+"active_all_message" "%N teamkilled the blue team's flag carrier!"
+"origin" "-3048 -216 -96"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"victimholding" "blueflag"
+"classname" "misc_onkill"
+}
+{
+"give" "score=-2"
+"_q3f_comment_2" "Punishes a player for teamkilling."
+"_q3f_comment_1" "Advanced CTF entities"
+"classname" "misc_onkill"
+"allowteams" "red"
+"victimholding" "redflag"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"origin" "-3288 -216 -96"
+"active_all_message" "%N teamkilled the red team's flag carrier!"
+"wait" ".25"
+"gameindex" "3"
+}
+{
+"give" "score=+2"
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_message" "%N killed the blue team's flag carrier while carrying the enemy flag himself!"
+"gameindex" "3"
+"wait" ".25"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"holding" "redflag"
+"origin" "-3048 -192 -96"
+"classname" "misc_onkill"
+"victimholding" "blueflag"
+}
+{
+"give" "score=+2"
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_message" "%N killed the red team's flag carrier while carrying the enemy flag himself!"
+"gameindex" "3"
+"victimholding" "redflag"
+"classname" "misc_onkill"
+"origin" "-3288 -192 -96"
+"holding" "blueflag"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"wait" ".25"
+}
+{
+"_q3f_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "3"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "-3048 -240 -96"
+"holding" "redflag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"activetarget" "red_bonus_frag"
+"wait" ".25"
+"victimallowteams" "blue"
+}
+{
+"give" "score=+1"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"allowteams" "red"
+"activetarget" "red_defense"
+"gameindex" "3"
+"notholding" "redflag"
+"wait" ".25"
+"classname" "misc_onkill"
+"victimholding" "blueflag"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"origin" "-3048 -168 -96"
+"active_all_message" "%N killed the blue team's flag carrier!"
+}
+{
+"give" "score=+1"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"allowteams" "blue"
+"activetarget" "blue_defense"
+"gameindex" "3"
+"notholding" "blueflag"
+"wait" ".25"
+"active_all_message" "%N killed the red team's flag carrier!"
+"origin" "-3288 -168 -96"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"victimholding" "redflag"
+"classname" "misc_onkill"
+}
+{
+"_q3f_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "3"
+"wait" ".25"
+"activetarget" "blue_bonus_frag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"holding" "blueflag"
+"origin" "-3288 -240 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"victimallowteams" "red"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"wait" ".25"
+"active_message" "^1Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "-2984 -216 -96"
+"watch" "watchredcappoint"
+"watchrange" "512"
+"give" "score=+1"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag"
+"active_all_message" "%N defends the red base!"
+"active_sound" "~sound/feedback/defense.wav"
+"spawnflags" "5"
+"gameindex" "3"
+"victimholding" "blueflag"
+}
+{
+"spawnflags" "5"
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the red base!"
+"victimallowteams" "blue"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchredcappoint"
+"origin" "-2984 -504 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"active_message" "^1Defense!^*"
+"wait" ".25"
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"groupname" "red_has_possession,possession"
+"initialstate" "disabled"
+"victimholding" "oneflag"
+}
+{
+"spawnflags" "5"
+"active_message" "^4Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "-3344 -504 -96"
+"watch" "watchbluecappoint"
+"watchrange" "512"
+"give" "score=+1"
+"_q3f_comment_1" "Advanced CTF entities"
+"victimallowteams" "red"
+"active_all_message" "%N defends the blue base!"
+"active_sound" "~sound/feedback/defense.wav"
+"wait" ".25"
+"gameindex" "2"
+"groupname" "blue_has_possession,possession"
+"initialstate" "disabled"
+"victimholding" "oneflag"
+}
+{
+"targetname" "watchoneflag"
+"carried_team_sound" "~sound/teamplay/voc_team_1flag.wav"
+"origin" "-672 0 -88"
+"classname" "func_goalitem"
+"model" "models/flags/y_flag.md3"
+"light" "150"
+"color" "0.966324 1.000000 0.232248"
+"groupname" "oneflag"
+"carried_message" "You have taken the flag!"
+"carried_all_message" "~%N of the %T has TAKEN the flag!"
+"inactive_all_message" "The flag has returned."
+"carried_flaginfo" "%N of the %T has the flag."
+"active_flaginfo" "The flag has been dropped at $l."
+"inactive_flaginfo" "The flag is in the middle."
+"flags" "revealagent,showcarry"
+"wait" "45"
+"inactivetarget" "oneflaghud=~inactive,possession=~disabled"
+"activetarget" "oneflaghud=~active,possession=~disabled"
+"carriedtarget" "oneflaghud=~carried,reset_one_bonus,change_possession"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"carried_nonteam_sound" "~sound/teamplay/voc_enemy_1flag.wav"
+"gameindex" "2"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+}
+{
+"model" "*12"
+"_q3f_comment_1" "Advanced CTF entities"
+"classname" "func_wall"
+"gameindex" "1"
+}
+{
+"model" "*13"
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_sound" "~sound/teamplay/voc_blue_scores.wav"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"activetarget" "blue_bonus,redflag=~inactive"
+"teamscore" "10"
+"holding" "redflag"
+"classname" "trigger_multiple"
+"give" "score=+2,health=+100,armor=+200,ammo_shells=+200,ammo_bullets=+200,ammo_cells=+200,ammo_rockets=+200,ammo_medikit=+50,ammo_charge=+1,gren1=+4,gren2=+2"
+"active_message" "You have scored 2 frags for capturing the flag."
+"active_all_message" "~%N has CAPTURED the ^1RED^* flag!"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"gameindex" "1"
+"wait" "10"
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+}
+{
+"classname" "info_notnull"
+"targetname" "t9"
+"origin" "1088 -2688 208"
+"gameindex" "2,3"
+}
+{
+"targetname" "t8"
+"_q3f_comment_1" "Advanced CTF entities"
+"carriedtarget" "blueflaghud=~carried,reset_blue_bonus"
+"activetarget" "blueflaghud=~active"
+"inactivetarget" "blueflaghud=~inactive"
+"origin" "1088 -2688 192"
+"classname" "func_goalitem"
+"model" "models/flags/b_flag.md3"
+"light" "150"
+"color" "0 0 1"
+"groupname" "blueflag"
+"allowteams" "blue"
+"carried_message" "~You have the ^4BLUE^* flag!"
+"carried_all_message" "~%N has TAKEN the ^4BLUE^* flag!"
+"inactive_all_message" "The ^4BLUE^* flag has returned."
+"carried_flaginfo" "%N has the ^4BLUE^* flag."
+"active_flaginfo" "The ^4BLUE^* flag has been dropped at $l."
+"inactive_flaginfo" "The ^4BLUE^* flag is at the blue base."
+"flags" "revealagent,showcarry"
+"wait" "45"
+"gameindex" "3"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"active_all_message" "~%N has DROPPED the ^4BLUE^* flag!"
+"sparkle" "0 0 1"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+}
+{
+"model" "*14"
+"wait" ".25"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_sound" "~sound/teamplay/voc_red_scores.wav"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"gameindex" "2"
+"classname" "trigger_multiple"
+"holding" "oneflag"
+"active_all_message" "%N has captured the flag in the ^4BLUE^* base!"
+"teamscore" "10"
+"activetarget" "respawner,oneflag=~inactive,one_bonus"
+"allowteams" "red"
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_message" "You have scored 2 frags for capturing the flag."
+}
+{
+"model" "*15"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_sound" "~sound/teamplay/voc_red_scores.wav"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"wait" ".25"
+"gameindex" "3"
+"classname" "trigger_multiple"
+"holding" "redflag"
+"active_message" "You have scored 2 frags for capturing the flag."
+"active_all_message" "~%N has CAPTURED the ^1RED^* flag in the ^4BLUE^* base!"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"teamscore" "10"
+"activetarget" "respawner,redflag=~inactive,red_bonus"
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1"
+"wait" "45"
+"carried_all_message" "~%N has TAKEN the ^4BLUE^* flag!"
+"active_all_message" "~%N has DROPPED the ^4BLUE^* flag!"
+"inactive_all_message" "The ^4BLUE^* flag has returned."
+"inactive_flaginfo" "The ^4BLUE^* flag is at the blue base."
+"active_flaginfo" "The ^4BLUE^* flag has been dropped at $l."
+"carried_flaginfo" "%N has the ^4BLUE^* flag."
+"carried_message" "~You have the ^4BLUE^* flag!"
+"carried_team_sound" "~sound/teamplay/voc_team_flag.wav"
+"carried_nonteam_sound" "~sound/teamplay/voc_enemy_flag.wav"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"flags" "revealagent,showcarry"
+"allowteams" "red"
+"groupname" "blueflag"
+"color" "0 0 1"
+"light" "150"
+"model" "models/flags/b_flag.md3"
+"classname" "func_goalitem"
+"origin" "1088 -2688 192"
+"inactivetarget" "blue_flaggrab=~inactive,blueflaghud=~inactive"
+"activetarget" "blueflaghud=~active"
+"carriedtarget" "blue_flaggrab,blueflaghud=~carried,reset_red_bonus"
+"sparkle" "0 0 1"
+"targetname" "t8"
+}
+{
+"origin" "-3144 -952 -96"
+"give" "score=+2,health=+100,armor=+200,ammo_shells=+200,ammo_bullets=+200,ammo_cells=+200,ammo_rockets=+200,ammo_medikit=+50,ammo_charge=+1,gren1=+4,gren2=+2"
+"groupname" "delayed_resup"
+"classname" "info_notnull"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"notholding" "blueflag"
+"gameindex" "1"
+"active_message" "^1Assist!^*"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "-2984 -648 -96"
+"checkstate" "blueflag=carried"
+"watch" "watchblueflag"
+"watchrange" "512"
+"give" "score=+1"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag carrier"
+"victimallowteams" "blue"
+"active_all_message" "%N defends the red flag carrier!"
+"active_sound" "~sound/feedback/assist.wav"
+"spawnflags" "5"
+"wait" ".25"
+}
+{
+"_q3f_comment_1" "Give frag bonus for enemies killed near the flag carrier"
+"notholding" "redflag"
+"gameindex" "1"
+"active_sound" "~sound/feedback/assist.wav"
+"active_all_message" "%N defends the blue flag carrier!"
+"victimallowteams" "red"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchredflag"
+"checkstate" "redflag=carried"
+"origin" "-3344 -648 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"active_message" "^4Assist!^*"
+"spawnflags" "5"
+"wait" ".25"
+}
+{
+"_q3f_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+"_q3f_comment_1" "Advanced CTF entities"
+"groupname" "respawner"
+"origin" "-3052 -840 -96"
+"holding" "oneflag"
+"gameindex" "2"
+"affectteams" "blue"
+"classname" "target_respawn"
+}
+{
+"_q3f_comment_1" "Give frag bonus for enemies killed near the flag"
+"wait" ".25"
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the blue flag at its base!"
+"victimallowteams" "red"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchblueflag"
+"checkstate" "blueflag=inactive"
+"origin" "-3344 -696 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"active_message" "^4Defense!^*"
+"spawnflags" "5"
+"gameindex" "1"
+}
+{
+"_q3f_comment_2" "This resets the frag bonus for the flag carrier."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"wait" ".25"
+"inactivetarget" "red_bonus_frag=~inactive"
+"activetarget" "red_bonus_frag=~invisible,red_bonus1=~disabled,red_bonus2=~disabled,red_bonus3=~disabled,red_bonus4=~disabled,red_bonus5=~disabled,red_bonus6=~disabled,red_bonus7=~disabled,red_bonus8=~disabled,red_bonus9=~disabled,red_bonus10=~disabled"
+"classname" "info_notnull"
+"groupname" "reset_red_bonus"
+"origin" "-2840 -1040 -96"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_blue_bonus"
+"initialstate" "disabled"
+"classname" "info_notnull"
+"groupname" "blue_bonus1,blue_bonus"
+"give" "score=+1"
+"active_all_message" "%N scores 1 bonus point for fragging an enemy while capturing the flag!"
+"origin" "-3280 -936 -96"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_blue_bonus"
+"initialstate" "disabled"
+"origin" "-3280 -912 -96"
+"active_all_message" "%N scores 2 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+2"
+"groupname" "blue_bonus2,blue_bonus"
+"classname" "info_notnull"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_blue_bonus"
+"initialstate" "disabled"
+"classname" "info_notnull"
+"groupname" "blue_bonus3,blue_bonus"
+"give" "score=+3"
+"active_all_message" "%N scores 3 bonus points for fragging enemies while capturing the flag!"
+"origin" "-3280 -888 -96"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_blue_bonus"
+"initialstate" "disabled"
+"classname" "info_notnull"
+"groupname" "blue_bonus4,blue_bonus"
+"give" "score=+4"
+"active_all_message" "%N scores 4 bonus points for fragging enemies while capturing the flag!"
+"origin" "-3280 -864 -96"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_blue_bonus"
+"initialstate" "disabled"
+"classname" "info_notnull"
+"groupname" "blue_bonus5,blue_bonus"
+"give" "score=+5"
+"active_all_message" "%N scores 5 bonus points for fragging enemies while capturing the flag!"
+"origin" "-3280 -840 -96"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_red_bonus"
+"initialstate" "disabled"
+"origin" "-2840 -840 -96"
+"active_all_message" "%N scores 5 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+5"
+"groupname" "red_bonus5,red_bonus"
+"classname" "info_notnull"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_red_bonus"
+"initialstate" "disabled"
+"origin" "-2840 -864 -96"
+"active_all_message" "%N scores 4 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+4"
+"groupname" "red_bonus4,red_bonus"
+"classname" "info_notnull"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_red_bonus"
+"initialstate" "disabled"
+"origin" "-2840 -888 -96"
+"active_all_message" "%N scores 3 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+3"
+"groupname" "red_bonus3,red_bonus"
+"classname" "info_notnull"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_red_bonus"
+"initialstate" "disabled"
+"classname" "info_notnull"
+"groupname" "red_bonus2,red_bonus"
+"give" "score=+2"
+"active_all_message" "%N scores 2 bonus points for fragging enemies while capturing the flag!"
+"origin" "-2840 -912 -96"
+}
+{
+"_q3f_comment_2" "This is what actually accumulates and keeps track of the number of frags a flag carrier makes during his run.  Whatever *_bonus entity is inactive when the flag is capped is the one that will be activated, giving the person capping the appropriate score."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"origin" "-3280 -976 -96"
+"target_5" "blue_bonus5=~inactive,blue_bonus4=~disabled"
+"target_4" "blue_bonus4=~inactive,blue_bonus3=~disabled"
+"target_3" "blue_bonus3=~inactive,blue_bonus2=~disabled"
+"target_2" "blue_bonus2=~inactive,blue_bonus1=~disabled"
+"target_1" "blue_bonus1=~inactive"
+"initialvalue" "0"
+"increment" "1"
+"classname" "target_accumulator"
+"groupname" "blue_bonus_frag"
+}
+{
+"_q3f_comment_2" "This is what actually accumulates and keeps track of the number of frags a flag carrier makes during his run.  Whatever *_bonus entity is inactive when the flag is capped is the one that will be activated, giving the person capping the appropriate score."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"groupname" "red_bonus_frag"
+"classname" "target_accumulator"
+"increment" "1"
+"initialvalue" "0"
+"target_1" "red_bonus1=~inactive"
+"target_2" "red_bonus2=~inactive,red_bonus1=~disabled"
+"target_3" "red_bonus3=~inactive,red_bonus2=~disabled"
+"target_4" "red_bonus4=~inactive,red_bonus3=~disabled"
+"target_5" "red_bonus5=~inactive,red_bonus4=~disabled"
+"origin" "-2840 -976 -96"
+}
+{
+"give" "score=-2"
+"_q3f_comment_2" "Punishes a player for teamkilling."
+"_q3f_comment_1" "Advanced CTF entities"
+"allowteams" "blue"
+"gameindex" "1"
+"wait" ".25"
+"active_all_message" "%N teamkilled the blue team's flag carrier!"
+"origin" "-3048 -704 -96"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"victimholding" "redflag"
+"classname" "misc_onkill"
+}
+{
+"give" "score=-2"
+"_q3f_comment_2" "Punishes a player for teamkilling."
+"_q3f_comment_1" "Advanced CTF entities"
+"classname" "misc_onkill"
+"allowteams" "red"
+"victimholding" "blueflag"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"origin" "-3288 -704 -96"
+"active_all_message" "%N teamkilled the red team's flag carrier!"
+"wait" ".25"
+"gameindex" "1"
+}
+{
+"give" "score=+2"
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_message" "%N killed the blue team's flag carrier while carrying the enemy flag himself!"
+"gameindex" "1"
+"wait" ".25"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"holding" "blueflag"
+"origin" "-3048 -680 -96"
+"classname" "misc_onkill"
+"victimholding" "redflag"
+}
+{
+"give" "score=+2"
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"active_all_message" "%N killed the red team's flag carrier while carrying the enemy flag himself!"
+"gameindex" "1"
+"victimholding" "blueflag"
+"classname" "misc_onkill"
+"origin" "-3288 -680 -96"
+"holding" "redflag"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"wait" ".25"
+}
+{
+"_q3f_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "-3048 -728 -96"
+"holding" "blueflag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"activetarget" "red_bonus_frag"
+"wait" ".25"
+"victimallowteams" "blue"
+}
+{
+"give" "score=+1"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"allowteams" "red"
+"gameindex" "1"
+"notholding" "blueflag"
+"wait" ".25"
+"classname" "misc_onkill"
+"victimholding" "redflag"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"origin" "-3048 -656 -96"
+"active_all_message" "%N killed the blue team's flag carrier!"
+}
+{
+"_q3f_comment_2" "This gives +2 frags for grabbing the flag, then disables itself until the flag returns by timeout or cap. This prevents people from doing dropflag repeatedly to rack up frags."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1"
+"activetarget" "red_flaggrab=~disabled"
+"wait" ".25"
+"origin" "-3048 -632 -96"
+"groupname" "red_flaggrab"
+"classname" "info_notnull"
+"give" "score=+2"
+"active_message" "You scored 2 frags for taking the enemy flag!"
+}
+{
+"_q3f_comment_2" "This gives +2 frags for grabbing the flag, then disables itself until the flag returns by timeout or cap. This prevents people from doing dropflag repeatedly to rack up frags."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1"
+"activetarget" "blue_flaggrab=~disabled"
+"wait" ".25"
+"active_message" "You scored 2 frags for taking the enemy flag!"
+"give" "score=+2"
+"classname" "info_notnull"
+"groupname" "blue_flaggrab"
+"origin" "-3288 -632 -96"
+}
+{
+"_q3f_comment_2" "Blue flag status indicator"
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"carried_shader" "textures/q3f_hud/blue_lost"
+"active_shader" "textures/q3f_hud/blue_down"
+"inactive_shader" "textures/q3f_hud/blue_safe"
+"slot" "4"
+"origin" "-2768 -904 -96"
+"classname" "func_hud"
+"scale" ".5"
+"groupname" "blueflaghud"
+}
+{
+"_q3f_comment_2" "Red flag status indicator"
+"_q3f_comment_1" "Advanced CTF entities"
+"groupname" "redflaghud"
+"gameindex" "1,3"
+"classname" "func_hud"
+"origin" "-3352 -904 -96"
+"slot" "3"
+"inactive_shader" "textures/q3f_hud/red_safe"
+"active_shader" "textures/q3f_hud/red_down"
+"carried_shader" "textures/q3f_hud/red_lost"
+"scale" ".5"
+}
+{
+"_q3f_comment_2" "Blue flag status indicator"
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"classname" "func_hud"
+"origin" "-2768 -880 -96"
+"inactive_model" "models/flags/b_flag.md3"
+"slot" "1"
+"holding" "blueflag"
+}
+{
+"_q3f_comment_2" "Red flag status indicator"
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"holding" "redflag"
+"slot" "1"
+"inactive_model" "models/flags/r_flag.md3"
+"origin" "-3352 -880 -96"
+"classname" "func_hud"
+}
+{
+"give" "score=+1"
+"_q3f_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"_q3f_comment_1" "Advanced CTF entities"
+"allowteams" "blue"
+"gameindex" "1"
+"notholding" "redflag"
+"wait" ".25"
+"active_all_message" "%N killed the red team's flag carrier!"
+"origin" "-3288 -656 -96"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"victimholding" "blueflag"
+"classname" "misc_onkill"
+}
+{
+"_q3f_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1"
+"wait" ".25"
+"activetarget" "blue_bonus_frag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"holding" "redflag"
+"origin" "-3288 -728 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"victimallowteams" "red"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"activetarget" "reset_red_bonus"
+"initialstate" "disabled"
+"origin" "-2840 -936 -96"
+"active_all_message" "%N scores 1 bonus point for fragging an enemy while capturing the flag!"
+"give" "score=+1"
+"groupname" "red_bonus1,red_bonus"
+"classname" "info_notnull"
+}
+{
+"_q3f_comment_2" "This resets the frag bonus for the flag carrier."
+"_q3f_comment_1" "Advanced CTF entities"
+"gameindex" "1,3"
+"wait" ".25"
+"inactivetarget" "blue_bonus_frag=~inactive"
+"activetarget" "blue_bonus_frag=~invisible,blue_bonus1=~disabled,blue_bonus2=~disabled,blue_bonus3=~disabled,blue_bonus4=~disabled,blue_bonus5=~disabled,blue_bonus6=~disabled,blue_bonus7=~disabled,blue_bonus8=~disabled,blue_bonus9=~disabled,blue_bonus10=~disabled"
+"origin" "-3280 -1040 -96"
+"groupname" "reset_blue_bonus"
+"classname" "info_notnull"
+}
+{
+"_q3f_comment_2" "One flag status indicator"
+"_q3f_comment_1" "Advanced CTF entities"
+"holding" "oneflag"
+"slot" "1"
+"inactive_model" "models/flags/y_flag.md3"
+"origin" "-3068 -880 -96"
+"classname" "func_hud"
+"gameindex" "2"
+}
+{
+"_q3f_comment_2" "One flag status indicator"
+"_q3f_comment_1" "Advanced CTF entities"
+"groupname" "oneflaghud"
+"scale" ".5"
+"classname" "func_hud"
+"origin" "-3068 -904 -96"
+"slot" "3"
+"inactive_shader" "textures/q3f_hud/yellow_safe"
+"active_shader" "textures/q3f_hud/yellow_down"
+"carried_shader" "textures/q3f_hud/yellow_lost"
+"gameindex" "2"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"wait" ".25"
+"active_message" "^1Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "-2984 -696 -96"
+"checkstate" "redflag=inactive"
+"watch" "watchredflag"
+"watchrange" "512"
+"give" "score=+1"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag"
+"victimallowteams" "blue"
+"active_all_message" "%N defends the red flag at its base!"
+"active_sound" "~sound/feedback/defense.wav"
+"spawnflags" "5"
+"gameindex" "1"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"wait" ".25"
+"gameindex" "1"
+"spawnflags" "5"
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the red flag in the field!"
+"victimallowteams" "blue"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchredflag"
+"checkstate" "redflag=active"
+"origin" "-2984 -672 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"active_message" "^1Defense!^*"
+}
+{
+"_q3f_comment_1" "Advanced CTF entities"
+"wait" ".25"
+"gameindex" "1"
+"spawnflags" "5"
+"active_message" "^4Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "-3344 -672 -96"
+"checkstate" "blueflag=active"
+"watch" "watchblueflag"
+"watchrange" "512"
+"give" "score=+1"
+"_q3f_comment_2" "Give frag bonus for enemies killed near the flag"
+"victimallowteams" "red"
+"active_all_message" "%N defends the blue flag in the field!"
+"active_sound" "~sound/feedback/defense.wav"
+}
+{
+"_q3f_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+"_q3f_comment_1" "Advanced CTF entities"
+"groupname" "respawner"
+"classname" "target_respawn"
+"affectteams" "red"
+"gameindex" "3"
+"holding" "redflag"
+"origin" "-3352 -840 -96"
+}
+{
+"_q3f_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+"_q3f_comment_1" "Advanced CTF entities"
+"groupname" "respawner"
+"origin" "-2768 -840 -96"
+"holding" "blueflag"
+"gameindex" "3"
+"affectteams" "blue"
+"classname" "target_respawn"
+}
+{
+"classname" "target_respawn"
+"affectteams" "red"
+"gameindex" "2"
+"holding" "oneflag"
+"origin" "-3084 -840 -96"
+"groupname" "respawner"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+}
+{
+"classname" "info_notnull"
+"groupname" "one_bonus1,one_bonus"
+"give" "score=+1"
+"active_all_message" "%N scores 1 bonus point for fragging an enemy while capturing the flag!"
+"origin" "-3016 -936 -96"
+"initialstate" "disabled"
+"activetarget" "reset_one_bonus"
+"gameindex" "2"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "-3016 -976 -96"
+"target_5" "one_bonus5=~inactive,one_bonus4=~disabled"
+"target_4" "one_bonus4=~inactive,one_bonus3=~disabled"
+"target_3" "one_bonus3=~inactive,one_bonus2=~disabled"
+"target_2" "one_bonus2=~inactive,one_bonus1=~disabled"
+"target_1" "one_bonus1=~inactive"
+"initialvalue" "0"
+"increment" "1"
+"classname" "target_accumulator"
+"groupname" "one_bonus_frag"
+"gameindex" "2"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "This is what actually accumulates and keeps track of the number of frags a flag carrier makes during his run.  Whatever *_bonus entity is inactive when the flag is capped is the one that will be activated, giving the person capping the appropriate score."
+}
+{
+"origin" "-3016 -912 -96"
+"active_all_message" "%N scores 2 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+2"
+"groupname" "one_bonus2,one_bonus"
+"classname" "info_notnull"
+"initialstate" "disabled"
+"activetarget" "reset_one_bonus"
+"gameindex" "2"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"classname" "info_notnull"
+"groupname" "one_bonus3,one_bonus"
+"give" "score=+3"
+"active_all_message" "%N scores 3 bonus points for fragging enemies while capturing the flag!"
+"origin" "-3016 -888 -96"
+"initialstate" "disabled"
+"activetarget" "reset_one_bonus"
+"gameindex" "2"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"classname" "info_notnull"
+"groupname" "one_bonus4,one_bonus"
+"give" "score=+4"
+"active_all_message" "%N scores 4 bonus points for fragging enemies while capturing the flag!"
+"origin" "-3016 -864 -96"
+"initialstate" "disabled"
+"activetarget" "reset_one_bonus"
+"gameindex" "2"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"classname" "info_notnull"
+"groupname" "one_bonus5,one_bonus"
+"give" "score=+5"
+"active_all_message" "%N scores 5 bonus points for fragging enemies while capturing the flag!"
+"origin" "-3016 -840 -96"
+"initialstate" "disabled"
+"activetarget" "reset_one_bonus"
+"gameindex" "2"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "-3016 -1040 -96"
+"groupname" "reset_one_bonus"
+"classname" "info_notnull"
+"activetarget" "one_bonus_frag=~invisible,one_bonus1=~disabled,one_bonus2=~disabled,one_bonus3=~disabled,one_bonus4=~disabled,one_bonus5=~disabled,one_bonus6=~disabled,one_bonus7=~disabled,one_bonus8=~disabled,one_bonus9=~disabled,one_bonus10=~disabled"
+"inactivetarget" "one_bonus_frag=~inactive"
+"wait" ".25"
+"gameindex" "2"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "This resets the frag bonus for the flag carrier."
+}
+{
+"scale" ".5"
+"inactive_shader" "textures/q3f_hud/reverse_ctf"
+"classname" "func_hud"
+"origin" "-3352 -928 -96"
+"slot" "2"
+"gameindex" "3"
+"_q3f_comment_1" "Advanced CTF entities"
+"_q3f_comment_2" "Red flag status indicator"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-1296 -1216 48"
+"angle" "180"
+}
+{
+"angle" "180"
+"origin" "-1296 -1280 48"
+"classname" "info_player_start"
+"allowteams" "blue"
+}
+{
+"angle" "180"
+"origin" "-1296 -1344 48"
+"classname" "info_player_start"
+"allowteams" "blue"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-1712 -1216 48"
+"angle" "0"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-1712 -1280 48"
+"angle" "0"
+}
+{
+"angle" "0"
+"origin" "-1712 -1344 48"
+"classname" "info_player_start"
+"allowteams" "blue"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"active_sound" "sound/misc/am_pkup.wav"
+"wait" "30"
+"flags" "rotating,hideactive"
+"model" "models/objects/backpack/backpack.md3"
+"give" "health=+100,armour=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+4,gren2=+3"
+"allowteams" "blue"
+"classname" "func_goalinfo"
+"origin" "-1512 -1806 -160"
+"angle" "270"
+}
+{
+"angle" "90"
+"origin" "-1584 -1480 -160"
+"classname" "func_goalinfo"
+"allowteams" "blue"
+"give" "health=+100,armor=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"flags" "rotating,hideactive"
+"wait" "1"
+"active_sound" "sound/misc/am_pkup.wav"
+"inactive_all_sound" "sound/items/respawn1.wav"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"active_sound" "sound/misc/am_pkup.wav"
+"wait" "1"
+"flags" "rotating,hideactive"
+"model" "models/objects/backpack/backpack.md3"
+"give" "health=+100,armor=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+2"
+"allowteams" "blue"
+"classname" "func_goalinfo"
+"origin" "-1424 -1480 -160"
+"angle" "90"
+}
+{
+"model" "*16"
+"classname" "func_door"
+"angle" "360"
+"team" "blue_maindoor"
+}
+{
+"model" "*17"
+"classname" "func_door"
+"angle" "180"
+"team" "blue_maindoor"
+}
+{
+"message" "^4BLUE^* Basement"
+"classname" "target_location"
+"origin" "-2560 -1584 -496"
+}
+{
+"origin" "-2560 -1264 -496"
+"classname" "target_location"
+"message" "^4BLUE^* Basement"
+}
+{
+"message" "^4BLUE^* Basement"
+"classname" "target_location"
+"origin" "-2400 -1264 -496"
+}
+{
+"origin" "-2400 -1584 -496"
+"classname" "target_location"
+"message" "^4BLUE^* Basement"
+}
+{
+"message" "^4BLUE^* Basement"
+"classname" "target_location"
+"origin" "-2240 -1584 -496"
+}
+{
+"origin" "-2240 -1264 -496"
+"classname" "target_location"
+"message" "^4BLUE^* Basement"
+}
+{
+"message" "^4BLUE^* Basement"
+"classname" "target_location"
+"origin" "-1920 -1264 -496"
+}
+{
+"origin" "-1920 -1584 -496"
+"classname" "target_location"
+"message" "^4BLUE^* Basement"
+}
+{
+"message" "^4BLUE^* way to Basement"
+"classname" "target_location"
+"origin" "-1920 -1648 -480"
+}
+{
+"origin" "-1920 -1800 -416"
+"classname" "target_location"
+"message" "^4BLUE^* way to Basement"
+}
+{
+"message" "^4BLUE^* way to Basement"
+"classname" "target_location"
+"origin" "-1920 -1928 -344"
+}
+{
+"origin" "-1920 -2048 -344"
+"classname" "target_location"
+"message" "^4BLUE^* way to Basement"
+}
+{
+"message" "^4BLUE^* way to Basement"
+"classname" "target_location"
+"origin" "-1624 -2048 -256"
+}
+{
+"origin" "-1472 -2048 -168"
+"classname" "target_location"
+"message" "^4BLUE^* way to Basement"
+}
+{
+"message" "^4BLUE^* way to Basement"
+"classname" "target_location"
+"origin" "-1280 -2048 -168"
+}
+{
+"origin" "-1280 -1832 -168"
+"classname" "target_location"
+"message" "^4BLUE^* way to Basement"
+}
+{
+"message" "^4BLUE^* Cappoint"
+"classname" "target_location"
+"origin" "-672 -784 24"
+}
+{
+"origin" "-1192 -1088 48"
+"classname" "target_location"
+"message" "^4BLUE^* Stairway Entrance at Battlements"
+}
+{
+"message" "^4BLUE^* Stairway Entrance"
+"classname" "target_location"
+"origin" "-1376 -1088 48"
+}
+{
+"origin" "-1504 -1088 48"
+"classname" "target_location"
+"message" "^4BLUE^* Stairway Entrance"
+}
+{
+"message" "^4BLUE^* Stairway Entrance"
+"classname" "target_location"
+"origin" "-1504 -936 16"
+}
+{
+"origin" "-1504 -808 -32"
+"classname" "target_location"
+"message" "^4BLUE^* Stairway Entrance"
+}
+{
+"message" "^4BLUE^* Stairway Entrance"
+"classname" "target_location"
+"origin" "-1504 -680 -72"
+}
+{
+"origin" "-1504 -520 -128"
+"classname" "target_location"
+"message" "^4BLUE^* Stairway Entrance"
+}
+{
+"message" "^4BLUE^* Stairway Entrance"
+"classname" "target_location"
+"origin" "-1352 -520 -168"
+}
+{
+"message" "^4BLUE^* Outside in the Bunker"
+"classname" "target_location"
+"origin" "-384 -144 -224"
+}
+{
+"message" "^4BLUE^* Outside in the Bunker"
+"classname" "target_location"
+"origin" "-960 -144 -224"
+}
+{
+"origin" "-672 -144 -224"
+"classname" "target_location"
+"message" "^4BLUE^* Outside in the Bunker"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-672 -40 -216"
+}
+{
+"origin" "-960 -40 -216"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"origin" "-384 -40 -216"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside on the Bunker"
+"classname" "target_location"
+"origin" "-384 -40 -88"
+}
+{
+"message" "^4BLUE^* Outside on the Bunker"
+"classname" "target_location"
+"origin" "-960 -40 -88"
+}
+{
+"origin" "-672 -40 -88"
+"classname" "target_location"
+"message" "^4BLUE^* Outside on the Bunker"
+}
+{
+"message" "^4BLUE^* Outside on the Bunker"
+"classname" "target_location"
+"origin" "-672 -168 -96"
+}
+{
+"origin" "-960 -168 -96"
+"classname" "target_location"
+"message" "^4BLUE^* Outside on the Bunker"
+}
+{
+"message" "^4BLUE^* Outside on the Bunker"
+"classname" "target_location"
+"origin" "-1216 -168 -96"
+}
+{
+"origin" "-384 -168 -224"
+"classname" "target_location"
+"message" "`4Blue Outside way in Bunker"
+}
+{
+"message" "^4BLUE^* Outside on the Bunker"
+"classname" "target_location"
+"origin" "-128 -168 -96"
+}
+{
+"origin" "-128 -296 -128"
+"classname" "target_location"
+"message" "^4BLUE^* Outside on the Bunker"
+}
+{
+"message" "`4Blue Outside way in Bunker"
+"classname" "target_location"
+"origin" "-384 -296 -200"
+}
+{
+"origin" "-1216 -296 -128"
+"classname" "target_location"
+"message" "^4BLUE^* Outside on the Bunker"
+}
+{
+"message" "^4BLUE^* Outside on the Bunker"
+"classname" "target_location"
+"origin" "-960 -296 -128"
+}
+{
+"origin" "-672 -296 -128"
+"classname" "target_location"
+"message" "^4BLUE^* Outside on the Bunker"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-672 -424 -168"
+}
+{
+"origin" "-960 -424 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-1216 -424 -168"
+}
+{
+"origin" "-384 -424 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-128 -424 -168"
+}
+{
+"origin" "-128 -552 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-384 -552 -168"
+}
+{
+"origin" "-1216 -552 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside Stairway Entrance"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-960 -552 -168"
+}
+{
+"origin" "-672 -552 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-672 -680 -168"
+}
+{
+"origin" "-960 -680 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-1216 -680 -168"
+}
+{
+"origin" "-384 -680 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-128 -680 -168"
+}
+{
+"origin" "-128 -784 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-384 -784 -168"
+}
+{
+"origin" "-1216 -784 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside"
+"classname" "target_location"
+"origin" "-960 -784 -168"
+}
+{
+"origin" "-672 -784 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Outside"
+}
+{
+"message" "^4BLUE^* Outside Mainentrance"
+"classname" "target_location"
+"origin" "-672 -912 -168"
+}
+{
+"origin" "-248 -1384 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Entranceway left"
+}
+{
+"message" "^4BLUE^* Entranceway left"
+"classname" "target_location"
+"origin" "-240 -1184 -168"
+}
+{
+"origin" "-448 -1176 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Entranceway left"
+}
+{
+"origin" "-672 -1176 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Mainentrance"
+}
+{
+"message" "^4BLUE^* Entranceway right"
+"classname" "target_location"
+"origin" "-896 -1176 -168"
+}
+{
+"origin" "-1088 -1176 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Entranceway right"
+}
+{
+"message" "^4BLUE^* Entranceway right"
+"classname" "target_location"
+"origin" "-1280 -1176 -168"
+}
+{
+"origin" "-1280 -1448 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Entranceway right"
+}
+{
+"message" "^4BLUE^* Small Way to Button"
+"classname" "target_location"
+"origin" "-928 -2248 -96"
+}
+{
+"origin" "-1376 -2248 -96"
+"classname" "target_location"
+"message" "^4BLUE^* Small Way to Button"
+}
+{
+"message" "^4BLUE^* Button Control Room"
+"classname" "target_location"
+"origin" "-1264 -2400 -168"
+}
+{
+"origin" "-1400 -2624 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Button Control Room"
+}
+{
+"message" "^4BLUE^* Button Control Room"
+"classname" "target_location"
+"origin" "-1072 -2512 -168"
+}
+{
+"origin" "-952 -2512 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Mainway to Button"
+}
+{
+"message" "^4BLUE^* Mainway to Button"
+"classname" "target_location"
+"origin" "-680 -2504 -168"
+}
+{
+"origin" "-680 -2216 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Mainway to Button"
+}
+{
+"message" "^4BLUE^* Entranceway at Resup"
+"classname" "target_location"
+"origin" "-1280 -1672 -168"
+}
+{
+"origin" "-1024 -1576 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom"
+}
+{
+"message" "^4BLUE^* Ramproom"
+"classname" "target_location"
+"origin" "-832 -1576 -168"
+}
+{
+"origin" "-640 -1576 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom"
+}
+{
+"message" "^4BLUE^* Ramproom"
+"classname" "target_location"
+"origin" "-448 -1576 -168"
+}
+{
+"origin" "-248 -1576 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom"
+}
+{
+"message" "^4BLUE^* Ramproom"
+"classname" "target_location"
+"origin" "-248 -1768 -168"
+}
+{
+"origin" "-448 -1768 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom"
+}
+{
+"message" "^4BLUE^* Ramproom"
+"classname" "target_location"
+"origin" "-640 -1768 -168"
+}
+{
+"origin" "-832 -1768 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom"
+}
+{
+"message" "^4BLUE^* Ramproom"
+"classname" "target_location"
+"origin" "-1056 -1768 -168"
+}
+{
+"origin" "-840 -1904 -168"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom"
+}
+{
+"message" "^4BLUE^* Ramproom"
+"classname" "target_location"
+"origin" "-776 -2080 -168"
+}
+{
+"origin" "-904 -2080 -136"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom on Podest"
+}
+{
+"message" "^4BLUE^* Ramproom on Podest"
+"classname" "target_location"
+"origin" "-904 -1952 -136"
+}
+{
+"origin" "-1056 -1888 -136"
+"classname" "target_location"
+"message" "^4BLUE^* Ramproom on Podest"
+}
+{
+"message" "^4BLUE^* Ramproom on Podest"
+"classname" "target_location"
+"origin" "-1056 -2024 -136"
+}
+{
+"origin" "-216 -48 336"
+"classname" "target_location"
+"message" "Catwalk Sniperentrance"
+}
+{
+"message" "Catwalk Sniperentrance"
+"classname" "target_location"
+"origin" "-1136 -48 336"
+}
+{
+"origin" "-1208 -176 336"
+"classname" "target_location"
+"message" "^4BLUE^* Catwalk"
+}
+{
+"message" "^4BLUE^* Catwalk"
+"classname" "target_location"
+"origin" "-136 -176 336"
+}
+{
+"origin" "-96 -304 336"
+"classname" "target_location"
+"message" "^4BLUE^* Catwalk"
+}
+{
+"message" "^4BLUE^* Catwalk"
+"classname" "target_location"
+"origin" "-1256 -304 336"
+}
+{
+"origin" "-1256 -496 336"
+"classname" "target_location"
+"message" "^4BLUE^* Catwalk"
+}
+{
+"message" "^4BLUE^* Catwalk"
+"classname" "target_location"
+"origin" "-88 -496 336"
+}
+{
+"origin" "-96 -704 336"
+"classname" "target_location"
+"message" "^4BLUE^* Catwalk"
+}
+{
+"message" "^4BLUE^* Catwalk"
+"classname" "target_location"
+"origin" "-1248 -704 336"
+}
+{
+"origin" "-1088 -848 336"
+"classname" "target_location"
+"message" "^4BLUE^* Upper Base"
+}
+{
+"message" "^4BLUE^* Upper Base"
+"classname" "target_location"
+"origin" "-848 -784 336"
+}
+{
+"origin" "-496 -784 336"
+"classname" "target_location"
+"message" "^4BLUE^* Upper Base"
+}
+{
+"message" "^4BLUE^* Upper Base"
+"classname" "target_location"
+"origin" "-256 -848 336"
+}
+{
+"origin" "-256 -848 24"
+"classname" "target_location"
+"message" "^4BLUE^* Sniperdecks"
+}
+{
+"message" "^4BLUE^* Sniperdecks"
+"classname" "target_location"
+"origin" "-496 -784 24"
+}
+{
+"origin" "-848 -784 24"
+"classname" "target_location"
+"message" "^4BLUE^* Sniperdecks"
+}
+{
+"message" "^4BLUE^* Sniperdecks"
+"classname" "target_location"
+"origin" "-1088 -848 24"
+}
+{
+"message" "^4BLUE^* Battlements"
+"classname" "target_location"
+"origin" "-368 -1000 24"
+}
+{
+"origin" "-576 -1000 24"
+"classname" "target_location"
+"message" "^4BLUE^* Battlements"
+}
+{
+"message" "^4BLUE^* Battlements"
+"classname" "target_location"
+"origin" "-768 -1000 24"
+}
+{
+"origin" "-960 -1000 24"
+"classname" "target_location"
+"message" "^4BLUE^* Battlements"
+}
+{
+"message" "^4BLUE^* Sniperdecks"
+"classname" "target_location"
+"origin" "-200 -928 24"
+}
+{
+"origin" "-1144 -928 24"
+"classname" "target_location"
+"message" "^4BLUE^* Sniperdecks"
+}
+{
+"message" "^4BLUE^* Battlements"
+"classname" "target_location"
+"origin" "-1144 -992 24"
+}
+{
+"origin" "-200 -992 24"
+"classname" "target_location"
+"message" "^4BLUE^* Battlements"
+}
+{
+"origin" "-448 -1176 24"
+"classname" "target_location"
+"message" "^4BLUE^* Battlements"
+}
+{
+"message" "^4BLUE^* Battlements"
+"classname" "target_location"
+"origin" "-200 -1176 24"
+}
+{
+"origin" "-1144 -1176 24"
+"classname" "target_location"
+"message" "^4BLUE^* Battlements"
+}
+{
+"message" "^4BLUE^* Battlements"
+"classname" "target_location"
+"origin" "-896 -1176 24"
+}
+{
+"origin" "-672 -1176 24"
+"classname" "target_location"
+"message" "^4BLUE^* Battlement to Ramproom"
+}
+{
+"origin" "-1056 -2024 24"
+"classname" "target_location"
+"message" "^4BLUE^* Upper Ramproom"
+}
+{
+"message" "^4BLUE^* Upper Ramproom"
+"classname" "target_location"
+"origin" "-1056 -1768 24"
+}
+{
+"origin" "-1056 -1576 24"
+"classname" "target_location"
+"message" "^4BLUE^* Upper Ramproom"
+}
+{
+"message" "^4BLUE^* Upper Ramproom"
+"classname" "target_location"
+"origin" "-1056 -1384 24"
+}
+{
+"origin" "-864 -1384 24"
+"classname" "target_location"
+"message" "^4BLUE^* Upper Ramproom"
+}
+{
+"message" "^4BLUE^* Upper Ramproom Center"
+"classname" "target_location"
+"origin" "-672 -1384 24"
+}
+{
+"origin" "-448 -1384 24"
+"classname" "target_location"
+"message" "^4BLUE^* Upper Ramproom"
+}
+{
+"classname" "light"
+"origin" "-1376 -2704 -32"
+"light" "60"
+}
+{
+"model" "*18"
+"groupname" "light2"
+"classname" "func_wall"
+"initialstate" "disabled"
+}
+{
+"model" "*19"
+"classname" "func_wall"
+"groupname" "laser_blue_hurt1"
+"initialstate" "inactive"
+}
+{
+"model" "*20"
+"classname" "func_door"
+"angle" "270"
+"team" "blue_resup_unten"
+"allowteams" "blue"
+}
+{
+"model" "*21"
+"classname" "func_door"
+"angle" "90"
+"allowteams" "blue"
+"team" "blue_resup_unten"
+}
+{
+"classname" "light"
+"origin" "-674 -912 -20"
+"light" "150"
+}
+{
+"model" "*22"
+"dmg" "999"
+"spawnflags" "8"
+"allowteams" "red"
+"groupname" "laser_blue_hurt1"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-536 -2316 104"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"origin" "-852 -2732 140"
+}
+{
+"origin" "-460 -2972 124"
+"angle" "-2"
+"light" "40"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "40"
+"angle" "-2"
+"origin" "-364 -2972 124"
+}
+{
+"origin" "-140 -2972 412"
+"angle" "-2"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"angle" "-2"
+"origin" "-44 -2972 412"
+}
+{
+"origin" "760 -2784 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "648 -2784 520"
+}
+{
+"origin" "648 -2688 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "760 -2688 520"
+}
+{
+"origin" "760 -2592 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "648 -2592 520"
+}
+{
+"origin" "520 -2592 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "520 -2688 520"
+}
+{
+"origin" "520 -2784 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "408 -2784 520"
+}
+{
+"origin" "408 -2688 520"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "408 -2592 520"
+}
+{
+"origin" "88 -2416 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "88 -2696 488"
+}
+{
+"origin" "88 -2960 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "328 -2960 488"
+}
+{
+"origin" "584 -2960 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "840 -2960 488"
+}
+{
+"origin" "1080 -2960 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "1080 -2696 488"
+}
+{
+"origin" "1080 -2416 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "840 -2416 488"
+}
+{
+"origin" "584 -2416 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"model" "*23"
+"spawnflags" "8"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"model" "*24"
+"allowteams" "blue"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*25"
+"targetname" "t2"
+"allowteams" "blue"
+"angle" "-1"
+"classname" "func_door"
+"speed" "340"
+}
+{
+"model" "*26"
+"targetname" "t4"
+"allowteams" "blue"
+"angle" "-1"
+"classname" "func_door"
+"speed" "340"
+}
+{
+"model" "*27"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*28"
+"targetname" "t1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"angle" "0"
+"origin" "-1064 -2512 200"
+"classname" "info_player_start"
+"allowteams" "blue"
+}
+{
+"model" "*29"
+"classname" "trigger_multiple"
+"target" "t4"
+"allowteams" "blue"
+}
+{
+"angle" "270"
+"origin" "-896 -2790 24"
+"classname" "func_goalinfo"
+"allowteams" "blue"
+"give" "health=+100,armour=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+4,gren2=+3"
+"model" "models/objects/backpack/backpack.md3"
+"flags" "rotating,hideactive"
+"wait" "30"
+"active_sound" "sound/misc/am_pkup.wav"
+"inactive_all_sound" "sound/items/respawn1.wav"
+}
+{
+"angle" "90"
+"origin" "-896 -2488 24"
+"classname" "func_goalinfo"
+"allowteams" "blue"
+"give" "health=+100,armor=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"flags" "rotating,hideactive"
+"wait" "1"
+"active_sound" "sound/misc/am_pkup.wav"
+"inactive_all_sound" "sound/items/respawn1.wav"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-1064 -2768 200"
+"angle" "0"
+}
+{
+"angle" "0"
+"origin" "-1064 -2704 200"
+"classname" "info_player_start"
+"allowteams" "blue"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-1064 -2576 200"
+"angle" "0"
+}
+{
+"angle" "360"
+"origin" "-1064 -2640 200"
+"classname" "info_player_start"
+"allowteams" "blue"
+}
+{
+"model" "*30"
+"spawnflags" "8"
+"groupname" "laser_blue_hurt1"
+"classname" "func_wall"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "328 -2416 488"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "88 -2416 200"
+}
+{
+"origin" "88 -2696 200"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "88 -2960 200"
+}
+{
+"origin" "-852 -2540 140"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-344 -2316 104"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-536 -2244 60"
+}
+{
+"origin" "-344 -2244 60"
+"light" "20"
+"classname" "light"
+}
+{
+"origin" "-536 -2172 24"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-344 -2172 24"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-536 -2100 -16"
+}
+{
+"origin" "-344 -2100 -16"
+"light" "20"
+"classname" "light"
+}
+{
+"origin" "-536 -2028 -52"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-344 -2028 -52"
+}
+{
+"model" "*31"
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"groupname" "laser_blue_hurt1"
+"allowteams" "red"
+}
+{
+"model" "*32"
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"groupname" "laser_blue_hurt1"
+"allowteams" "red"
+}
+{
+"model" "*33"
+"dmg" "999"
+"spawnflags" "8"
+"allowteams" "red"
+"groupname" "laser_blue_hurt1"
+"classname" "trigger_hurt"
+}
+{
+"model" "*34"
+"dmg" "999"
+"spawnflags" "8"
+"allowteams" "red"
+"groupname" "laser_blue_hurt1"
+"classname" "trigger_hurt"
+}
+{
+"model" "*35"
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"groupname" "laser_blue_hurt1"
+"allowteams" "red"
+}
+{
+"message" "^4BLUE^* Mainramp"
+"classname" "target_location"
+"origin" "-440 -2080 -112"
+}
+{
+"message" "^4BLUE^* Mainramp"
+"origin" "-440 -2272 -8"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Floor"
+"classname" "target_location"
+"origin" "-440 -2344 24"
+}
+{
+"message" "^4BLUE^* 2nd Floor"
+"origin" "-440 -2528 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Floor"
+"classname" "target_location"
+"origin" "-440 -2720 24"
+}
+{
+"message" "^4BLUE^* 2nd Floor way to Flagroom"
+"origin" "-208 -2696 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Floor at Resup"
+"classname" "target_location"
+"origin" "-632 -2632 24"
+}
+{
+"message" "^4BLUE^* Upper Resup"
+"origin" "-896 -2552 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Upper Resup"
+"classname" "target_location"
+"origin" "-896 -2728 24"
+}
+{
+"message" "^4BLUE^* 2nd Floor to Elevator"
+"origin" "-552 -2976 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Elevator"
+"classname" "target_location"
+"origin" "-376 -2976 24"
+}
+{
+"message" "^4BLUE^* Upper Way to Flagroom"
+"origin" "-56 -2696 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Upper Way to Flagroom right"
+"classname" "target_location"
+"origin" "-56 -2976 24"
+}
+{
+"message" "^4BLUE^* Upper Way to Flagroom right"
+"origin" "8 -3168 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Upper Way to Flagroom left"
+"classname" "target_location"
+"origin" "8 -2232 24"
+}
+{
+"message" "^4BLUE^* Upper Way to Flagroom left"
+"origin" "-56 -2400 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom left Entrance"
+"classname" "target_location"
+"origin" "96 -2360 24"
+}
+{
+"message" "^4BLUE^* Flagroom right Entrance"
+"origin" "96 -3016 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Center"
+"classname" "target_location"
+"origin" "96 -2688 24"
+}
+{
+"message" "^4BLUE^* Flagroom left"
+"origin" "264 -2360 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom right"
+"classname" "target_location"
+"origin" "264 -3016 24"
+}
+{
+"message" "^4BLUE^* Flagroom Center"
+"origin" "264 -2688 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom left"
+"classname" "target_location"
+"origin" "456 -2360 24"
+}
+{
+"message" "^4BLUE^* Flagroom right"
+"origin" "456 -3016 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Center"
+"classname" "target_location"
+"origin" "456 -2688 24"
+}
+{
+"message" "^4BLUE^* Flagroom left"
+"origin" "648 -2360 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom right"
+"classname" "target_location"
+"origin" "648 -3016 24"
+}
+{
+"message" "^4BLUE^* Flagroom Center Ramp"
+"origin" "648 -2688 48"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom left"
+"classname" "target_location"
+"origin" "840 -2360 24"
+}
+{
+"message" "^4BLUE^* Flagroom right"
+"origin" "840 -3016 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom under Center Ramp"
+"classname" "target_location"
+"origin" "776 -2688 24"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"classname" "target_location"
+"origin" "944 -2800 24"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"origin" "944 -2568 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"origin" "944 -2800 72"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"classname" "target_location"
+"origin" "944 -2568 72"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"classname" "target_location"
+"origin" "944 -2800 120"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"origin" "944 -2568 120"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"origin" "944 -2800 168"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"classname" "target_location"
+"origin" "944 -2568 168"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"classname" "target_location"
+"origin" "944 -2800 216"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"origin" "944 -2568 216"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"origin" "944 -2800 264"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom Ladder"
+"classname" "target_location"
+"origin" "944 -2568 264"
+}
+{
+"message" "^4BLUE^* Flagroom over the Flag"
+"classname" "target_location"
+"origin" "968 -2800 328"
+}
+{
+"message" "^4BLUE^* Flagroom over the Flag"
+"origin" "968 -2568 328"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom over the Flag"
+"origin" "1096 -2960 328"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom over the Flag"
+"classname" "target_location"
+"origin" "1096 -2416 328"
+}
+{
+"message" "^4BLUE^* Flagroom over the Flag"
+"origin" "1096 -2696 328"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom"
+"classname" "target_location"
+"origin" "1096 -2960 176"
+}
+{
+"message" "^4BLUE^* Flagroom"
+"origin" "1096 -2416 176"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom"
+"classname" "target_location"
+"origin" "1096 -2688 176"
+}
+{
+"message" "^4BLUE^* Flagroom Center Ramp"
+"classname" "target_location"
+"origin" "776 -2688 104"
+}
+{
+"message" "^4BLUE^* Flagroom Center Ramp"
+"origin" "904 -2688 152"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom under Center Ramp"
+"origin" "904 -2688 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom left Ramp"
+"classname" "target_location"
+"origin" "912 -2432 176"
+}
+{
+"message" "^4BLUE^* Flagroom right Ramp"
+"origin" "912 -2944 176"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom left Ramp"
+"origin" "776 -2432 208"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom right Ramp"
+"classname" "target_location"
+"origin" "776 -2944 208"
+}
+{
+"message" "^4BLUE^* Flagroom left Ramp"
+"classname" "target_location"
+"origin" "648 -2432 232"
+}
+{
+"message" "^4BLUE^* Flagroom right Ramp"
+"origin" "648 -2944 232"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom left Ramp"
+"origin" "520 -2432 256"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom right Ramp"
+"classname" "target_location"
+"origin" "520 -2944 256"
+}
+{
+"message" "^4BLUE^* Flagroom left Ramp"
+"classname" "target_location"
+"origin" "400 -2432 280"
+}
+{
+"message" "^4BLUE^* Flagroom right Ramp"
+"origin" "400 -2944 280"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom left Ramp"
+"origin" "264 -2432 312"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Flagroom right Ramp"
+"classname" "target_location"
+"origin" "264 -2944 312"
+}
+{
+"classname" "target_location"
+"origin" "120 -2432 312"
+}
+{
+"origin" "120 -2944 312"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "96 -2688 312"
+}
+{
+"origin" "-16 -2976 312"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-160 -2976 312"
+}
+{
+"message" "^4BLUE^* Flagroom Backentrance"
+"classname" "target_location"
+"origin" "1096 -2688 24"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom"
+"origin" "1096 -2528 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom"
+"classname" "target_location"
+"origin" "1096 -2336 24"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom"
+"origin" "1096 -2144 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom"
+"classname" "target_location"
+"origin" "968 -2040 24"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom at Hole"
+"origin" "776 -2040 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom at Hole"
+"classname" "target_location"
+"origin" "520 -2040 24"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom"
+"origin" "264 -2040 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom"
+"classname" "target_location"
+"origin" "72 -2040 24"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom"
+"origin" "-184 -2040 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* 2nd Way to Flagroom at Ramproom"
+"classname" "target_location"
+"origin" "-248 -1888 24"
+}
+{
+"message" "^4BLUE^* Upper Ramproom"
+"origin" "-248 -1600 24"
+"classname" "target_location"
+}
+{
+"message" "^4BLUE^* Upper Ramproom"
+"classname" "target_location"
+"origin" "-248 -1384 24"
+}
+{
+"model" "*36"
+"initialstate" "disabled"
+"classname" "func_wall"
+"groupname" "light2"
+}
+{
+"model" "*37"
+"groupname" "laser_blue_hurt1"
+"classname" "func_wall"
+}
+{
+"light" "10"
+"origin" "-864 -1980 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-864 -1848 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-864 -1720 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-864 -1608 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-656 -1608 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-656 -1720 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-656 -1848 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-496 -1848 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-448 -1720 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-448 -1608 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-656 -1980 168"
+"classname" "light"
+}
+{
+"height" "30"
+"width" "120"
+"classname" "panel_message"
+"origin" "-2240 -1212 -392"
+"inactivemessage" "Train Line II"
+}
+{
+"height" "20"
+"width" "55"
+"classname" "panel_message"
+"origin" "-2400 -1204 -492"
+"inactivemessage" "Order / Start Train"
+}
+{
+"inactivemessage" "Train Line I"
+"origin" "-2560 -1212 -392"
+"classname" "panel_message"
+"width" "120"
+"height" "30"
+}
+{
+"inactivemessage" "Order / Start Train"
+"origin" "-2060 -1204 -496"
+"classname" "panel_message"
+"width" "55"
+"height" "20"
+}
+{
+"origin" "1108 -2694 448"
+"classname" "panel_scoresummary"
+}
+{
+"classname" "panel_scoresummary"
+"origin" "-2452 2694 448"
+}
+{
+"height" "20"
+"width" "55"
+"classname" "panel_message"
+"origin" "716 1204 -496"
+"inactivemessage" "Order / Start Train"
+}
+{
+"height" "30"
+"width" "120"
+"classname" "panel_message"
+"origin" "1216 1212 -392"
+"inactivemessage" "Train Line I"
+}
+{
+"inactivemessage" "Order / Start Train"
+"origin" "1056 1204 -492"
+"classname" "panel_message"
+"width" "55"
+"height" "20"
+}
+{
+"inactivemessage" "Train Line II"
+"origin" "896 1212 -392"
+"classname" "panel_message"
+"width" "120"
+"height" "30"
+}
+{
+"classname" "light"
+"origin" "-688 1980 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-896 1608 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-896 1720 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-848 1848 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-688 1848 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-688 1720 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-688 1608 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-480 1608 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-480 1720 168"
+"light" "10"
+}
+{
+"light" "10"
+"origin" "-480 1848 168"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-480 1980 168"
+"light" "10"
+}
+{
+"model" "*38"
+"classname" "func_wall"
+"groupname" "laser_red_hurt1"
+}
+{
+"model" "*39"
+"groupname" "light1"
+"classname" "func_wall"
+"initialstate" "disabled"
+}
+{
+"origin" "-1096 1384 24"
+"classname" "target_location"
+"message" "^1RED^*  Upper Ramproom"
+}
+{
+"classname" "target_location"
+"origin" "-1096 1600 24"
+"message" "^1RED^*  Upper Ramproom"
+}
+{
+"origin" "-1096 1888 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Way to Flagroom at Ramproom"
+}
+{
+"classname" "target_location"
+"origin" "-1160 2040 24"
+"message" "^1RED^*  2nd Way to Flagroom"
+}
+{
+"origin" "-1416 2040 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Way to Flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1608 2040 24"
+"message" "^1RED^*  2nd Way to Flagroom"
+}
+{
+"origin" "-1864 2040 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Way to Flagroom at Hole"
+}
+{
+"classname" "target_location"
+"origin" "-2120 2040 24"
+"message" "^1RED^*  2nd Way to Flagroom at Hole"
+}
+{
+"origin" "-2312 2040 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Way to Flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-2440 2144 24"
+"message" "^1RED^*  2nd Way to Flagroom"
+}
+{
+"origin" "-2440 2336 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Way to Flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-2440 2528 24"
+"message" "^1RED^*  2nd Way to Flagroom"
+}
+{
+"origin" "-2440 2688 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Backentrance"
+}
+{
+"origin" "-1184 2976 312"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1328 2976 312"
+}
+{
+"origin" "-1440 2688 312"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1464 2944 312"
+}
+{
+"origin" "-1464 2432 312"
+"classname" "target_location"
+}
+{
+"origin" "-1608 2944 312"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom right Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-1608 2432 312"
+"message" "^1RED^*  Flagroom left Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-1744 2944 280"
+"message" "^1RED^*  Flagroom right Ramp"
+}
+{
+"origin" "-1744 2432 280"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom left Ramp"
+}
+{
+"origin" "-1864 2944 256"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom right Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-1864 2432 256"
+"message" "^1RED^*  Flagroom left Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-1992 2944 232"
+"message" "^1RED^*  Flagroom right Ramp"
+}
+{
+"origin" "-1992 2432 232"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom left Ramp"
+}
+{
+"origin" "-2120 2944 208"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom right Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-2120 2432 208"
+"message" "^1RED^*  Flagroom left Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-2256 2944 176"
+"message" "^1RED^*  Flagroom right Ramp"
+}
+{
+"origin" "-2256 2432 176"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom left Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-2248 2688 24"
+"message" "^1RED^*  Flagroom under Center Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-2248 2688 152"
+"message" "^1RED^*  Flagroom Center Ramp"
+}
+{
+"origin" "-2120 2688 104"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Center Ramp"
+}
+{
+"origin" "-2440 2688 176"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-2440 2416 176"
+"message" "^1RED^*  Flagroom"
+}
+{
+"origin" "-2440 2960 176"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-2440 2696 328"
+"message" "^1RED^*  Flagroom over the Flag"
+}
+{
+"origin" "-2440 2416 328"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom over the Flag"
+}
+{
+"classname" "target_location"
+"origin" "-2440 2960 328"
+"message" "^1RED^*  Flagroom over the Flag"
+}
+{
+"classname" "target_location"
+"origin" "-2312 2568 328"
+"message" "^1RED^*  Flagroom over the Flag"
+}
+{
+"origin" "-2312 2800 328"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom over the Flag"
+}
+{
+"origin" "-2288 2568 264"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"classname" "target_location"
+"origin" "-2288 2800 264"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"classname" "target_location"
+"origin" "-2288 2568 216"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"origin" "-2288 2800 216"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"origin" "-2288 2568 168"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"classname" "target_location"
+"origin" "-2288 2800 168"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"classname" "target_location"
+"origin" "-2288 2568 120"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"origin" "-2288 2800 120"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"origin" "-2288 2568 72"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"classname" "target_location"
+"origin" "-2288 2800 72"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"classname" "target_location"
+"origin" "-2288 2568 24"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"origin" "-2288 2800 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Ladder"
+}
+{
+"origin" "-2120 2688 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom under Center Ramp"
+}
+{
+"classname" "target_location"
+"origin" "-2184 3016 24"
+"message" "^1RED^*  Flagroom right"
+}
+{
+"origin" "-2184 2360 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom left"
+}
+{
+"classname" "target_location"
+"origin" "-1992 2688 48"
+"message" "^1RED^*  Flagroom Center Ramp"
+}
+{
+"origin" "-1992 3016 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom right"
+}
+{
+"classname" "target_location"
+"origin" "-1992 2360 24"
+"message" "^1RED^*  Flagroom left"
+}
+{
+"origin" "-1800 2688 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Center"
+}
+{
+"classname" "target_location"
+"origin" "-1800 3016 24"
+"message" "^1RED^*  Flagroom right"
+}
+{
+"origin" "-1800 2360 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom left"
+}
+{
+"classname" "target_location"
+"origin" "-1608 2688 24"
+"message" "^1RED^*  Flagroom Center"
+}
+{
+"origin" "-1608 3016 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom right"
+}
+{
+"classname" "target_location"
+"origin" "-1608 2360 24"
+"message" "^1RED^*  Flagroom left"
+}
+{
+"origin" "-1440 2688 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom Center"
+}
+{
+"classname" "target_location"
+"origin" "-1440 3016 24"
+"message" "^1RED^*  Flagroom right Entrance"
+}
+{
+"origin" "-1440 2360 24"
+"classname" "target_location"
+"message" "^1RED^*  Flagroom left Entrance"
+}
+{
+"classname" "target_location"
+"origin" "-1288 2400 24"
+"message" "^1RED^*  Upper Way to Flagroom left"
+}
+{
+"origin" "-1352 2232 24"
+"classname" "target_location"
+"message" "^1RED^*  Upper Way to Flagroom left"
+}
+{
+"classname" "target_location"
+"origin" "-1352 3168 24"
+"message" "^1RED^*  Upper Way to Flagroom right"
+}
+{
+"origin" "-1288 2976 24"
+"classname" "target_location"
+"message" "^1RED^*  Upper Way to Flagroom right"
+}
+{
+"classname" "target_location"
+"origin" "-1288 2696 24"
+"message" "^1RED^*  Upper Way to Flagroom"
+}
+{
+"origin" "-968 2976 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Elevator"
+}
+{
+"classname" "target_location"
+"origin" "-792 2976 24"
+"message" "^1RED^*  2nd Floor to Elevator"
+}
+{
+"origin" "-448 2728 24"
+"classname" "target_location"
+"message" "^1RED^*  Upper Resup"
+}
+{
+"classname" "target_location"
+"origin" "-448 2552 24"
+"message" "^1RED^*  Upper Resup"
+}
+{
+"origin" "-712 2632 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Floor at Resup"
+}
+{
+"classname" "target_location"
+"origin" "-1136 2696 24"
+"message" "^1RED^*  2nd Floor way to Flagroom"
+}
+{
+"origin" "-904 2720 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Floor"
+}
+{
+"classname" "target_location"
+"origin" "-904 2528 24"
+"message" "^1RED^*  2nd Floor"
+}
+{
+"origin" "-904 2344 24"
+"classname" "target_location"
+"message" "^1RED^*  2nd Floor"
+}
+{
+"classname" "target_location"
+"origin" "-904 2272 -8"
+"message" "^1RED^*  Mainramp"
+}
+{
+"origin" "-904 2080 -112"
+"classname" "target_location"
+"message" "^1RED^*  Mainramp"
+}
+{
+"model" "*40"
+"allowteams" "blue"
+"groupname" "laser_red_hurt1"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+}
+{
+"model" "*41"
+"classname" "trigger_hurt"
+"groupname" "laser_red_hurt1"
+"allowteams" "blue"
+"spawnflags" "8"
+"dmg" "999"
+}
+{
+"model" "*42"
+"classname" "trigger_hurt"
+"groupname" "laser_red_hurt1"
+"allowteams" "blue"
+"spawnflags" "8"
+"dmg" "999"
+}
+{
+"model" "*43"
+"allowteams" "blue"
+"groupname" "laser_red_hurt1"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+}
+{
+"model" "*44"
+"allowteams" "blue"
+"groupname" "laser_red_hurt1"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+}
+{
+"origin" "-1000 2028 -52"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-808 2028 -52"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-1000 2100 -16"
+}
+{
+"origin" "-808 2100 -16"
+"light" "20"
+"classname" "light"
+}
+{
+"origin" "-1000 2172 24"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-808 2172 24"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-1000 2244 60"
+}
+{
+"origin" "-808 2244 60"
+"light" "20"
+"classname" "light"
+}
+{
+"origin" "-1000 2316 104"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"origin" "-492 2540 140"
+}
+{
+"origin" "-1432 2960 200"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-1432 2696 200"
+}
+{
+"origin" "-1432 2416 200"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"origin" "-1672 2416 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"model" "*45"
+"classname" "func_wall"
+"groupname" "laser_red_hurt1"
+"spawnflags" "8"
+}
+{
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-280 2640 200"
+"angle" "180"
+}
+{
+"angle" "180"
+"origin" "-280 2576 200"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-280 2704 200"
+"angle" "180"
+}
+{
+"angle" "180"
+"origin" "-280 2768 200"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"active_sound" "sound/misc/am_pkup.wav"
+"wait" "1"
+"flags" "rotating,hideactive"
+"model" "models/objects/backpack/backpack.md3"
+"give" "health=+100,armor=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+2"
+"allowteams" "red"
+"classname" "func_goalinfo"
+"origin" "-448 2488 24"
+"angle" "90"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"active_sound" "sound/misc/am_pkup.wav"
+"wait" "30"
+"flags" "rotating,hideactive"
+"model" "models/objects/backpack/backpack.md3"
+"give" "health=+100,armour=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+4,gren2=+3"
+"allowteams" "red"
+"classname" "func_goalinfo"
+"origin" "-448 2790 24"
+"angle" "270"
+}
+{
+"model" "*46"
+"allowteams" "red"
+"target" "t148"
+"classname" "trigger_multiple"
+}
+{
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-280 2512 200"
+"angle" "180"
+}
+{
+"model" "*47"
+"classname" "func_door"
+"angle" "-1"
+"targetname" "t149"
+}
+{
+"model" "*48"
+"classname" "trigger_multiple"
+"target" "t149"
+}
+{
+"model" "*49"
+"speed" "340"
+"classname" "func_door"
+"angle" "-1"
+"allowteams" "red"
+"targetname" "t148"
+}
+{
+"model" "*50"
+"speed" "340"
+"classname" "func_door"
+"angle" "-1"
+"allowteams" "red"
+"targetname" "t150"
+}
+{
+"model" "*51"
+"classname" "trigger_multiple"
+"target" "t150"
+"allowteams" "red"
+}
+{
+"model" "*52"
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "8"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-1928 2416 488"
+}
+{
+"origin" "-2184 2416 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-2424 2416 488"
+}
+{
+"origin" "-2424 2696 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-2424 2960 488"
+}
+{
+"origin" "-2184 2960 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-1928 2960 488"
+}
+{
+"origin" "-1672 2960 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-1432 2960 488"
+}
+{
+"origin" "-1432 2696 488"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-1432 2416 488"
+}
+{
+"origin" "-1752 2592 520"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "70"
+"angle" "-2"
+"origin" "-1752 2688 520"
+}
+{
+"origin" "-1752 2784 520"
+"angle" "-2"
+"light" "70"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "-1864 2784 520"
+}
+{
+"origin" "-1864 2688 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "-1864 2592 520"
+}
+{
+"origin" "-1992 2592 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "-2104 2592 520"
+}
+{
+"origin" "-2104 2688 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "-1992 2688 520"
+}
+{
+"origin" "-1992 2784 520"
+"angle" "-2"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"angle" "-2"
+"origin" "-2104 2784 520"
+}
+{
+"origin" "-1300 2972 412"
+"angle" "-2"
+"light" "20"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"angle" "-2"
+"origin" "-1204 2972 412"
+}
+{
+"origin" "-980 2972 124"
+"angle" "-2"
+"light" "40"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "40"
+"angle" "-2"
+"origin" "-884 2972 124"
+}
+{
+"origin" "-492 2732 140"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "20"
+"origin" "-808 2316 104"
+}
+{
+"model" "*53"
+"classname" "trigger_hurt"
+"groupname" "laser_red_hurt1"
+"allowteams" "blue"
+"spawnflags" "8"
+"dmg" "999"
+}
+{
+"light" "150"
+"origin" "-670 912 -20"
+"classname" "light"
+}
+{
+"model" "*54"
+"team" "red_resup_unten"
+"allowteams" "red"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*55"
+"allowteams" "red"
+"team" "red_resup_unten"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*56"
+"initialstate" "inactive"
+"groupname" "laser_red_hurt1"
+"classname" "func_wall"
+}
+{
+"model" "*57"
+"initialstate" "disabled"
+"classname" "func_wall"
+"groupname" "light1"
+}
+{
+"light" "60"
+"origin" "32 2704 -32"
+"classname" "light"
+}
+{
+"message" "^1RED^*  Upper Ramproom"
+"classname" "target_location"
+"origin" "-896 1384 24"
+}
+{
+"origin" "-672 1384 24"
+"classname" "target_location"
+"message" "^1RED^*  Upper Ramproom Center"
+}
+{
+"message" "^1RED^*  Upper Ramproom"
+"classname" "target_location"
+"origin" "-480 1384 24"
+}
+{
+"origin" "-288 1384 24"
+"classname" "target_location"
+"message" "^1RED^*  Upper Ramproom"
+}
+{
+"message" "^1RED^*  Upper Ramproom"
+"classname" "target_location"
+"origin" "-288 1576 24"
+}
+{
+"origin" "-288 1768 24"
+"classname" "target_location"
+"message" "^1RED^*  Upper Ramproom"
+}
+{
+"message" "^1RED^*  Upper Ramproom"
+"classname" "target_location"
+"origin" "-288 2024 24"
+}
+{
+"message" "^1RED^*  Battlement to Ramproom"
+"classname" "target_location"
+"origin" "-672 1176 24"
+}
+{
+"origin" "-448 1176 24"
+"classname" "target_location"
+"message" "^1RED^*  Battlements"
+}
+{
+"message" "^1RED^*  Battlements"
+"classname" "target_location"
+"origin" "-200 1176 24"
+}
+{
+"origin" "-1144 1176 24"
+"classname" "target_location"
+"message" "^1RED^*  Battlements"
+}
+{
+"message" "^1RED^*  Battlements"
+"classname" "target_location"
+"origin" "-896 1176 24"
+}
+{
+"message" "^1RED^*  Battlements"
+"classname" "target_location"
+"origin" "-1144 992 24"
+}
+{
+"origin" "-200 992 24"
+"classname" "target_location"
+"message" "^1RED^*  Battlements"
+}
+{
+"message" "^1RED^*  Sniperdecks"
+"classname" "target_location"
+"origin" "-200 928 24"
+}
+{
+"origin" "-1144 928 24"
+"classname" "target_location"
+"message" "^1RED^*  Sniperdecks"
+}
+{
+"message" "^1RED^*  Battlements"
+"classname" "target_location"
+"origin" "-384 1000 24"
+}
+{
+"origin" "-576 1000 24"
+"classname" "target_location"
+"message" "^1RED^*  Battlements"
+}
+{
+"message" "^1RED^*  Battlements"
+"classname" "target_location"
+"origin" "-768 1000 24"
+}
+{
+"origin" "-976 1000 24"
+"classname" "target_location"
+"message" "^1RED^*  Battlements"
+}
+{
+"origin" "-256 848 24"
+"classname" "target_location"
+"message" "^1RED^*  Sniperdecks"
+}
+{
+"message" "^1RED^*  Sniperdecks"
+"classname" "target_location"
+"origin" "-496 784 24"
+}
+{
+"origin" "-848 784 24"
+"classname" "target_location"
+"message" "^1RED^*  Sniperdecks"
+}
+{
+"message" "^1RED^*  Sniperdecks"
+"classname" "target_location"
+"origin" "-1088 848 24"
+}
+{
+"origin" "-1088 848 336"
+"classname" "target_location"
+"message" "^1RED^*  Upper Base"
+}
+{
+"message" "^1RED^*  Upper Base"
+"classname" "target_location"
+"origin" "-848 784 336"
+}
+{
+"origin" "-496 784 336"
+"classname" "target_location"
+"message" "^1RED^*  Upper Base"
+}
+{
+"message" "^1RED^*  Upper Base"
+"classname" "target_location"
+"origin" "-256 848 336"
+}
+{
+"origin" "-96 704 336"
+"classname" "target_location"
+"message" "^1RED^*  Catwalk"
+}
+{
+"message" "^1RED^*  Catwalk"
+"classname" "target_location"
+"origin" "-1248 704 336"
+}
+{
+"origin" "-1256 496 336"
+"classname" "target_location"
+"message" "^1RED^*  Catwalk"
+}
+{
+"message" "^1RED^*  Catwalk"
+"classname" "target_location"
+"origin" "-88 496 336"
+}
+{
+"origin" "-88 304 336"
+"classname" "target_location"
+"message" "^1RED^*  Catwalk"
+}
+{
+"message" "^1RED^*  Catwalk"
+"classname" "target_location"
+"origin" "-1248 304 336"
+}
+{
+"origin" "-1208 176 336"
+"classname" "target_location"
+"message" "^1RED^*  Catwalk"
+}
+{
+"message" "^1RED^*  Catwalk"
+"classname" "target_location"
+"origin" "-136 176 336"
+}
+{
+"origin" "-208 48 336"
+"classname" "target_location"
+"message" "Catwalk Sniperentrance"
+}
+{
+"message" "Catwalk Sniperentrance"
+"classname" "target_location"
+"origin" "-1128 48 336"
+}
+{
+"origin" "-288 2024 -136"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom on Podest"
+}
+{
+"message" "^1RED^*  Ramproom on Podest"
+"classname" "target_location"
+"origin" "-288 1888 -136"
+}
+{
+"origin" "-440 1952 -136"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom on Podest"
+}
+{
+"message" "^1RED^*  Ramproom on Podest"
+"classname" "target_location"
+"origin" "-440 2080 -136"
+}
+{
+"origin" "-568 2080 -168"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom"
+}
+{
+"message" "^1RED^*  Ramproom"
+"classname" "target_location"
+"origin" "-504 1904 -168"
+}
+{
+"origin" "-288 1768 -168"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom"
+}
+{
+"message" "^1RED^*  Ramproom"
+"classname" "target_location"
+"origin" "-512 1768 -168"
+}
+{
+"origin" "-704 1768 -168"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom"
+}
+{
+"message" "^1RED^*  Ramproom"
+"classname" "target_location"
+"origin" "-896 1768 -168"
+}
+{
+"origin" "-1096 1768 -168"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom"
+}
+{
+"message" "^1RED^*  Ramproom"
+"classname" "target_location"
+"origin" "-1096 1576 -168"
+}
+{
+"origin" "-896 1576 -168"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom"
+}
+{
+"message" "^1RED^*  Ramproom"
+"classname" "target_location"
+"origin" "-704 1576 -168"
+}
+{
+"origin" "-512 1576 -168"
+"classname" "target_location"
+"message" "^1RED^*  Ramproom"
+}
+{
+"message" "^1RED^*  Ramproom"
+"classname" "target_location"
+"origin" "-320 1576 -168"
+}
+{
+"origin" "-64 1672 -168"
+"classname" "target_location"
+"message" "^1RED^*  Entranceway at Resup"
+}
+{
+"message" "^1RED^*  Mainway to Button"
+"classname" "target_location"
+"origin" "-664 2216 -168"
+}
+{
+"origin" "-664 2504 -168"
+"classname" "target_location"
+"message" "^1RED^*  Mainway to Button"
+}
+{
+"message" "^1RED^*  Mainway to Button"
+"classname" "target_location"
+"origin" "-392 2512 -168"
+}
+{
+"origin" "-272 2512 -168"
+"classname" "target_location"
+"message" "^1RED^*  Button Control Room"
+}
+{
+"message" "^1RED^*  Button Control Room"
+"classname" "target_location"
+"origin" "56 2624 -168"
+}
+{
+"origin" "-80 2400 -168"
+"classname" "target_location"
+"message" "^1RED^*  Button Control Room"
+}
+{
+"message" "^1RED^*  Small Way to Button"
+"classname" "target_location"
+"origin" "32 2248 -96"
+}
+{
+"origin" "-416 2248 -96"
+"classname" "target_location"
+"message" "^1RED^*  Small Way to Button"
+}
+{
+"message" "^1RED^*  Entranceway right"
+"classname" "target_location"
+"origin" "-64 1448 -168"
+}
+{
+"origin" "-64 1176 -168"
+"classname" "target_location"
+"message" "^1RED^*  Entranceway right"
+}
+{
+"message" "^1RED^*  Entranceway right"
+"classname" "target_location"
+"origin" "-256 1176 -168"
+}
+{
+"origin" "-448 1176 -168"
+"classname" "target_location"
+"message" "^1RED^*  Entranceway right"
+}
+{
+"message" "^1RED^*  Mainentrance"
+"classname" "target_location"
+"origin" "-672 1176 -168"
+}
+{
+"message" "^1RED^*  Entranceway left"
+"classname" "target_location"
+"origin" "-896 1176 -168"
+}
+{
+"origin" "-1104 1184 -168"
+"classname" "target_location"
+"message" "^1RED^*  Entranceway left"
+}
+{
+"message" "^1RED^*  Entranceway left"
+"classname" "target_location"
+"origin" "-1096 1384 -168"
+}
+{
+"origin" "-672 912 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside Mainentrance"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-672 784 -168"
+}
+{
+"origin" "-384 784 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-128 784 -168"
+}
+{
+"origin" "-960 784 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-1216 784 -168"
+}
+{
+"origin" "-1216 680 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-960 680 -168"
+}
+{
+"origin" "-128 680 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-384 680 -168"
+}
+{
+"origin" "-672 680 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-672 552 -168"
+}
+{
+"origin" "-384 552 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside Stairway Entrance"
+"classname" "target_location"
+"origin" "-128 552 -168"
+}
+{
+"origin" "-960 552 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-1216 552 -168"
+}
+{
+"origin" "-1216 424 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-960 424 -168"
+}
+{
+"origin" "-128 424 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-384 424 -168"
+}
+{
+"origin" "-672 424 -168"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside on the Bunker"
+"classname" "target_location"
+"origin" "-672 296 -128"
+}
+{
+"origin" "-384 296 -128"
+"classname" "target_location"
+"message" "^1RED^*  Outside on the Bunker"
+}
+{
+"message" "^1RED^*  Outside on the Bunker"
+"classname" "target_location"
+"origin" "-128 296 -128"
+}
+{
+"origin" "-960 296 -200"
+"classname" "target_location"
+"message" "`4red Outside way in Bunker"
+}
+{
+"message" "^1RED^*  Outside on the Bunker"
+"classname" "target_location"
+"origin" "-1216 296 -128"
+}
+{
+"origin" "-1216 168 -96"
+"classname" "target_location"
+"message" "^1RED^*  Outside on the Bunker"
+}
+{
+"message" "`4red Outside way in Bunker"
+"classname" "target_location"
+"origin" "-960 168 -224"
+}
+{
+"origin" "-128 168 -96"
+"classname" "target_location"
+"message" "^1RED^*  Outside on the Bunker"
+}
+{
+"message" "^1RED^*  Outside on the Bunker"
+"classname" "target_location"
+"origin" "-384 168 -96"
+}
+{
+"origin" "-672 168 -96"
+"classname" "target_location"
+"message" "^1RED^*  Outside on the Bunker"
+}
+{
+"message" "^1RED^*  Outside on the Bunker"
+"classname" "target_location"
+"origin" "-672 40 -88"
+}
+{
+"origin" "-384 40 -88"
+"classname" "target_location"
+"message" "^1RED^*  Outside on the Bunker"
+}
+{
+"origin" "-960 40 -88"
+"classname" "target_location"
+"message" "^1RED^*  Outside on the Bunker"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-960 40 -216"
+}
+{
+"message" "^1RED^*  Outside"
+"classname" "target_location"
+"origin" "-384 40 -216"
+}
+{
+"origin" "-672 40 -216"
+"classname" "target_location"
+"message" "^1RED^*  Outside"
+}
+{
+"message" "^1RED^*  Outside in the Bunker"
+"classname" "target_location"
+"origin" "-672 144 -224"
+}
+{
+"origin" "-384 144 -224"
+"classname" "target_location"
+"message" "^1RED^*  Outside in the Bunker"
+}
+{
+"origin" "-960 144 -224"
+"classname" "target_location"
+"message" "^1RED^*  Outside in the Bunker"
+}
+{
+"origin" "8 520 -168"
+"classname" "target_location"
+"message" "^1RED^*  Stairway Entrance"
+}
+{
+"message" "^1RED^*  Stairway Entrance"
+"classname" "target_location"
+"origin" "160 520 -128"
+}
+{
+"origin" "160 680 -72"
+"classname" "target_location"
+"message" "^1RED^*  Stairway Entrance"
+}
+{
+"message" "^1RED^*  Stairway Entrance"
+"classname" "target_location"
+"origin" "160 808 -32"
+}
+{
+"origin" "160 936 16"
+"classname" "target_location"
+"message" "^1RED^*  Stairway Entrance"
+}
+{
+"message" "^1RED^*  Stairway Entrance"
+"classname" "target_location"
+"origin" "160 1088 48"
+}
+{
+"origin" "32 1088 48"
+"classname" "target_location"
+"message" "^1RED^*  Stairway Entrance"
+}
+{
+"message" "^1RED^*  Stairway Entrance at Battlements"
+"classname" "target_location"
+"origin" "-152 1088 48"
+}
+{
+"origin" "-672 784 24"
+"classname" "target_location"
+"message" "^1RED^*  Cappoint"
+}
+{
+"message" "^1RED^*  way to Basement"
+"classname" "target_location"
+"origin" "-64 1832 -168"
+}
+{
+"origin" "-64 2048 -168"
+"classname" "target_location"
+"message" "^1RED^*  way to Basement"
+}
+{
+"message" "^1RED^*  way to Basement"
+"classname" "target_location"
+"origin" "128 2048 -168"
+}
+{
+"origin" "280 2048 -256"
+"classname" "target_location"
+"message" "^1RED^*  way to Basement"
+}
+{
+"message" "^1RED^*  way to Basement"
+"classname" "target_location"
+"origin" "576 2048 -344"
+}
+{
+"origin" "576 1928 -344"
+"classname" "target_location"
+"message" "^1RED^*  way to Basement"
+}
+{
+"message" "^1RED^*  way to Basement"
+"classname" "target_location"
+"origin" "576 1800 -416"
+}
+{
+"origin" "576 1648 -480"
+"classname" "target_location"
+"message" "^1RED^*  way to Basement"
+}
+{
+"message" "^1RED^*  Basement"
+"classname" "target_location"
+"origin" "576 1584 -496"
+}
+{
+"origin" "576 1264 -496"
+"classname" "target_location"
+"message" "^1RED^*  Basement"
+}
+{
+"message" "^1RED^*  Basement"
+"classname" "target_location"
+"origin" "896 1264 -496"
+}
+{
+"origin" "896 1584 -496"
+"classname" "target_location"
+"message" "^1RED^*  Basement"
+}
+{
+"message" "^1RED^*  Basement"
+"classname" "target_location"
+"origin" "1056 1584 -496"
+}
+{
+"origin" "1056 1264 -496"
+"classname" "target_location"
+"message" "^1RED^*  Basement"
+}
+{
+"message" "^1RED^*  Basement"
+"classname" "target_location"
+"origin" "1216 1264 -496"
+}
+{
+"origin" "1216 1584 -496"
+"classname" "target_location"
+"message" "^1RED^*  Basement"
+}
+{
+"model" "*58"
+"team" "red_maindoor"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*59"
+"team" "red_maindoor"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"angle" "90"
+"origin" "80 1480 -160"
+"classname" "func_goalinfo"
+"allowteams" "red"
+"give" "health=+100,armor=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"flags" "rotating,hideactive"
+"wait" "1"
+"active_sound" "sound/misc/am_pkup.wav"
+"inactive_all_sound" "sound/items/respawn1.wav"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"active_sound" "sound/misc/am_pkup.wav"
+"wait" "1"
+"flags" "rotating,hideactive"
+"model" "models/objects/backpack/backpack.md3"
+"give" "health=+100,armor=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+2"
+"allowteams" "red"
+"classname" "func_goalinfo"
+"origin" "240 1480 -160"
+"angle" "90"
+}
+{
+"angle" "270"
+"origin" "168 1806 -160"
+"classname" "func_goalinfo"
+"allowteams" "red"
+"give" "health=+100,armour=+200,ammo_shells=+100,ammo_nails=+200,ammo_rockets=+25,ammo_cells=+200,gren1=+4,gren2=+3"
+"model" "models/objects/backpack/backpack.md3"
+"flags" "rotating,hideactive"
+"wait" "30"
+"active_sound" "sound/misc/am_pkup.wav"
+"inactive_all_sound" "sound/items/respawn1.wav"
+}
+{
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "368 1344 48"
+"angle" "180"
+}
+{
+"angle" "180"
+"origin" "368 1280 48"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"angle" "180"
+"origin" "368 1216 48"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-48 1344 48"
+"angle" "360"
+}
+{
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-48 1280 48"
+"angle" "360"
+}
+{
+"angle" "360"
+"origin" "-48 1216 48"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"model" "*60"
+"gameindex" "1"
+"classname" "func_wall"
+"_q3f_comment_1" "Advanced CTF entities"
+}
+{
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"gameindex" "2"
+"carried_nonteam_sound" "~sound/teamplay/voc_enemy_1flag.wav"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"carriedtarget" "oneflaghud=~carried,reset_one_bonus,change_possession"
+"activetarget" "oneflaghud=~active,possession=~disabled"
+"inactivetarget" "oneflaghud=~inactive,possession=~disabled"
+"wait" "45"
+"flags" "revealagent,showcarry"
+"inactive_flaginfo" "The flag is in the middle."
+"active_flaginfo" "The flag has been dropped at $l."
+"carried_flaginfo" "%N of the %T has the flag."
+"inactive_all_message" "The flag has returned."
+"carried_all_message" "~%N of the %T has TAKEN the flag!"
+"carried_message" "You have taken the flag!"
+"groupname" "oneflag"
+"color" "0.966324 1.000000 0.232248"
+"light" "150"
+"model" "models/flags/y_flag.md3"
+"classname" "func_goalitem"
+"origin" "-672 0 -88"
+"carried_team_sound" "~sound/teamplay/voc_team_1flag.wav"
+"targetname" "watchoneflag"
+}
+{
+"model" "*61"
+"inactive_message" "~red Securety is now Operating"
+"inactive_all_message" "~red Securety is now Operating"
+"sound" "sound/q3f_sd2/red_down.wav"
+"active_all_message" "~redSecurety is deactivated"
+"active_message" "~You have deactivated the red Laser !"
+"allowteams" "blue"
+"classname" "func_button"
+"angle" "90"
+"activetarget" "laser_red_hurt1=~disabled,speaker_red=~active,light1=~inactive,redsechud=~active"
+"inactivetarget" "laser_red_hurt1=~inactive,light1=~disabled,speaker_red=~inactive,redsechud=~inactive"
+"wait" "90"
+}
+{
+"initialstate" "inactive"
+"groupname" "speaker_red"
+"origin" "32 2744 -144"
+"classname" "target_speaker"
+"noise" "sound/q3f_sd2/red_down.wav"
+"spawnflags" "4"
+}
+{
+"classname" "target_delay"
+"target" "red_speaker2"
+"wait" "90"
+"origin" "56 2744 -136"
+"initialstate" "inactive"
+"groupname" "speaker_red"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/q3f_sd2/red_up.wav"
+"targetname" "red_speaker2"
+"spawnflags" "4"
+"origin" "88 2744 -136"
+"target" "t14"
+}
+{
+"model" "*62"
+"origin" "896 1440 -520"
+"target" "t153"
+"classname" "func_train"
+}
+{
+"angle" "360"
+"origin" "-672 38 252"
+"classname" "panel_scoresummary"
+"distance" "1024"
+"width" "144"
+"height" "64"
+}
+{
+"classname" "light"
+"origin" "-784 1296 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-976 1296 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-568 1296 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-368 1296 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-240 1456 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-240 1648 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-1160 1456 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1160 1648 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-240 1840 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-240 2008 96"
+"classname" "light"
+}
+{
+"light" "50"
+"origin" "-568 1232 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-368 1232 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-784 1232 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-976 1232 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-976 1056 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-784 1056 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-568 1056 96"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-368 1056 96"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-664 2216 -40"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-664 2352 -40"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-664 2488 -40"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-448 2488 -40"
+"light" "50"
+}
+{
+"classname" "light"
+"origin" "-1112 1840 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1296 2032 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-1552 2032 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1808 2032 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-2064 2032 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-2256 2032 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-2440 2256 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-2440 2512 128"
+"classname" "light"
+}
+{
+"light" "50"
+"origin" "-1344 2224 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-1280 2352 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1280 2496 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-1280 2624 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1280 2752 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-1280 2880 128"
+"light" "50"
+}
+{
+"light" "50"
+"origin" "-1280 3008 128"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-1352 3160 128"
+"light" "50"
+}
+{
+"origin" "-556 2078 72"
+"classname" "panel_scoresummary"
+}
+{
+"target" "n270"
+"targetname" "t269"
+"angle" "270"
+"origin" "-2240 -1464 -624"
+"classname" "path_corner"
+}
+{
+"activetarget" "hold_l1_4=~disabled,hold_l1_1=~disabled,hold_l1_2=~disabled,hold_l1_3=~disabled"
+"target" "hold_l1_1"
+"targetname" "n270"
+"angle" "270"
+"classname" "path_corner"
+"origin" "-2240 -1424 -624"
+}
+{
+"speed" "650"
+"wait" "3"
+"target" "n336"
+"targetname" "hold_l1_1"
+"angle" "270"
+"origin" "-2240 -1192 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n335"
+"targetname" "n336"
+"angle" "290"
+"classname" "path_corner"
+"origin" "-2240 -1176 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n334"
+"targetname" "n335"
+"angle" "290"
+"origin" "-2336 -904 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n333"
+"targetname" "n334"
+"angle" "270"
+"classname" "path_corner"
+"origin" "-2336 -888 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n332"
+"targetname" "n333"
+"angle" "270"
+"origin" "-2336 -208 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n331"
+"targetname" "n332"
+"angle" "225"
+"classname" "path_corner"
+"origin" "-2336 -192 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n330"
+"targetname" "n331"
+"angle" "225"
+"origin" "-2216 -72 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n329"
+"targetname" "n330"
+"angle" "180"
+"classname" "path_corner"
+"origin" "-2200 -64 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n328"
+"targetname" "n329"
+"angle" "180"
+"origin" "984 -64 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n327"
+"targetname" "n306"
+"angle" "225"
+"origin" "1104 48 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n326"
+"targetname" "n327"
+"angle" "270"
+"classname" "path_corner"
+"origin" "1120 64 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n325"
+"targetname" "n320"
+"angle" "270"
+"origin" "1120 888 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"origin" "1120 904 -624"
+"target" "n324"
+"targetname" "n304"
+"angle" "245"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n323"
+"targetname" "n324"
+"origin" "1216 1184 -624"
+"angle" "245"
+"classname" "path_corner"
+}
+{
+"activetarget" "hold_l1_4=~disabled,hold_l1_1=~disabled,hold_l1_2=~disabled,hold_l1_3=~disabled"
+"target" "hold_l1_4"
+"targetname" "n307"
+"angle" "270"
+"origin" "1216 1448 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "3"
+"target" "n321"
+"targetname" "hold_l1_4"
+"angle" "270"
+"classname" "path_corner"
+"origin" "1216 1200 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n320"
+"targetname" "n305"
+"angle" "270"
+"origin" "1120 904 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n319"
+"targetname" "n325"
+"angle" "270"
+"classname" "path_corner"
+"origin" "1120 64 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n318"
+"targetname" "n319"
+"angle" "225"
+"origin" "1104 48 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n317"
+"targetname" "n318"
+"angle" "225"
+"classname" "path_corner"
+"origin" "1000 -56 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n316"
+"targetname" "n317"
+"angle" "180"
+"origin" "984 -64 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n315"
+"targetname" "n316"
+"angle" "180"
+"classname" "path_corner"
+"origin" "-2200 -64 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n314"
+"targetname" "n315"
+"angle" "225"
+"origin" "-2216 -72 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n313"
+"targetname" "n314"
+"angle" "225"
+"classname" "path_corner"
+"origin" "-2336 -192 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n312"
+"targetname" "n313"
+"angle" "270"
+"origin" "-2336 -208 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n311"
+"targetname" "n312"
+"angle" "270"
+"classname" "path_corner"
+"origin" "-2336 -888 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n310"
+"targetname" "n311"
+"angle" "290"
+"origin" "-2336 -904 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "hold_l1_2"
+"targetname" "n310"
+"angle" "290"
+"classname" "path_corner"
+"origin" "-2240 -1176 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n270"
+"targetname" "hold_l1_2"
+"angle" "270"
+"origin" "-2240 -1192 -624"
+"classname" "path_corner"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n307"
+"targetname" "n323"
+"origin" "1216 1200 -624"
+"classname" "path_corner"
+"angle" "270"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n306"
+"targetname" "n328"
+"origin" "1000 -56 -624"
+"classname" "path_corner"
+"angle" "225"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n305"
+"targetname" "n321"
+"classname" "path_corner"
+"angle" "245"
+"origin" "1216 1184 -624"
+}
+{
+"speed" "650"
+"wait" "0"
+"target" "n304"
+"targetname" "n326"
+"classname" "path_corner"
+"origin" "1120 888 -624"
+"angle" "270"
+}
+{
+"model" "*63"
+"activetarget" "hold_l1_4=~inactive,hold_l1_1=~inactive,hold_l1_2=~inactive,hold_l1_3=~inactive"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*64"
+"activetarget" "hold_l2_4=~inactive,hold_l2_1=~inactive,hold_l2_2=~inactive,hold_l2_3=~inactive"
+"classname" "func_button"
+"angle" "90"
+}
+{
+"scale" ".375"
+"inactive_shader" "textures/etf_hud/secup_red"
+"active_shader" "textures/etf_hud/secdown"
+"slot" "8"
+"origin" "2648 -2176 -96"
+"classname" "func_hud"
+"groupname" "redsechud"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Red security status indicator"
+}
+{
+"groupname" "bluesechud"
+"scale" ".375"
+"classname" "func_hud"
+"origin" "2968 -2176 -96"
+"slot" "9"
+"inactive_shader" "textures/etf_hud/secup_blue"
+"active_shader" "textures/etf_hud/secdown"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Blue security status indicator"
+}

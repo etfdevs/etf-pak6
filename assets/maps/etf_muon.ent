@@ -1,0 +1,6673 @@
+{
+"mapcoordsmins" "9984 -9984"
+"mapcoordsmaxs" "-9984 9984"
+"classname" "worldspawn"
+"ambient" "3"
+}
+{
+"type" "autosentry,supplystation"
+"classname" "func_nobuild"
+"model" "*1"
+}
+{
+"classname" "info_notnull"
+"gameindex" "1,3"
+"groupname" "blue_flag_checker"
+"checkstate" "blueflag=carried"
+"origin" "1168 2792 136"
+"inactivetarget" "blue_flag_arc=~invisible"
+"wait" ".1"
+}
+{
+"wait" "9999"
+"activetarget" "respawn_blocker=~invisible,respawn_blocker_t=~disabled"
+"groupname" "respawn_blocker_t"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"classname" "func_forcefield"
+"allowteams" "blue"
+"model" "*3"
+}
+{
+"classname" "func_nobuild"
+"type" "autosentry,supplystation"
+"model" "*4"
+}
+{
+"type" "autosentry,supplystation"
+"classname" "func_nobuild"
+"model" "*5"
+}
+{
+"type" "autosentry,supplystation"
+"classname" "func_nobuild"
+"model" "*6"
+}
+{
+"classname" "func_nobuild"
+"type" "autosentry,supplystation"
+"model" "*7"
+}
+{
+"classname" "func_nobuild"
+"type" "autosentry,supplystation"
+"model" "*8"
+}
+{
+"type" "autosentry,supplystation"
+"classname" "func_nobuild"
+"model" "*9"
+}
+{
+"gameindex" "2,5"
+"classname" "trigger_multiple"
+"holding" "oneflag"
+"activetarget" "oneflag=~inactive"
+"active_message" "The respawn is no place for the flag."
+"model" "*10"
+}
+{
+"groupname" "blue_bag8"
+"failtarget" "blue_bag8_control"
+"clientstats" "health<!,armor<!,gren1<!"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"wait" "10"
+"classname" "func_goalinfo"
+"model" "models/objects/backpack/backpack.md3"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "-576 2344 80"
+"flags" "rotating,hideactive,orclientstats"
+"allowteams" "blue"
+"inactive_all_sound" "sound/items/respawn1.wav"
+}
+{
+"groupname" "red_bag8"
+"failtarget" "red_bag8_control"
+"clientstats" "health<!,armor<!,gren1<!"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"wait" "10"
+"classname" "func_goalinfo"
+"model" "models/objects/backpack/backpack.md3"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "-128 -3928 784"
+"flags" "rotating,hideactive,orclientstats"
+"allowteams" "red"
+"inactive_all_sound" "sound/items/respawn1.wav"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "red"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "336 -3928 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "red_bag7_control"
+"groupname" "red_bag7"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "red"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "576 -2344 80"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "red_bag6_control"
+"groupname" "red_bag6"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "red"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "192 -3928 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "red_bag5_control"
+"groupname" "red_bag5"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "red"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "576 -2200 80"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "red_bag4_control"
+"groupname" "red_bag4"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "red"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "328 -3784 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "red_bag3_control"
+"groupname" "red_bag3"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "red"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "192 -3784 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "red_bag2_control"
+"groupname" "red_bag2"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "red"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "24 -3928 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "red_bag1_control"
+"groupname" "red_bag1"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "blue"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "-576 2200 80"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "blue_bag7_control"
+"groupname" "blue_bag7"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "blue"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "136 3904 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "blue_bag6_control"
+"groupname" "blue_bag6"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "blue"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "-8 3904 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "blue_bag5_control"
+"groupname" "blue_bag5"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "blue"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "-328 3904 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "blue_bag4_control"
+"groupname" "blue_bag4"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "blue"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "-328 3760 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "blue_bag3_control"
+"groupname" "blue_bag3"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "blue"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "-184 3760 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "blue_bag2_control"
+"groupname" "blue_bag2"
+}
+{
+"inactive_all_sound" "sound/items/respawn1.wav"
+"allowteams" "blue"
+"flags" "rotating,hideactive,orclientstats"
+"origin" "-184 3904 784"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"model" "models/objects/backpack/backpack.md3"
+"classname" "func_goalinfo"
+"wait" "10"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"clientstats" "health<!,armor<!,gren1<!"
+"failtarget" "blue_bag1_control"
+"groupname" "blue_bag1"
+}
+{
+"wait" "2"
+"classname" "info_notnull"
+"groupname" "doorfail"
+"active_message" "Your team is not allowed to use this door"
+"origin" "1552 2104 136"
+}
+{
+"gameindex" "6"
+"activetarget" "cp6_b_flag=~inactive,cp6_r_flag=~invisible,cp6_cp_blue,cp6_cp_red=~inactive,cp6_hud=~disabled"
+"groupname" "cp6_b_active"
+"classname" "info_notnull"
+"origin" "1528 2752 168"
+}
+{
+"gameindex" "6"
+"activetarget" "cp6_r_flag=~inactive,cp6_b_flag=~invisible,cp6_cp_red,cp6_cp_blue=~inactive,cp6_hud=~active"
+"groupname" "cp6_r_active"
+"origin" "1528 2776 168"
+"classname" "info_notnull"
+}
+{
+"gameindex" "6"
+"activetarget" "cp5_b_flag=~inactive,cp5_r_flag=~invisible,cp5_cp_blue,cp5_cp_red=~inactive,cp5_hud=~disabled"
+"groupname" "cp5_b_active"
+"classname" "info_notnull"
+"origin" "1592 2304 168"
+}
+{
+"gameindex" "6"
+"activetarget" "cp5_r_flag=~inactive,cp5_b_flag=~invisible,cp5_cp_red,cp5_cp_blue=~inactive,cp5_hud=~active"
+"groupname" "cp5_r_active"
+"origin" "1592 2328 168"
+"classname" "info_notnull"
+}
+{
+"classname" "info_notnull"
+"origin" "1656 2584 112"
+"groupname" "cp4_r_active"
+"activetarget" "cp4_r_flag=~inactive,cp4_b_flag=~invisible,cp4_cp_red,cp4_cp_blue=~inactive,cp4_hud=~active"
+"gameindex" "6"
+}
+{
+"origin" "1656 2560 112"
+"classname" "info_notnull"
+"groupname" "cp4_b_active"
+"activetarget" "cp4_b_flag=~inactive,cp4_r_flag=~invisible,cp4_cp_blue,cp4_cp_red=~inactive,cp4_hud=~disabled"
+"gameindex" "6"
+}
+{
+"gameindex" "6"
+"activetarget" "cp3_b_flag=~inactive,cp3_r_flag=~invisible,cp3_cp_blue,cp3_cp_red=~inactive,cp3_hud=~disabled"
+"groupname" "cp3_b_active"
+"classname" "info_notnull"
+"origin" "1336 2240 112"
+}
+{
+"gameindex" "6"
+"activetarget" "cp3_r_flag=~inactive,cp3_b_flag=~invisible,cp3_cp_red,cp3_cp_blue=~inactive,cp3_hud=~active"
+"groupname" "cp3_r_active"
+"origin" "1336 2264 112"
+"classname" "info_notnull"
+}
+{
+"classname" "info_notnull"
+"origin" "1272 2520 168"
+"groupname" "cp2_r_active"
+"activetarget" "cp2_r_flag=~inactive,cp2_b_flag=~invisible,cp2_cp_red,cp2_cp_blue=~inactive,cp2_hud=~active"
+"gameindex" "6"
+}
+{
+"origin" "1272 2496 168"
+"classname" "info_notnull"
+"groupname" "cp2_b_active"
+"activetarget" "cp2_b_flag=~inactive,cp2_r_flag=~invisible,cp2_cp_blue,cp2_cp_red=~inactive,cp2_hud=~disabled"
+"gameindex" "6"
+}
+{
+"gameindex" "6"
+"activetarget" "cp1_b_flag=~inactive,cp1_r_flag=~invisible,cp1_cp_red=~inactive,cp1_cp_blue,cp1_hud=~disabled"
+"groupname" "cp1_b_active"
+"classname" "info_notnull"
+"origin" "1336 2688 168"
+}
+{
+"gameindex" "6"
+"activetarget" "cp1_r_flag=~inactive,cp1_b_flag=~invisible,cp1_cp_red,cp1_cp_blue=~inactive,cp1_hud=~active"
+"groupname" "cp1_r_active"
+"origin" "1336 2712 168"
+"classname" "info_notnull"
+}
+{
+"gameindex" "5,6"
+"inactive_shader" "textures/etf_muon/cp1neutral"
+"classname" "func_hud"
+"slot" "3"
+"groupname" "cp1_hud"
+"active_shader" "textures/etf_muon/cp1red"
+"disabled_shader" "textures/etf_muon/cp1blue"
+"origin" "1336 2736 144"
+}
+{
+"gameindex" "5"
+"activetarget" "cp1_r_flag=~inactive,cp1_b_flag=~invisible,cp1_cp_red,cp1_cp_blue=~inactive,cp1_hud=~active"
+"groupname" "cp1_r_active"
+"origin" "1336 2712 144"
+"classname" "info_notnull"
+"holding" "oneflag"
+}
+{
+"gameindex" "5,6"
+"origin" "1312 2736 176"
+"wait" "15"
+"pulseteamscore" "5"
+"groupname" "cp1_cp_blue"
+"classname" "func_commandpoint"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"active_all_message" "%N has claimed ^1RED^* Point 1 for the %T!"
+}
+{
+"gameindex" "5"
+"activetarget" "cp1_b_flag=~inactive,cp1_r_flag=~invisible,cp1_cp_red=~inactive,cp1_cp_blue,cp1_hud=~disabled"
+"groupname" "cp1_b_active"
+"classname" "info_notnull"
+"origin" "1336 2688 144"
+"holding" "oneflag"
+}
+{
+"origin" "1272 2496 144"
+"classname" "info_notnull"
+"groupname" "cp2_b_active"
+"activetarget" "cp2_b_flag=~inactive,cp2_r_flag=~invisible,cp2_cp_blue,cp2_cp_red=~inactive,cp2_hud=~disabled"
+"gameindex" "5"
+"holding" "oneflag"
+}
+{
+"active_all_message" "%N has claimed ^1RED^* Point 2 for the %T!"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"classname" "func_commandpoint"
+"groupname" "cp2_cp_blue"
+"pulseteamscore" "5"
+"wait" "15"
+"origin" "1248 2544 176"
+"gameindex" "5,6"
+}
+{
+"classname" "info_notnull"
+"origin" "1272 2520 144"
+"groupname" "cp2_r_active"
+"activetarget" "cp2_r_flag=~inactive,cp2_b_flag=~invisible,cp2_cp_red,cp2_cp_blue=~inactive,cp2_hud=~active"
+"gameindex" "5"
+"holding" "oneflag"
+}
+{
+"gameindex" "5,6"
+"origin" "1272 2544 144"
+"disabled_shader" "textures/etf_muon/cp2blue"
+"active_shader" "textures/etf_muon/cp2red"
+"groupname" "cp2_hud"
+"slot" "4"
+"classname" "func_hud"
+"inactive_shader" "textures/etf_muon/cp2neutral"
+}
+{
+"gameindex" "5,6"
+"inactive_shader" "textures/etf_muon/cp3neutral"
+"classname" "func_hud"
+"slot" "5"
+"groupname" "cp3_hud"
+"active_shader" "textures/etf_muon/cp3red"
+"disabled_shader" "textures/etf_muon/cp3blue"
+"origin" "1336 2288 88"
+}
+{
+"gameindex" "5"
+"activetarget" "cp3_r_flag=~inactive,cp3_b_flag=~invisible,cp3_cp_red,cp3_cp_blue=~inactive,cp3_hud=~active"
+"groupname" "cp3_r_active"
+"origin" "1336 2264 88"
+"classname" "info_notnull"
+"holding" "oneflag"
+}
+{
+"gameindex" "5,6"
+"origin" "1312 2288 120"
+"wait" "15"
+"pulseteamscore" "5"
+"groupname" "cp3_cp_blue"
+"classname" "func_commandpoint"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"active_all_message" "%N has claimed ^1RED^* Point 3 for the %T!"
+}
+{
+"gameindex" "5"
+"activetarget" "cp3_b_flag=~inactive,cp3_r_flag=~invisible,cp3_cp_blue,cp3_cp_red=~inactive,cp3_hud=~disabled"
+"groupname" "cp3_b_active"
+"classname" "info_notnull"
+"origin" "1336 2240 88"
+"holding" "oneflag"
+}
+{
+"active_all_message" "%N has claimed ^4BLUE^* Point 4 for the %T!"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"classname" "func_commandpoint"
+"groupname" "cp4_cp_blue"
+"pulseteamscore" "2"
+"wait" "15"
+"origin" "1632 2608 120"
+"gameindex" "5,6"
+}
+{
+"classname" "info_notnull"
+"origin" "1656 2584 88"
+"groupname" "cp4_r_active"
+"activetarget" "cp4_r_flag=~inactive,cp4_b_flag=~invisible,cp4_cp_red,cp4_cp_blue=~inactive,cp4_hud=~active"
+"gameindex" "5"
+"holding" "oneflag"
+}
+{
+"gameindex" "5,6"
+"origin" "1656 2608 88"
+"disabled_shader" "textures/etf_muon/cp4blue"
+"active_shader" "textures/etf_muon/cp4red"
+"groupname" "cp4_hud"
+"slot" "8"
+"classname" "func_hud"
+"inactive_shader" "textures/etf_muon/cp4neutral"
+}
+{
+"gameindex" "5,6"
+"inactive_shader" "textures/etf_muon/cp5neutral"
+"classname" "func_hud"
+"slot" "9"
+"groupname" "cp5_hud"
+"active_shader" "textures/etf_muon/cp5red"
+"disabled_shader" "textures/etf_muon/cp5blue"
+"origin" "1592 2352 144"
+}
+{
+"gameindex" "5"
+"activetarget" "cp5_r_flag=~inactive,cp5_b_flag=~invisible,cp5_cp_red,cp5_cp_blue=~inactive,cp5_hud=~active"
+"groupname" "cp5_r_active"
+"origin" "1592 2328 144"
+"classname" "info_notnull"
+"holding" "oneflag"
+}
+{
+"gameindex" "5,6"
+"origin" "1568 2352 176"
+"wait" "15"
+"pulseteamscore" "5"
+"groupname" "cp5_cp_red"
+"classname" "func_commandpoint"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"active_all_message" "%N has claimed ^4BLUE^* Point 5 for the %T!"
+}
+{
+"gameindex" "5"
+"activetarget" "cp5_b_flag=~inactive,cp5_r_flag=~invisible,cp5_cp_blue,cp5_cp_red=~inactive,cp5_hud=~disabled"
+"groupname" "cp5_b_active"
+"classname" "info_notnull"
+"origin" "1592 2304 144"
+"holding" "oneflag"
+}
+{
+"gameindex" "5,6"
+"inactive_shader" "textures/etf_muon/cp6neutral"
+"classname" "func_hud"
+"slot" "10"
+"groupname" "cp6_hud"
+"active_shader" "textures/etf_muon/cp6red"
+"disabled_shader" "textures/etf_muon/cp6blue"
+"origin" "1528 2800 144"
+}
+{
+"gameindex" "5"
+"activetarget" "cp6_r_flag=~inactive,cp6_b_flag=~invisible,cp6_cp_red,cp6_cp_blue=~inactive,cp6_hud=~active"
+"groupname" "cp6_r_active"
+"origin" "1528 2776 144"
+"classname" "info_notnull"
+"holding" "oneflag"
+}
+{
+"gameindex" "5,6"
+"origin" "1504 2800 176"
+"wait" "15"
+"pulseteamscore" "2"
+"groupname" "cp6_cp_blue"
+"classname" "func_commandpoint"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"active_all_message" "%N has claimed ^4BLUE^* Point 6 for the %T!"
+}
+{
+"gameindex" "5"
+"activetarget" "cp6_b_flag=~inactive,cp6_r_flag=~invisible,cp6_cp_blue,cp6_cp_red=~inactive,cp6_hud=~disabled"
+"groupname" "cp6_b_active"
+"classname" "info_notnull"
+"origin" "1528 2752 144"
+"holding" "oneflag"
+}
+{
+"active_all_message" "%N has claimed ^1RED^* Point 3 for the %T!"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"classname" "func_commandpoint"
+"groupname" "cp3_cp_red"
+"pulseteamscore" "2"
+"wait" "15"
+"origin" "1312 2240 120"
+"gameindex" "5,6"
+}
+{
+"gameindex" "5,6"
+"origin" "1248 2496 176"
+"wait" "15"
+"pulseteamscore" "2"
+"groupname" "cp2_cp_red"
+"classname" "func_commandpoint"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"active_all_message" "%N has claimed ^1RED^* Point 2 for the %T!"
+}
+{
+"active_all_message" "%N has claimed ^1RED^* Point 1 for the %T!"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"classname" "func_commandpoint"
+"groupname" "cp1_cp_red"
+"pulseteamscore" "2"
+"wait" "15"
+"origin" "1312 2688 176"
+"gameindex" "5,6"
+}
+{
+"gameindex" "5,6"
+"origin" "1632 2560 112"
+"wait" "15"
+"pulseteamscore" "5"
+"groupname" "cp4_cp_red"
+"classname" "func_commandpoint"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"active_all_message" "%N has claimed ^4BLUE^* Point 4 for the %T!"
+}
+{
+"active_all_message" "%N has claimed ^4BLUE^* Point 6 for the %T!"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"classname" "func_commandpoint"
+"groupname" "cp6_cp_red"
+"pulseteamscore" "5"
+"wait" "15"
+"origin" "1504 2752 176"
+"gameindex" "5,6"
+}
+{
+"active_all_message" "%N has claimed ^4BLUE^* Point 5 for the %T!"
+"active_all_sound" "~sound/feedback/padclaim.wav"
+"classname" "func_commandpoint"
+"groupname" "cp5_cp_blue"
+"pulseteamscore" "2"
+"wait" "15"
+"origin" "1568 2304 176"
+"gameindex" "5,6"
+}
+{
+"target" "t38"
+"classname" "func_train"
+"targetname" "red_arc_train"
+"gameindex" "1,3"
+"groupname" "red_flag_arc"
+"origin" "1198 -2842 1102"
+"model" "*11"
+}
+{
+"target" "t29"
+"origin" "-1392 3008 1104"
+"classname" "path_corner"
+"targetname" "t36"
+"gameindex" "1,3"
+}
+{
+"classname" "path_corner"
+"origin" "-1392 2880 1104"
+"target" "t36"
+"targetname" "t35"
+}
+{
+"origin" "-1344 2832 1104"
+"classname" "path_corner"
+"targetname" "t34"
+"target" "t35"
+}
+{
+"classname" "path_corner"
+"origin" "-1216 2832 1104"
+"targetname" "t33"
+"target" "t34"
+}
+{
+"origin" "-1160 2896 1104"
+"classname" "path_corner"
+"targetname" "t32"
+"target" "t33"
+}
+{
+"classname" "path_corner"
+"origin" "-1160 2992 1104"
+"targetname" "t31"
+"target" "t32"
+}
+{
+"origin" "-1216 3056 1104"
+"classname" "path_corner"
+"targetname" "t30"
+"target" "t31"
+}
+{
+"spawnflags" "1"
+"gameindex" "1,3"
+"target" "t28"
+"shader" "textures/etf_muon/lightning"
+"groupname" "blue_flag_arc"
+"origin" "-1316 2904 844"
+"classname" "misc_beam"
+"target2" "blue_arc_train"
+}
+{
+"classname" "misc_teleporter_dest"
+"angle" "360"
+"targetname" "t27"
+"origin" "84 2756 88"
+}
+{
+"classname" "trigger_teleport"
+"target" "t27"
+"model" "*12"
+}
+{
+"origin" "-16 0 108"
+"gameindex" "2,5"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"classname" "func_goalinfo"
+}
+{
+"origin" "1136 -1472 536"
+"gameindex" "5,6"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"classname" "func_goalinfo"
+}
+{
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"gameindex" "5,6"
+"origin" "-656 -2432 536"
+}
+{
+"origin" "-464 -2176 96"
+"gameindex" "5,6"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"classname" "func_goalinfo"
+}
+{
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"gameindex" "5,6"
+"origin" "432 2176 96"
+}
+{
+"origin" "632 2432 536"
+"gameindex" "5,6"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"classname" "func_goalinfo"
+}
+{
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"gameindex" "5,6"
+"origin" "-1169 1471 536"
+}
+{
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"gameindex" "1,3"
+"origin" "-1296 2944 808"
+}
+{
+"classname" "misc_teleporter_dest"
+"angle" "360"
+"targetname" "t25"
+"origin" "328 -2432 792"
+}
+{
+"classname" "trigger_teleport"
+"target" "t25"
+"model" "*13"
+}
+{
+"classname" "panel_scoresummary"
+"origin" "112 -1984 192"
+"height" "128"
+"width" "192"
+"distance" "512"
+"transition" "fade"
+}
+{
+"classname" "panel_scoresummary"
+"origin" "-240 -4000 912"
+"height" "128"
+"width" "256"
+"distance" "512"
+"transition" "fade"
+}
+{
+"classname" "panel_scoresummary"
+"origin" "240 4000 912"
+"height" "128"
+"width" "256"
+"distance" "512"
+"transition" "fade"
+}
+{
+"classname" "panel_scoresummary"
+"origin" "-112 1984 192"
+"height" "128"
+"width" "192"
+"distance" "512"
+"transition" "fade"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "32 1576 704"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "32 -1576 704"
+}
+{
+"targetname" "t20"
+"origin" "3008 280 216"
+"classname" "info_notnull"
+}
+{
+"targetname" "t19"
+"classname" "info_notnull"
+"origin" "3008 472 216"
+}
+{
+"targetname" "t22"
+"classname" "info_notnull"
+"origin" "2856 216 216"
+}
+{
+"targetname" "t21"
+"origin" "3160 208 216"
+"classname" "info_notnull"
+}
+{
+"targetname" "t18"
+"classname" "info_notnull"
+"origin" "3160 552 216"
+}
+{
+"origin" "-256 3184 1016"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"origin" "256 -3184 1016"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"gameindex" "2,5"
+"active_message" "The respawn is no place for the flag."
+"classname" "trigger_multiple"
+"activetarget" "oneflag=~inactive"
+"holding" "oneflag"
+"model" "*14"
+}
+{
+"origin" "632 2432 536"
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"groupname" "cp6_r_flag"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"classname" "trigger_multiple"
+"gameindex" "5,6"
+"allowteams" "red"
+"activetarget" "cp6_r_active"
+"failtarget" "cp6_b_active"
+"wait" ".01"
+"model" "*15"
+}
+{
+"classname" "func_goalinfo"
+"origin" "632 2432 536"
+"groupname" "cp6_b_flag"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"origin" "-1169 1471 536"
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"groupname" "cp5_r_flag"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"classname" "trigger_multiple"
+"gameindex" "5,6"
+"allowteams" "red"
+"activetarget" "cp5_r_active"
+"failtarget" "cp5_b_active"
+"wait" ".01"
+"model" "*16"
+}
+{
+"classname" "func_goalinfo"
+"origin" "-1169 1471 536"
+"groupname" "cp5_b_flag"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"gameindex" "5,6"
+"initialstate" "invisible"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"groupname" "cp4_b_flag"
+"origin" "432 2176 96"
+"classname" "func_goalinfo"
+}
+{
+"wait" ".01"
+"failtarget" "cp4_b_active"
+"activetarget" "cp4_r_active"
+"allowteams" "red"
+"gameindex" "5,6"
+"classname" "trigger_multiple"
+"model" "*17"
+}
+{
+"gameindex" "5,6"
+"initialstate" "invisible"
+"groupname" "cp4_r_flag"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"classname" "func_goalinfo"
+"origin" "432 2176 96"
+}
+{
+"holding" "oneflag"
+"gameindex" "5"
+"activetarget" "cp4_b_flag=~inactive,cp4_r_flag=~invisible,cp4_cp_blue,cp4_cp_red=~inactive,cp4_hud=~disabled"
+"groupname" "cp4_b_active"
+"classname" "info_notnull"
+"origin" "1656 2560 96"
+}
+{
+"origin" "-464 -2176 96"
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"groupname" "cp3_r_flag"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"classname" "trigger_multiple"
+"gameindex" "5,6"
+"allowteams" "red"
+"activetarget" "cp3_r_active"
+"failtarget" "cp3_b_active"
+"wait" ".01"
+"model" "*18"
+}
+{
+"classname" "func_goalinfo"
+"origin" "-464 -2176 96"
+"groupname" "cp3_b_flag"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"gameindex" "5,6"
+"initialstate" "invisible"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"groupname" "cp2_b_flag"
+"origin" "-656 -2432 536"
+"classname" "func_goalinfo"
+}
+{
+"wait" ".01"
+"failtarget" "cp2_b_active"
+"activetarget" "cp2_r_active"
+"allowteams" "red"
+"gameindex" "5,6"
+"classname" "trigger_multiple"
+"model" "*19"
+}
+{
+"gameindex" "5,6"
+"initialstate" "invisible"
+"groupname" "cp2_r_flag"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"classname" "func_goalinfo"
+"origin" "-656 -2432 536"
+}
+{
+"message" "^4Blue^7 upper entrance (outside)"
+"origin" "448 704 432"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 upper entrance (outside)"
+"origin" "288 704 416"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 upper entrance (outside)"
+"origin" "80 704 416"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 upper entrance (outside)"
+"origin" "-80 704 416"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 upper entrance (outside)"
+"origin" "-256 704 416"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 upper entrance (outside)"
+"origin" "-400 720 416"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 upper entrance (outside)"
+"origin" "-464 752 416"
+"classname" "target_location"
+}
+{
+"origin" "1136 -1472 536"
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"groupname" "cp1_r_flag"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"wait" "20"
+"random" "20"
+"classname" "target_speaker"
+"noise" "sound/world/tim_zap.wav"
+"origin" "0 -1536 608"
+}
+{
+"origin" "0 1536 608"
+"noise" "sound/world/tim_zap.wav"
+"classname" "target_speaker"
+"random" "20"
+"wait" "20"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "624 16 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "624 -176 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "624 -368 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "624 -560 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"classname" "target_location"
+"origin" "624 208 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "624 400 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-656 400 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "-656 208 416"
+"classname" "target_location"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "-656 -560 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-656 -368 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "-656 -176 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-656 16 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "-784 16 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-784 -176 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "-784 -368 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-784 -560 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-784 208 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "-784 400 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "816 400 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "816 208 416"
+"classname" "target_location"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "816 -560 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "816 -368 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (upper)"
+"origin" "816 -176 416"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "816 16 416"
+"message" "^1^7Center outside (upper)"
+}
+{
+"message" "^1^7Center outside (lower)"
+"origin" "376 -16 112"
+"classname" "target_location"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "624 -2048 256"
+}
+{
+"origin" "576 -2048 192"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "528 -2048 128"
+}
+{
+"origin" "528 -2496 128"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "576 -2496 192"
+}
+{
+"origin" "624 -2496 256"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"origin" "416 -2400 192"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "384 -2272 192"
+}
+{
+"origin" "416 -2144 192"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-416 2144 192"
+}
+{
+"origin" "-384 2272 192"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-416 2400 192"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-624 2496 256"
+}
+{
+"origin" "-576 2496 192"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-528 2496 128"
+}
+{
+"origin" "-528 2048 128"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-576 2048 192"
+}
+{
+"origin" "-624 2048 256"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"classname" "misc_teleporter_dest"
+"angle" "270"
+"targetname" "t15"
+"origin" "704 704 432"
+}
+{
+"targetname" "t14"
+"origin" "-704 704 432"
+"angle" "270"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "-888 116 424"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "-888 -108 424"
+}
+{
+"origin" "888 -108 424"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "888 116 424"
+}
+{
+"classname" "info_player_start"
+"angle" "180"
+"origin" "-472 2400 88"
+"allowteams" "blue"
+"gameindex" "1,2,3,5,6"
+}
+{
+"allowteams" "blue"
+"origin" "-472 2144 88"
+"angle" "180"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"origin" "-16 4080 800"
+"allowteams" "blue"
+"gameindex" "1,2,3,5,6"
+}
+{
+"allowteams" "blue"
+"origin" "-336 4080 800"
+"angle" "270"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"origin" "-176 4080 800"
+"allowteams" "blue"
+"gameindex" "1,2,3,5,6"
+}
+{
+"allowteams" "blue"
+"origin" "144 4080 800"
+"angle" "270"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "info_player_start"
+"angle" "360"
+"origin" "-480 4032 832"
+"allowteams" "blue"
+"gameindex" "1,2,3,5,6"
+}
+{
+"allowteams" "blue"
+"origin" "-480 3920 832"
+"angle" "360"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"message" "^1Red^7 lower entrance (outside)"
+"origin" "-400 416 96"
+"classname" "target_location"
+}
+{
+"message" "^1Red^7 lower entrance (outside)"
+"origin" "-272 416 96"
+"classname" "target_location"
+}
+{
+"message" "^1Red^7 lower entrance (outside)"
+"origin" "384 368 96"
+"classname" "target_location"
+}
+{
+"message" "^1Red^7 lower entrance (outside)"
+"origin" "208 384 96"
+"classname" "target_location"
+}
+{
+"message" "^1Red^7 lower entrance (outside)"
+"origin" "0 384 96"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 lower entrance"
+"origin" "-16 720 96"
+"classname" "target_location"
+}
+{
+"wait" "1"
+"classname" "func_door"
+"angle" "360"
+"team" "2b"
+"speed" "600"
+"model" "*20"
+}
+{
+"wait" "1"
+"classname" "func_door"
+"angle" "180"
+"team" "2b"
+"speed" "600"
+"model" "*21"
+}
+{
+"classname" "misc_flare"
+"origin" "-768 2544 1080"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1856 2560 1020"
+}
+{
+"origin" "-1728 2560 1020"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"origin" "-32 1576 704"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-832 1472 544"
+}
+{
+"classname" "misc_flare"
+"origin" "-1284 1536 720"
+}
+{
+"origin" "-768 2304 896"
+"targetname" "t13"
+"classname" "target_position"
+}
+{
+"target" "t13"
+"classname" "trigger_push"
+"model" "*22"
+}
+{
+"target" "t14"
+"classname" "trigger_teleport"
+"model" "*23"
+}
+{
+"classname" "trigger_teleport"
+"target" "t15"
+"model" "*24"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "128 1088 160"
+}
+{
+"spawnflags" "1"
+"origin" "-128 1088 160"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_position"
+"targetname" "t16"
+"origin" "320 2912 896"
+}
+{
+"classname" "trigger_push"
+"target" "t16"
+"model" "*25"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"team" "6b"
+"speed" "600"
+"wait" "1"
+"model" "*26"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"team" "6b"
+"speed" "600"
+"wait" "1"
+"model" "*27"
+}
+{
+"failtarget" "doorfail"
+"allowteams" "blue"
+"wait" "1"
+"classname" "func_door"
+"angle" "90"
+"team" "4b"
+"speed" "600"
+"model" "*28"
+}
+{
+"failtarget" "doorfail"
+"allowteams" "blue"
+"wait" "1"
+"classname" "func_door"
+"angle" "270"
+"team" "4b"
+"speed" "600"
+"model" "*29"
+}
+{
+"origin" "-1284 1664 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-1284 1792 720"
+}
+{
+"classname" "misc_flare"
+"origin" "-1020 1792 720"
+}
+{
+"origin" "-832 1340 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-960 1340 720"
+}
+{
+"origin" "-1088 1340 720"
+"classname" "misc_flare"
+}
+{
+"origin" "-704 1340 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-576 1340 720"
+}
+{
+"origin" "-576 1604 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-704 1604 720"
+}
+{
+"origin" "-960 1604 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-832 1604 720"
+}
+{
+"origin" "-1020 1664 720"
+"classname" "misc_flare"
+}
+{
+"origin" "-440 1472 752"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1152 1928 752"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "440 1856 752"
+}
+{
+"origin" "440 2432 752"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"origin" "576 1728 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "704 1728 720"
+}
+{
+"origin" "896 1920 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "896 2048 720"
+}
+{
+"origin" "896 2176 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "896 2304 720"
+}
+{
+"origin" "640 2208 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "640 2080 720"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "0 1592 896"
+}
+{
+"origin" "-1132 3160 896"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1044 3160 896"
+}
+{
+"origin" "-1428 3160 896"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1516 3160 896"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-1152 1792 544"
+}
+{
+"spawnflags" "1"
+"origin" "-104 1160 424"
+"noise" "sound/maps/etf_rainloop.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/maps/etf_rainloop.wav"
+"origin" "104 1160 424"
+}
+{
+"origin" "436 1312 752"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "436 1184 752"
+}
+{
+"origin" "436 1056 752"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "436 1440 752"
+}
+{
+"origin" "436 1568 752"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "436 1696 752"
+}
+{
+"spawnflags" "1"
+"origin" "640 1856 544"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "768 2144 544"
+}
+{
+"origin" "-172 1888 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-180 1760 1008"
+}
+{
+"origin" "-180 1632 1008"
+"classname" "misc_flare"
+}
+{
+"origin" "-576 1724 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-704 1724 720"
+}
+{
+"classname" "misc_flare"
+"origin" "-384 1988 720"
+}
+{
+"origin" "512 1988 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "384 1988 720"
+}
+{
+"classname" "misc_flare"
+"origin" "-180 1504 1008"
+}
+{
+"origin" "-180 1376 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-180 1248 1008"
+}
+{
+"origin" "-180 1120 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "180 1120 1008"
+}
+{
+"origin" "180 1248 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "180 1376 1008"
+}
+{
+"origin" "180 1504 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "180 1632 1008"
+}
+{
+"origin" "180 1760 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "180 1888 1008"
+}
+{
+"origin" "180 2016 1008"
+"classname" "misc_flare"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1120 2944 1052"
+}
+{
+"origin" "-1440 2944 1052"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1280 3104 1052"
+}
+{
+"origin" "-1280 2784 1052"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1280 2944 1084"
+}
+{
+"spawnflags" "1"
+"origin" "-1280 3120 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1856 2688 1020"
+}
+{
+"origin" "-1728 2688 1020"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-1280 2544 664"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-704 2624 1016"
+}
+{
+"origin" "-832 2624 1016"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-832 2752 1016"
+}
+{
+"origin" "-704 2752 1016"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-688 2272 1272"
+}
+{
+"origin" "-848 2272 1272"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-848 2464 1272"
+}
+{
+"origin" "-688 2464 1272"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-688 2080 1272"
+}
+{
+"origin" "-848 2080 1272"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-848 1888 1272"
+}
+{
+"origin" "-680 2512 1080"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-856 2512 1080"
+}
+{
+"origin" "-656 2096 824"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-880 1984 824"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-960 2176 288"
+}
+{
+"origin" "-960 1872 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-960 2368 288"
+}
+{
+"origin" "-960 2592 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-800 2752 288"
+}
+{
+"origin" "-608 2752 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-424 2752 288"
+}
+{
+"origin" "-424 1728 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-616 1728 288"
+}
+{
+"origin" "-816 1728 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"origin" "304 2752 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "432 2608 288"
+}
+{
+"origin" "432 2320 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "304 2176 288"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "0 1920 288"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "16 2672 312"
+}
+{
+"origin" "-144 2672 312"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"wait" "1"
+"classname" "func_door"
+"angle" "360"
+"team" "3b"
+"speed" "600"
+"model" "*30"
+}
+{
+"wait" "1"
+"classname" "func_door"
+"angle" "180"
+"team" "3b"
+"speed" "600"
+"model" "*31"
+}
+{
+"spawnflags" "1"
+"origin" "-960 1728 288"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-960 1728 112"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "0 1472 96"
+}
+{
+"spawnflags" "1"
+"origin" "-576 1728 96"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "-64 2240 96"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "-960 2048 96"
+}
+{
+"spawnflags" "1"
+"origin" "-960 2432 96"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"random" "35"
+"wait" "45"
+"origin" "0 1216 552"
+"noise" "sound/maps/etf_thunder1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/maps/etf_thunder1.wav"
+"origin" "0 1152 552"
+"wait" "45"
+"random" "45"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-1280 2944 1056"
+}
+{
+"spawnflags" "1"
+"origin" "-1280 2944 864"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "-896 2944 864"
+}
+{
+"spawnflags" "1"
+"origin" "-1664 2944 864"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"origin" "0 1624 648"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "0 1296 288"
+}
+{
+"origin" "0 1104 288"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"origin" "-576 2272 112"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-576 2272 288"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "64 3120 912"
+}
+{
+"spawnflags" "1"
+"origin" "320 3120 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "64 3120 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "192 3120 1016"
+}
+{
+"origin" "320 3120 1016"
+"classname" "misc_flare"
+}
+{
+"spawnflags" "1"
+"origin" "192 3120 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "-512 1988 720"
+"classname" "misc_flare"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "432 2528 840"
+}
+{
+"origin" "432 2832 840"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "160 2254 846"
+}
+{
+"origin" "-160 2254 846"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1312 1936 840"
+}
+{
+"origin" "-1632 1936 840"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-1904 2208 840"
+}
+{
+"origin" "-1904 2624 840"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-752 1896 840"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "96 4176 912"
+}
+{
+"spawnflags" "1"
+"origin" "-416 4176 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-160 4176 912"
+}
+{
+"classname" "misc_flare"
+"origin" "240 4096 1016"
+}
+{
+"origin" "-560 3808 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-560 4064 1016"
+}
+{
+"origin" "142 3717 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "30 3605 1016"
+}
+{
+"origin" "240 3904 1016"
+"classname" "misc_flare"
+}
+{
+"origin" "-416 4176 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-160 4176 1016"
+}
+{
+"origin" "96 4176 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-256 3504 1048"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "64 3968 864"
+}
+{
+"spawnflags" "1"
+"origin" "-384 3968 864"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "-576 2304 160"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "128 2304 864"
+}
+{
+"spawnflags" "1"
+"origin" "384 2560 864"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/machine2.wav"
+"origin" "128 2816 864"
+}
+{
+"spawnflags" "1"
+"origin" "-128 2560 864"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_location"
+"origin" "-16 848 96"
+"message" "^4Blue^7 lower entrance"
+}
+{
+"classname" "target_location"
+"origin" "112 1872 544"
+"message" "^4Blue^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "112 1744 544"
+"message" "^4Blue^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "112 1536 544"
+"message" "^4Blue^7 upper entrance (capture point)"
+}
+{
+"classname" "target_location"
+"origin" "-64 1520 544"
+"message" "^4Blue^7 upper entrance (capture point)"
+}
+{
+"classname" "target_location"
+"origin" "-128 1936 544"
+"message" "^4Blue^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "-160 1744 544"
+"message" "^4Blue^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "-240 1520 544"
+"message" "^4Blue^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "-272 1440 544"
+"message" "^4Blue^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "-352 1248 496"
+"message" "^4Blue^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "-336 1136 464"
+"message" "^4Blue^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "-320 1024 432"
+"message" "^4Blue^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "320 1264 512"
+"message" "^4Blue^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "304 1152 480"
+"message" "^4Blue^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "304 1056 448"
+"message" "^4Blue^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "720 2400 528"
+"message" "^4Blue^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "752 2240 528"
+"message" "^4Blue^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "736 2064 528"
+"message" "^4Blue^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "704 1888 528"
+"message" "^4Blue^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "416 1824 544"
+"message" "^4Blue^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "-1168 1856 528"
+"message" "^4Blue^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1184 1696 528"
+"message" "^4Blue^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1104 1488 528"
+"message" "^4Blue^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-880 1472 528"
+"message" "^4Blue^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-624 1472 528"
+"message" "^4Blue^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-464 1472 544"
+"message" "^4Blue^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1792 2496 784"
+"message" "^4Blue^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1808 2352 736"
+"message" "^4Blue^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1808 2176 672"
+"message" "^4Blue^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1696 2048 672"
+"message" "^4Blue^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1584 2032 640"
+"message" "^4Blue^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1408 2032 576"
+"message" "^4Blue^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1296 2016 544"
+"message" "^4Blue^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-1584 2320 544"
+"message" "^4Blue^7 flagroom (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-1440 2480 544"
+"message" "^4Blue^7 flagroom (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-1312 2320 544"
+"message" "^4Blue^7 flagroom (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-1112 2480 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1152 2624 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1296 2656 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1552 2640 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1760 2704 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1696 2880 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1488 2944 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1296 2928 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-1088 2912 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-960 2896 800"
+"message" "^4Blue^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "-544 1840 544"
+"message" "^4Blue^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "-736 1824 544"
+"message" "^4Blue^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "-768 2048 544"
+"message" "^4Blue^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "-784 2640 800"
+"message" "^4Blue^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "-768 2480 800"
+"message" "^4Blue^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "-768 2352 800"
+"message" "^4Blue^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "-96 2512 544"
+"message" "^4Blue^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "0 2656 544"
+"message" "^4Blue^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "160 2720 544"
+"message" "^4Blue^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "336 2560 544"
+"message" "^4Blue^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "384 2432 544"
+"message" "^4Blue^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-528 2432 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "288 2288 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "160 2288 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-48 2288 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-224 2304 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-352 2512 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-352 2688 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-352 2864 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-256 3008 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-16 3008 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "176 3024 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "320 3024 800"
+"message" "^4Blue^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-240 3248 800"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-240 3408 800"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-144 4000 800"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "112 3904 800"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "0 3664 800"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-272 3616 800"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-480 3808 832"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-480 4048 832"
+"message" "Upper ^4Blue^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-64 2752 96"
+"message" "Lower ^1^4Blue^*^7 hallway teleporter"
+}
+{
+"classname" "target_location"
+"origin" "416 2688 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "432 2416 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "160 2176 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "16 2080 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-544 2736 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-784 2736 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-944 2656 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-944 2480 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-928 2224 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-912 1984 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-896 1776 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-688 1760 96"
+"message" "Lower ^1^4Blue^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-464 1744 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-304 1744 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "16 1632 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "16 1408 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "16 1264 96"
+"message" "Lower ^1^4Blue^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-272 1152 112"
+"message" "Lower ^1^4Blue^*^7 teleporters"
+}
+{
+"classname" "target_location"
+"origin" "-32 1136 96"
+"message" "Lower ^1^4Blue^*^7 teleporters"
+}
+{
+"classname" "target_location"
+"origin" "304 1136 112"
+"message" "Lower ^1^4Blue^*^7 teleporters"
+}
+{
+"classname" "target_location"
+"origin" "-640 2400 96"
+"message" "Lower ^1^4Blue^*^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-608 2256 96"
+"message" "Lower ^1^4Blue^*^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-576 2128 96"
+"message" "Lower ^1^4Blue^*^7 respawn"
+}
+{
+"message" "^4Blue^7 upper entrance (generator)"
+"origin" "240 1536 544"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "352 1424 544"
+"message" "^4Blue^7 upper entrance (generator)"
+}
+{
+"message" "^4Blue^7 upper hallway (pumproom)"
+"origin" "352 1664 544"
+"classname" "target_location"
+}
+{
+"message" "^4Blue^7 upper entrance"
+"origin" "0 1136 464"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "0 1248 464"
+"message" "^4Blue^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "0 -1248 464"
+"message" "^1Red^7 upper entrance"
+}
+{
+"message" "^1Red^7 upper entrance"
+"origin" "0 -1136 464"
+"classname" "target_location"
+}
+{
+"message" "^1Red^7 upper hallway (pumproom)"
+"origin" "-352 -1664 544"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-352 -1424 544"
+"message" "^1Red^7 upper entrance (generator)"
+}
+{
+"message" "^1Red^7 upper entrance (generator)"
+"origin" "-240 -1536 544"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "576 -2128 96"
+"message" "Lower ^1^1Red^*^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "608 -2256 96"
+"message" "Lower ^1^1Red^*^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "640 -2400 96"
+"message" "Lower ^1^1Red^*^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-304 -1136 112"
+"message" "Lower ^1^1Red^*^7 teleporters"
+}
+{
+"classname" "target_location"
+"origin" "32 -1136 96"
+"message" "Lower ^1^1Red^*^7 teleporters"
+}
+{
+"classname" "target_location"
+"origin" "272 -1152 112"
+"message" "Lower ^1^1Red^*^7 teleporters"
+}
+{
+"classname" "target_location"
+"origin" "-16 -1264 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-16 -1408 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-16 -1632 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "304 -1744 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "464 -1744 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "688 -1760 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "896 -1776 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "912 -1984 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "928 -2224 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "944 -2480 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "944 -2656 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "784 -2736 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "544 -2736 96"
+"message" "Lower ^1^1Red^*^7 hallway (respawn)"
+}
+{
+"classname" "target_location"
+"origin" "-16 -2080 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-160 -2176 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-352 -2192 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-432 -2416 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "-416 -2688 96"
+"message" "Lower ^1^1Red^*^7 hallway"
+}
+{
+"classname" "target_location"
+"origin" "64 -2704 96"
+"message" "Lower ^1^1Red^*^7 hallway teleporter"
+}
+{
+"classname" "target_location"
+"origin" "480 -4048 832"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "480 -3808 832"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "272 -3616 800"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "0 -3664 800"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-112 -3904 800"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "144 -4000 800"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "240 -3408 800"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "240 -3248 800"
+"message" "Upper ^1Red^7 respawn"
+}
+{
+"classname" "target_location"
+"origin" "-320 -3024 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-176 -3024 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "16 -3008 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "256 -3008 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "352 -2864 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "352 -2688 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "352 -2512 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "224 -2304 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "48 -2288 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-160 -2288 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-288 -2288 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "528 -2432 800"
+"message" "^1Red^7 pump room (upper)"
+}
+{
+"classname" "target_location"
+"origin" "-384 -2432 544"
+"message" "^1Red^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-336 -2560 544"
+"message" "^1Red^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-160 -2720 544"
+"message" "^1Red^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "0 -2656 544"
+"message" "^1Red^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "96 -2512 544"
+"message" "^1Red^7 pump room (lower)"
+}
+{
+"classname" "target_location"
+"origin" "768 -2352 800"
+"message" "^1Red^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "768 -2480 800"
+"message" "^1Red^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "784 -2640 800"
+"message" "^1Red^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "768 -2048 544"
+"message" "^1Red^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "736 -1824 544"
+"message" "^1Red^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "544 -1840 544"
+"message" "^1Red^7 flagroom jumppad"
+}
+{
+"classname" "target_location"
+"origin" "960 -2896 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1088 -2912 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1296 -2928 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1488 -2944 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1696 -2880 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1760 -2704 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1552 -2640 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1296 -2656 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1152 -2624 800"
+"message" "^1Red^7 flagroom"
+}
+{
+"classname" "target_location"
+"origin" "1312 -2320 544"
+"message" "^1Red^7 flagroom (lower)"
+}
+{
+"classname" "target_location"
+"origin" "1440 -2480 544"
+"message" "^1Red^7 flagroom (lower)"
+}
+{
+"classname" "target_location"
+"origin" "1584 -2320 544"
+"message" "^1Red^7 flagroom (lower)"
+}
+{
+"classname" "target_location"
+"origin" "1296 -2016 544"
+"message" "^1Red^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1408 -2032 576"
+"message" "^1Red^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1584 -2032 640"
+"message" "^1Red^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1696 -2048 672"
+"message" "^1Red^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1808 -2176 672"
+"message" "^1Red^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1808 -2352 736"
+"message" "^1Red^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1792 -2496 784"
+"message" "^1Red^7 flagroom (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "464 -1472 544"
+"message" "^1Red^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "624 -1472 528"
+"message" "^1Red^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "880 -1472 528"
+"message" "^1Red^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1104 -1488 528"
+"message" "^1Red^7 upper hallway (stairs)"
+"spawnflags" "1"
+}
+{
+"classname" "target_location"
+"origin" "1184 -1696 528"
+"message" "^1Red^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "1168 -1856 528"
+"message" "^1Red^7 upper hallway (stairs)"
+}
+{
+"classname" "target_location"
+"origin" "-416 -1824 544"
+"message" "^1Red^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "-512 -1840 528"
+"message" "^1Red^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "-704 -1888 528"
+"message" "^1Red^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "-736 -2064 528"
+"message" "^1Red^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "-752 -2240 528"
+"message" "^1Red^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "-560 -2432 528"
+"message" "^1Red^7 upper hallway (pumproom)"
+}
+{
+"classname" "target_location"
+"origin" "-304 -1056 448"
+"message" "^1Red^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "-304 -1152 480"
+"message" "^1Red^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "-320 -1264 512"
+"message" "^1Red^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "320 -1024 432"
+"message" "^1Red^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "336 -1136 464"
+"message" "^1Red^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "352 -1248 496"
+"message" "^1Red^7 upper entrance"
+}
+{
+"classname" "target_location"
+"origin" "272 -1440 544"
+"message" "^1Red^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "240 -1520 544"
+"message" "^1Red^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "160 -1744 544"
+"message" "^1Red^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "128 -1936 544"
+"message" "^1Red^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "64 -1520 544"
+"message" "^1Red^7 upper entrance (capture point)"
+}
+{
+"classname" "target_location"
+"origin" "-112 -1536 544"
+"message" "^1Red^7 upper entrance (capture point)"
+}
+{
+"classname" "target_location"
+"origin" "-112 -1744 544"
+"message" "^1Red^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "-112 -1872 544"
+"message" "^1Red^7 upper entrance (generator)"
+}
+{
+"classname" "target_location"
+"origin" "-336 -752 416"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "-272 -720 416"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "-128 -704 416"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "48 -704 416"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "208 -704 416"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "416 -704 416"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "576 -704 432"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "-656 -688 432"
+"message" "^1Red^7 upper entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "64 -384 96"
+"message" "^1Red^7 lower entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "272 -384 96"
+"message" "^1Red^7 lower entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "448 -368 96"
+"message" "^1Red^7 lower entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "-208 -416 96"
+"message" "^1Red^7 lower entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "-336 -416 96"
+"message" "^1Red^7 lower entrance (outside)"
+}
+{
+"classname" "target_location"
+"origin" "16 -16 96"
+"message" "^1^7Center outside (lower)"
+}
+{
+"classname" "target_location"
+"origin" "200 -16 112"
+"message" "^1^7Center outside (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-208 32 80"
+"message" "^1^7Center outside (lower)"
+}
+{
+"classname" "target_location"
+"origin" "-368 -32 80"
+"message" "^1^7Center outside (lower)"
+}
+{
+"classname" "target_location"
+"origin" "0 -576 96"
+"message" "^1Red^7 lower entrance"
+}
+{
+"classname" "target_location"
+"origin" "16 -688 96"
+"message" "^1Red^7 lower entrance"
+}
+{
+"classname" "target_location"
+"origin" "16 -848 96"
+"message" "^1Red^7 lower entrance"
+}
+{
+"origin" "128 -2560 864"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "-128 -2816 864"
+}
+{
+"origin" "-384 -2560 864"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "-128 -2304 864"
+}
+{
+"origin" "-504 -68 104"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "0.122223 0.298920 1.000000"
+"classname" "misc_flare"
+"origin" "-504 68 104"
+}
+{
+"origin" "504 68 104"
+"classname" "misc_flare"
+"_color" "0.122223 0.298920 1.000000"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "504 -68 104"
+}
+{
+"classname" "info_player_start"
+"angle" "180"
+"origin" "480 -3920 832"
+"allowteams" "red"
+"gameindex" "1,2,3,5,6"
+}
+{
+"origin" "576 -2304 160"
+"noise" "sound/world/machine2.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "384 -3968 864"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "-64 -3968 864"
+}
+{
+"classname" "misc_flare"
+"origin" "256 -3504 1048"
+}
+{
+"origin" "-96 -4176 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "160 -4176 1016"
+}
+{
+"origin" "416 -4176 1016"
+"classname" "misc_flare"
+}
+{
+"origin" "-240 -3904 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-30 -3605 1016"
+}
+{
+"origin" "-142 -3717 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "560 -4064 1016"
+}
+{
+"origin" "560 -3808 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-240 -4096 1016"
+}
+{
+"allowteams" "red"
+"origin" "480 -4032 832"
+"angle" "180"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "-144 -4080 800"
+"allowteams" "red"
+"gameindex" "1,2,3,5,6"
+}
+{
+"allowteams" "red"
+"origin" "176 -4080 800"
+"angle" "90"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "160 -4176 912"
+}
+{
+"origin" "416 -4176 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-96 -4176 912"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "752 -1896 840"
+}
+{
+"origin" "1904 -2624 840"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1904 -2208 840"
+}
+{
+"origin" "1632 -1936 840"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1312 -1936 840"
+}
+{
+"origin" "160 -2255 846"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "-160 -2255 846"
+}
+{
+"origin" "-432 -2832 840"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "-432 -2528 840"
+}
+{
+"origin" "512 -1988 720"
+"classname" "misc_flare"
+}
+{
+"origin" "-192 -3120 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "-320 -3120 1016"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-192 -3120 1016"
+}
+{
+"origin" "-64 -3120 1016"
+"classname" "misc_flare"
+}
+{
+"origin" "-320 -3120 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "-64 -3120 912"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"origin" "576 -2272 288"
+"spawnflags" "1"
+}
+{
+"origin" "576 -2272 112"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "0 -1104 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "0 -1296 288"
+}
+{
+"origin" "0 -1624 648"
+"spawnflags" "1"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "1664 -2944 864"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "896 -2944 864"
+}
+{
+"origin" "1280 -2944 864"
+"spawnflags" "1"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"spawnflags" "1"
+"origin" "1280 -2944 1056"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "0"
+"noise" "sound/maps/etf_thunder1.wav"
+"origin" "0 -1152 552"
+"wait" "45"
+"random" "45"
+}
+{
+"random" "35"
+"wait" "45"
+"origin" "0 -1216 552"
+"noise" "sound/maps/etf_thunder1.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "960 -2432 96"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "960 -2048 96"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "64 -2240 96"
+}
+{
+"origin" "576 -1728 96"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "0 -1472 96"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"spawnflags" "1"
+"origin" "960 -1728 112"
+}
+{
+"origin" "960 -1728 288"
+"spawnflags" "1"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"wait" "1"
+"classname" "func_door"
+"angle" "360"
+"team" "2r"
+"speed" "600"
+"model" "*32"
+}
+{
+"wait" "1"
+"classname" "func_door"
+"angle" "180"
+"team" "2r"
+"speed" "600"
+"model" "*33"
+}
+{
+"origin" "144 -2672 312"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "-16 -2672 312"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "0 -1920 288"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "-304 -2176 288"
+}
+{
+"origin" "-432 -2320 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "-432 -2608 288"
+}
+{
+"origin" "-304 -2752 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"origin" "816 -1728 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "616 -1728 288"
+}
+{
+"origin" "424 -1728 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "424 -2752 288"
+}
+{
+"origin" "608 -2752 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "800 -2752 288"
+}
+{
+"origin" "960 -2592 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "960 -2368 288"
+}
+{
+"origin" "960 -1872 288"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "960 -2176 288"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "336 -4080 800"
+"allowteams" "red"
+"gameindex" "1,2,3,5,6"
+}
+{
+"allowteams" "red"
+"origin" "16 -4080 800"
+"angle" "90"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "misc_flare"
+"origin" "880 -1984 824"
+}
+{
+"origin" "656 -2096 824"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "856 -2512 1080"
+}
+{
+"origin" "680 -2512 1080"
+"classname" "misc_flare"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "848 -1888 1272"
+}
+{
+"origin" "848 -2080 1272"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "688 -2080 1272"
+}
+{
+"origin" "688 -2464 1272"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "848 -2464 1272"
+}
+{
+"origin" "848 -2272 1272"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "688 -2272 1272"
+}
+{
+"origin" "704 -2752 1016"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "832 -2752 1016"
+}
+{
+"origin" "832 -2624 1016"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "704 -2624 1016"
+}
+{
+"origin" "1728 -2688 1020"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1856 -2688 1020"
+}
+{
+"origin" "1280 -3120 912"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1280 -2944 1084"
+}
+{
+"origin" "1280 -2784 1052"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1280 -3104 1052"
+}
+{
+"origin" "1440 -2944 1052"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1120 -2944 1052"
+}
+{
+"origin" "-180 -2016 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-180 -1888 1008"
+}
+{
+"origin" "-180 -1760 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-180 -1632 1008"
+}
+{
+"origin" "-180 -1504 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-180 -1376 1008"
+}
+{
+"origin" "-180 -1248 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-180 -1120 1008"
+}
+{
+"origin" "180 -1120 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "180 -1248 1008"
+}
+{
+"origin" "180 -1376 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "180 -1504 1008"
+}
+{
+"classname" "misc_flare"
+"origin" "-384 -1988 720"
+}
+{
+"origin" "-512 -1988 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "384 -1988 720"
+}
+{
+"classname" "misc_flare"
+"origin" "704 -1724 720"
+}
+{
+"origin" "576 -1724 720"
+"classname" "misc_flare"
+}
+{
+"gameindex" "1,3"
+"classname" "info_notnull"
+"targetname" "b_laser_1_end"
+"origin" "32 -1576 704"
+}
+{
+"origin" "180 -1632 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "180 -1760 1008"
+}
+{
+"origin" "172 -1888 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"spawnflags" "1"
+"origin" "-768 -2144 544"
+}
+{
+"origin" "-640 -1856 544"
+"spawnflags" "1"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "misc_flare"
+"origin" "-436 -1696 752"
+}
+{
+"origin" "-436 -1568 752"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-436 -1440 752"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/maps/etf_rainloop.wav"
+"origin" "-104 -1160 424"
+}
+{
+"origin" "104 -1160 424"
+"noise" "sound/maps/etf_rainloop.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"spawnflags" "1"
+"origin" "1152 -1792 544"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1516 -3160 896"
+}
+{
+"origin" "1428 -3160 896"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1044 -3160 896"
+}
+{
+"origin" "1132 -3160 896"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "0 -1592 896"
+}
+{
+"classname" "misc_flare"
+"origin" "-640 -2080 720"
+}
+{
+"origin" "-640 -2208 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-896 -2304 720"
+}
+{
+"origin" "-896 -2176 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-896 -2048 720"
+}
+{
+"origin" "-896 -1920 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-704 -1728 720"
+}
+{
+"origin" "-576 -1728 720"
+"classname" "misc_flare"
+}
+{
+"origin" "-440 -2432 752"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "-440 -1856 752"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1152 -1928 752"
+}
+{
+"origin" "440 -1472 752"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"origin" "1020 -1664 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "832 -1604 720"
+}
+{
+"origin" "960 -1604 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "704 -1604 720"
+}
+{
+"origin" "576 -1604 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "576 -1340 720"
+}
+{
+"origin" "704 -1340 720"
+"classname" "misc_flare"
+}
+{
+"origin" "1088 -1340 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "960 -1340 720"
+}
+{
+"origin" "832 -1340 720"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "1020 -1792 720"
+}
+{
+"classname" "misc_flare"
+"origin" "1284 -1792 720"
+}
+{
+"origin" "1284 -1664 720"
+"classname" "misc_flare"
+}
+{
+"failtarget" "doorfail"
+"allowteams" "red"
+"wait" "1"
+"classname" "func_door"
+"angle" "90"
+"team" "3"
+"speed" "600"
+"model" "*34"
+}
+{
+"failtarget" "doorfail"
+"allowteams" "red"
+"wait" "1"
+"classname" "func_door"
+"angle" "270"
+"team" "3"
+"speed" "600"
+"model" "*35"
+}
+{
+"speed" "600"
+"team" "2"
+"angle" "180"
+"classname" "func_door"
+"wait" "1"
+"groupname" "red_lower_doors"
+"model" "*36"
+}
+{
+"speed" "600"
+"team" "2"
+"angle" "360"
+"classname" "func_door"
+"wait" "1"
+"groupname" "red_lower_doors"
+"model" "*37"
+}
+{
+"classname" "info_player_start"
+"angle" "360"
+"origin" "472 -2144 88"
+"allowteams" "red"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "trigger_push"
+"target" "t6"
+"model" "*38"
+}
+{
+"classname" "target_position"
+"targetname" "t6"
+"origin" "-320 -2912 896"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "0"
+"noise" "sound/maps/etf_thunder1.wav"
+"origin" "-384 -384 552"
+"wait" "45"
+"random" "5"
+}
+{
+"random" "10"
+"wait" "45"
+"origin" "384 -384 552"
+"noise" "sound/maps/etf_thunder1.wav"
+"spawnflags" "0"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/maps/etf_thunder1.wav"
+"origin" "384 320 552"
+"wait" "45"
+"random" "35"
+}
+{
+"random" "15"
+"wait" "45"
+"origin" "-384 320 552"
+"noise" "sound/maps/etf_thunder1.wav"
+"spawnflags" "0"
+"classname" "target_speaker"
+}
+{
+"origin" "128 -1088 160"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "-128 -1088 160"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "-768 0 480"
+}
+{
+"origin" "768 0 480"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "0 -832 480"
+"noise" "sound/world/machine2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"allowteams" "red"
+"origin" "472 -2400 88"
+"angle" "360"
+"classname" "info_player_start"
+"gameindex" "1,2,3,5,6"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*39"
+}
+{
+"classname" "misc_teleporter_dest"
+"angle" "90"
+"targetname" "t2"
+"origin" "-704 -704 432"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*40"
+}
+{
+"origin" "704 -704 432"
+"targetname" "t1"
+"angle" "90"
+"classname" "misc_teleporter_dest"
+}
+{
+"wait" "45"
+"random" "15"
+"classname" "target_speaker"
+"spawnflags" "0"
+"noise" "sound/world/lava_short.wav"
+"origin" "0 0 136"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/machine2.wav"
+"origin" "0 768 480"
+}
+{
+"target" "t5"
+"classname" "trigger_push"
+"model" "*41"
+}
+{
+"origin" "768 -2304 896"
+"targetname" "t5"
+"classname" "target_position"
+}
+{
+"classname" "misc_flare"
+"origin" "1284 -1536 720"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_fast.wav"
+"spawnflags" "1"
+"origin" "832 -1472 544"
+}
+{
+"target" "b_laser_1_end"
+"gameindex" "1,3"
+"origin" "-32 -1576 704"
+"targetname" "b_laser_1"
+"classname" "info_notnull"
+}
+{
+"gameindex" "1,3"
+"origin" "0 -1552 724"
+"target2" "b_laser_1_end"
+"target" "b_laser_1"
+"classname" "misc_beam"
+"shader" "textures/etf_muon/lightning_red"
+}
+{
+"origin" "-32 -1576 704"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"origin" "1728 -2560 1020"
+"classname" "misc_flare"
+"_color" "1.000000 0.014589 0.029059"
+}
+{
+"_color" "1.000000 0.014589 0.029059"
+"classname" "misc_flare"
+"origin" "1856 -2560 1020"
+}
+{
+"classname" "misc_flare"
+"origin" "768 -2544 1080"
+}
+{
+"targetname" "t8"
+"origin" "3008 384 216"
+"classname" "info_notnull"
+}
+{
+"classname" "info_player_intermission"
+"target" "t11"
+"origin" "432 -360 152"
+}
+{
+"classname" "target_position"
+"targetname" "t11"
+"origin" "256 -256 224"
+}
+{
+"classname" "trigger_multiple"
+"gameindex" "5,6"
+"allowteams" "red"
+"activetarget" "cp1_r_active"
+"failtarget" "cp1_b_active"
+"wait" ".01"
+"model" "*42"
+}
+{
+"classname" "func_goalinfo"
+"origin" "1136 -1472 536"
+"groupname" "cp1_b_flag"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"initialstate" "invisible"
+"gameindex" "5,6"
+}
+{
+"gameindex" "2,5"
+"activetarget" "oneflag=~inactive"
+"classname" "trigger_multiple"
+"holding" "oneflag"
+"active_message" "The respawn is no place for the flag."
+"model" "*43"
+}
+{
+"targetname" "t17"
+"origin" "2856 560 216"
+"classname" "info_notnull"
+}
+{
+"groupname" "redcap,bluecap"
+"wait" "4"
+"target" "t23"
+"classname" "trigger_multiple"
+"holding" "flag"
+"model" "*44"
+}
+{
+"target" "t24"
+"classname" "trigger_teleport"
+"model" "*45"
+}
+{
+"origin" "-328 2432 792"
+"targetname" "t24"
+"angle" "180"
+"classname" "misc_teleporter_dest"
+}
+{
+"classname" "func_goalinfo"
+"model" "models/mapobjects/goalitem2nd/goal_base.md3"
+"gameindex" "1,3"
+"origin" "1264 -2944 808"
+}
+{
+"target" "t26"
+"classname" "trigger_teleport"
+"model" "*46"
+}
+{
+"origin" "-128 -2752 88"
+"targetname" "t26"
+"angle" "180"
+"classname" "misc_teleporter_dest"
+}
+{
+"gameindex" "1,3"
+"origin" "-1280 2944 856"
+"targetname" "t28"
+"classname" "info_notnull"
+}
+{
+"gameindex" "1,3"
+"targetname" "blue_arc_train"
+"classname" "func_train"
+"target" "t29"
+"groupname" "blue_flag_arc"
+"origin" "-1362 3046 1102"
+"model" "*47"
+}
+{
+"classname" "path_corner"
+"origin" "-1344 3056 1104"
+"targetname" "t29"
+"target" "t30"
+}
+{
+"classname" "path_corner"
+"origin" "1216 -2832 1104"
+"targetname" "t38"
+"target" "t37"
+}
+{
+"spawnflags" "1"
+"gameindex" "1,3"
+"origin" "1280 -2984 844"
+"wait" "1"
+"inactivetarget" "red_flag_arc=~inactive,red_flag_checker"
+"groupname" "red_flag_arc_activate"
+"classname" "info_notnull"
+}
+{
+"gameindex" "1,3"
+"origin" "1280 -2944 856"
+"targetname" "t39"
+"classname" "info_notnull"
+}
+{
+"gameindex" "1,3"
+"target" "t39"
+"shader" "textures/etf_muon/lightning_red"
+"groupname" "red_flag_arc"
+"origin" "1244 -2984 844"
+"classname" "misc_beam"
+"target2" "red_arc_train"
+}
+{
+"origin" "1344 -2832 1104"
+"classname" "path_corner"
+"targetname" "t37"
+"target" "t40"
+}
+{
+"classname" "path_corner"
+"origin" "1400 -2896 1104"
+"targetname" "t40"
+"target" "t41"
+}
+{
+"origin" "1400 -2992 1104"
+"classname" "path_corner"
+"targetname" "t41"
+"target" "t42"
+}
+{
+"classname" "path_corner"
+"origin" "1344 -3056 1104"
+"targetname" "t42"
+"target" "t43"
+}
+{
+"origin" "1216 -3056 1104"
+"classname" "path_corner"
+"targetname" "t43"
+"target" "t44"
+}
+{
+"classname" "path_corner"
+"origin" "1168 -3008 1104"
+"targetname" "t44"
+"target" "t45"
+}
+{
+"origin" "1168 -2880 1104"
+"classname" "path_corner"
+"targetname" "t45"
+"target" "t38"
+}
+{
+"classname" "func_wall"
+"gameindex" "1"
+"model" "*48"
+}
+{
+"gameindex" "1"
+"classname" "func_wall"
+"model" "*49"
+}
+{
+"classname" "func_wall"
+"gameindex" "2,3"
+"model" "*50"
+}
+{
+"classname" "func_wall"
+"gameindex" "1"
+"model" "*51"
+}
+{
+"gameindex" "2,3"
+"classname" "func_wall"
+"model" "*52"
+}
+{
+"gameindex" "5,6"
+"classname" "func_wall"
+"model" "*53"
+}
+{
+"classname" "func_wall"
+"gameindex" "5,6"
+"model" "*54"
+}
+{
+"gameindex" "5,6"
+"classname" "func_wall"
+"model" "*55"
+}
+{
+"classname" "func_wall"
+"gameindex" "5,6"
+"model" "*56"
+}
+{
+"gameindex" "5,6"
+"classname" "func_wall"
+"model" "*57"
+}
+{
+"classname" "func_wall"
+"gameindex" "5,6"
+"model" "*58"
+}
+{
+"allowteams" "red"
+"classname" "func_forcefield"
+"model" "*59"
+}
+{
+"allowteams" "blue"
+"range" "1024"
+"transition" "fade"
+"distance" "512"
+"width" "256"
+"height" "128"
+"origin" "80 3664 912"
+"classname" "panel_radar"
+}
+{
+"classname" "panel_radar"
+"origin" "-80 -3664 912"
+"height" "128"
+"width" "256"
+"distance" "512"
+"transition" "fade"
+"range" "1024"
+"allowteams" "red"
+}
+{
+"victimholding" "oneflag"
+"initialstate" "disabled"
+"groupname" "red_has_possession,possession"
+"gameindex" "2"
+"wait" ".25"
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the blue base!"
+"victimallowteams" "red"
+"_etf_comment_1" "Advanced CTF entities"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchbluecappoint"
+"origin" "1856 4864 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"active_message" "^4Defense!^*"
+"spawnflags" "5"
+}
+{
+"victimholding" "oneflag"
+"initialstate" "disabled"
+"groupname" "blue_has_possession,possession"
+"gameindex" "2"
+"_etf_comment_1" "Advanced CTF entities"
+"wait" ".25"
+"active_message" "^1Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "2216 4864 -96"
+"watch" "watchredcappoint"
+"watchrange" "512"
+"give" "score=+1"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag"
+"victimallowteams" "blue"
+"active_all_message" "%N defends the red base!"
+"active_sound" "~sound/feedback/defense.wav"
+"spawnflags" "5"
+}
+{
+"gameindex" "2,3"
+"classname" "info_notnull"
+"targetname" "watchredcappoint"
+"origin" "1280 -2944 816"
+}
+{
+"victimholding" "blueflag"
+"gameindex" "3"
+"spawnflags" "5"
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the red base!"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchredcappoint"
+"origin" "2216 5152 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"active_message" "^1Defense!^*"
+"wait" ".25"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"victimallowteams" "red"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "1912 5128 -96"
+"holding" "blueflag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"activetarget" "blue_bonus_frag"
+"wait" ".25"
+"gameindex" "3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+}
+{
+"classname" "misc_onkill"
+"victimholding" "redflag"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"origin" "1912 5200 -96"
+"active_all_message" "%N killed the red team's flag carrier!"
+"wait" ".25"
+"notholding" "blueflag"
+"gameindex" "3"
+"activetarget" "blue_defense"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"give" "score=+1"
+}
+{
+"active_all_message" "%N killed the blue team's flag carrier!"
+"origin" "2152 5200 -96"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"victimholding" "blueflag"
+"classname" "misc_onkill"
+"wait" ".25"
+"notholding" "redflag"
+"gameindex" "3"
+"activetarget" "red_defense"
+"allowteams" "red"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"give" "score=+1"
+}
+{
+"victimallowteams" "blue"
+"wait" ".25"
+"activetarget" "red_bonus_frag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"holding" "redflag"
+"origin" "2152 5128 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"gameindex" "3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+}
+{
+"wait" ".25"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"holding" "blueflag"
+"origin" "1912 5176 -96"
+"classname" "misc_onkill"
+"victimholding" "redflag"
+"gameindex" "3"
+"active_all_message" "%N killed the red team's flag carrier while carrying the enemy flag himself!"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"give" "score=+2"
+}
+{
+"victimholding" "blueflag"
+"classname" "misc_onkill"
+"origin" "2152 5176 -96"
+"holding" "redflag"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"wait" ".25"
+"gameindex" "3"
+"active_all_message" "%N killed the blue team's flag carrier while carrying the enemy flag himself!"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"give" "score=+2"
+}
+{
+"gameindex" "3"
+"wait" ".25"
+"active_all_message" "%N teamkilled the red team's flag carrier!"
+"origin" "1912 5152 -96"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"victimholding" "redflag"
+"allowteams" "red"
+"classname" "misc_onkill"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Punishes a player for teamkilling."
+"give" "score=-2"
+}
+{
+"classname" "misc_onkill"
+"victimholding" "blueflag"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"origin" "2152 5152 -96"
+"active_all_message" "%N teamkilled the blue team's flag carrier!"
+"wait" ".25"
+"gameindex" "3"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Punishes a player for teamkilling."
+"give" "score=-2"
+}
+{
+"victimholding" "redflag"
+"gameindex" "3"
+"spawnflags" "5"
+"active_message" "^4Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "1856 5152 -96"
+"watch" "watchbluecappoint"
+"watchrange" "512"
+"give" "score=+1"
+"active_all_message" "%N defends the blue base!"
+"active_sound" "~sound/feedback/defense.wav"
+"wait" ".25"
+"_etf_comment_1" "Give frag bonus for enemies killed near the flag"
+}
+{
+"wait" ".25"
+"spawnflags" "5"
+"active_message" "^4Assist!^*"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "1856 5184 -96"
+"checkstate" "blueflag=carried"
+"watch" "watchblueflag"
+"watchrange" "512"
+"give" "score=+1"
+"victimallowteams" "red"
+"active_all_message" "%N defends the blue flag carrier!"
+"active_sound" "~sound/feedback/assist.wav"
+"gameindex" "3"
+"notholding" "blueflag"
+"_etf_comment_1" "Give frag bonus for enemies killed near the flag carrier"
+}
+{
+"wait" ".25"
+"spawnflags" "5"
+"active_sound" "~sound/feedback/assist.wav"
+"active_all_message" "%N defends the red flag carrier!"
+"victimallowteams" "blue"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag carrier"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchredflag"
+"checkstate" "redflag=carried"
+"origin" "2216 5184 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"active_message" "^1Assist!^*"
+"gameindex" "3"
+"notholding" "redflag"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"_etf_comment_1" "Advanced CTF entities"
+"active_message" "^1Assist!^*"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "2216 4896 -96"
+"checkstate" "oneflag=carried"
+"watch" "watchoneflag"
+"watchrange" "512"
+"give" "score=+1"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag carrier"
+"victimallowteams" "blue"
+"active_all_message" "%N defends the red flag carrier!"
+"active_sound" "~sound/feedback/assist.wav"
+"spawnflags" "5"
+"wait" ".25"
+"gameindex" "2"
+"groupname" "red_has_possession,possession"
+"initialstate" "disabled"
+"notholding" "oneflag"
+}
+{
+"notholding" "oneflag"
+"active_sound" "~sound/feedback/assist.wav"
+"active_all_message" "%N defends the blue flag carrier!"
+"victimallowteams" "red"
+"_etf_comment_1" "Advanced CTF entities"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchoneflag"
+"checkstate" "oneflag=carried"
+"origin" "1856 4896 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"active_message" "^4Assist!^*"
+"spawnflags" "5"
+"wait" ".25"
+"gameindex" "2"
+"groupname" "blue_has_possession,possession"
+"initialstate" "disabled"
+}
+{
+"give" "score=-2"
+"_etf_comment_2" "Punishes a player for teamkilling."
+"_etf_comment_1" "Advanced CTF entities"
+"allowteams" "red"
+"wait" ".25"
+"active_all_message" "%N teamkilled the blue team's flag carrier!"
+"origin" "2152 4896 -96"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"victimholding" "oneflag"
+"classname" "misc_onkill"
+"gameindex" "2"
+"groupname" "red_has_possession,possession"
+"initialstate" "disabled"
+"victimallowteams" "red"
+}
+{
+"give" "score=-2"
+"_etf_comment_2" "Punishes a player for teamkilling."
+"_etf_comment_1" "Advanced CTF entities"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"victimholding" "oneflag"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"origin" "1912 4896 -96"
+"active_all_message" "%N teamkilled the red team's flag carrier!"
+"wait" ".25"
+"gameindex" "2"
+"groupname" "blue_has_possession,possession"
+"initialstate" "disabled"
+}
+{
+"_etf_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+"_etf_comment_1" "Advanced CTF entities"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "2152 4864 -96"
+"holding" "oneflag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"activetarget" "one_bonus_frag"
+"wait" ".25"
+"victimallowteams" "blue"
+"gameindex" "2"
+"groupname" "red_has_possession,possession"
+"initialstate" "disabled"
+}
+{
+"give" "score=+1"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"_etf_comment_1" "Advanced CTF entities"
+"allowteams" "blue"
+"wait" ".25"
+"classname" "misc_onkill"
+"victimholding" "oneflag"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"origin" "2152 4928 -96"
+"active_all_message" "%N killed the blue team's flag carrier!"
+"gameindex" "2"
+"groupname" "red_has_possession,possession"
+"initialstate" "disabled"
+}
+{
+"give" "score=+1"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"_etf_comment_1" "Advanced CTF entities"
+"allowteams" "red"
+"wait" ".25"
+"active_all_message" "%N killed the red team's flag carrier!"
+"origin" "1912 4928 -96"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"victimholding" "oneflag"
+"classname" "misc_onkill"
+"gameindex" "2"
+"groupname" "blue_has_possession,possession"
+"initialstate" "disabled"
+}
+{
+"_etf_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+"_etf_comment_1" "Advanced CTF entities"
+"wait" ".25"
+"activetarget" "one_bonus_frag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"holding" "oneflag"
+"origin" "1912 4864 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"victimallowteams" "red"
+"gameindex" "2"
+"groupname" "blue_has_possession,possession"
+"initialstate" "disabled"
+}
+{
+"_etf_comment_2" "This resets the frag bonus for the flag carrier."
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"wait" ".25"
+"inactivetarget" "one_bonus_frag=~inactive"
+"activetarget" "one_bonus_frag=~invisible,one_bonus1=~disabled,one_bonus2=~disabled,one_bonus3=~disabled,one_bonus4=~disabled,one_bonus5=~disabled,one_bonus6=~disabled,one_bonus7=~disabled,one_bonus8=~disabled,one_bonus9=~disabled,one_bonus10=~disabled"
+"classname" "info_notnull"
+"groupname" "reset_one_bonus"
+"origin" "2192 4272 -96"
+}
+{
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"activetarget" "reset_one_bonus"
+"initialstate" "disabled"
+"origin" "2192 4472 -96"
+"active_all_message" "%N scores 5 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+5"
+"groupname" "one_bonus5,one_bonus"
+"classname" "info_notnull"
+}
+{
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"activetarget" "reset_one_bonus"
+"initialstate" "disabled"
+"origin" "2192 4448 -96"
+"active_all_message" "%N scores 4 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+4"
+"groupname" "one_bonus4,one_bonus"
+"classname" "info_notnull"
+}
+{
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"activetarget" "reset_one_bonus"
+"initialstate" "disabled"
+"origin" "2192 4424 -96"
+"active_all_message" "%N scores 3 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+3"
+"groupname" "one_bonus3,one_bonus"
+"classname" "info_notnull"
+}
+{
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"activetarget" "reset_one_bonus"
+"initialstate" "disabled"
+"classname" "info_notnull"
+"groupname" "one_bonus2,one_bonus"
+"give" "score=+2"
+"active_all_message" "%N scores 2 bonus points for fragging enemies while capturing the flag!"
+"origin" "2192 4400 -96"
+}
+{
+"_etf_comment_2" "This is what actually accumulates and keeps track of the number of frags a flag carrier makes during his run.  Whatever *_bonus entity is inactive when the flag is capped is the one that will be activated, giving the person capping the appropriate score."
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"groupname" "one_bonus_frag"
+"classname" "target_accumulator"
+"increment" "1"
+"initialvalue" "0"
+"target_1" "one_bonus1=~inactive"
+"target_2" "one_bonus2=~inactive,one_bonus1=~disabled"
+"target_3" "one_bonus3=~inactive,one_bonus2=~disabled"
+"target_4" "one_bonus4=~inactive,one_bonus3=~disabled"
+"target_5" "one_bonus5=~inactive,one_bonus4=~disabled"
+"origin" "2192 4336 -96"
+}
+{
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "2"
+"activetarget" "reset_one_bonus"
+"initialstate" "disabled"
+"origin" "2192 4376 -96"
+"active_all_message" "%N scores 1 bonus point for fragging an enemy while capturing the flag!"
+"give" "score=+1"
+"groupname" "one_bonus1,one_bonus"
+"classname" "info_notnull"
+}
+{
+"_etf_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+"_etf_comment_1" "Advanced CTF entities"
+"groupname" "respawner"
+"origin" "2124 4472 -96"
+"holding" "oneflag"
+"gameindex" "2"
+"affectteams" "red"
+"classname" "target_respawn"
+}
+{
+"classname" "target_respawn"
+"affectteams" "blue"
+"gameindex" "3"
+"holding" "blueflag"
+"origin" "2440 4472 -96"
+"groupname" "respawner"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+}
+{
+"origin" "1856 4472 -96"
+"holding" "redflag"
+"gameindex" "3"
+"affectteams" "red"
+"classname" "target_respawn"
+"groupname" "respawner"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+}
+{
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the blue flag in the field!"
+"victimallowteams" "red"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchblueflag"
+"checkstate" "blueflag=active"
+"origin" "1864 4640 -96"
+"allowteams" "blue"
+"classname" "misc_onkill"
+"active_message" "^4Defense!^*"
+"spawnflags" "5"
+"gameindex" "1"
+"wait" ".25"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"active_message" "^1Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "red"
+"origin" "2224 4640 -96"
+"checkstate" "redflag=active"
+"watch" "watchredflag"
+"watchrange" "512"
+"give" "score=+1"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag"
+"victimallowteams" "blue"
+"active_all_message" "%N defends the red flag in the field!"
+"active_sound" "~sound/feedback/defense.wav"
+"spawnflags" "5"
+"gameindex" "1"
+"wait" ".25"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"gameindex" "1"
+"spawnflags" "5"
+"active_sound" "~sound/feedback/defense.wav"
+"active_all_message" "%N defends the red flag at its base!"
+"victimallowteams" "blue"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchredflag"
+"checkstate" "redflag=inactive"
+"origin" "2224 4616 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"active_message" "^1Defense!^*"
+"wait" ".25"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"gameindex" "2"
+"carried_shader" "textures/etf_hud/yellow_lost"
+"active_shader" "textures/etf_hud/yellow_down"
+"inactive_shader" "textures/etf_hud/yellow_safe"
+"slot" "3"
+"origin" "2140 4408 -96"
+"classname" "func_hud"
+"scale" ".5"
+"groupname" "oneflaghud"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "One flag status indicator"
+}
+{
+"gameindex" "2"
+"classname" "func_hud"
+"origin" "2140 4432 -96"
+"inactive_model" "models/mapobjects/goalitem2nd/goalitem_yellow.md3"
+"slot" "1"
+"holding" "oneflag"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "One flag status indicator"
+}
+{
+"classname" "info_notnull"
+"groupname" "reset_blue_bonus"
+"origin" "1928 4272 -96"
+"activetarget" "blue_bonus_frag=~invisible,blue_bonus1=~disabled,blue_bonus2=~disabled,blue_bonus3=~disabled,blue_bonus4=~disabled,blue_bonus5=~disabled,blue_bonus6=~disabled,blue_bonus7=~disabled,blue_bonus8=~disabled,blue_bonus9=~disabled,blue_bonus10=~disabled"
+"inactivetarget" "blue_bonus_frag=~inactive"
+"wait" ".25"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This resets the frag bonus for the flag carrier."
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bonus1,red_bonus"
+"give" "score=+1"
+"active_all_message" "%N scores 1 bonus point for fragging an enemy while capturing the flag!"
+"origin" "2368 4376 -96"
+"initialstate" "disabled"
+"activetarget" "reset_red_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"victimallowteams" "red"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "1920 4584 -96"
+"holding" "redflag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"activetarget" "blue_bonus_frag"
+"wait" ".25"
+"gameindex" "1"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+}
+{
+"classname" "misc_onkill"
+"victimholding" "blueflag"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"origin" "1920 4656 -96"
+"active_all_message" "%N killed the red team's flag carrier!"
+"wait" ".25"
+"notholding" "redflag"
+"gameindex" "1"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"give" "score=+1"
+}
+{
+"classname" "func_hud"
+"origin" "1856 4432 -96"
+"inactive_model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"slot" "1"
+"holding" "redflag"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Red flag status indicator"
+}
+{
+"targetname" "watchblueflag"
+"sparkle" "0 0 1"
+"carriedtarget" "blue_flaggrab,blueflaghud=~carried,reset_red_bonus,blue_flag_arc=~invisible"
+"activetarget" "blueflaghud=~active"
+"inactivetarget" "blue_flaggrab=~inactive,blueflaghud=~inactive,blue_flag_arc_activate"
+"origin" "-1296 2944 808"
+"classname" "func_goalitem"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"light" "150"
+"color" "0 0 1"
+"groupname" "blueflag"
+"allowteams" "red"
+"flags" "revealagent,showcarry"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"carried_nonteam_sound" "~sound/teamplay/voc_enemy_flag.wav"
+"carried_team_sound" "~sound/teamplay/voc_team_flag.wav"
+"carried_message" "~You have the ^4BLUE^* flag!"
+"carried_flaginfo" "%N has the ^4BLUE^* flag."
+"active_flaginfo" "The ^4BLUE^* flag has been dropped at $l."
+"inactive_flaginfo" "The ^4BLUE^* flag is at the blue base."
+"inactive_all_message" "The ^4BLUE^* flag has returned."
+"active_all_message" "~%N has DROPPED the ^4BLUE^* flag!"
+"carried_all_message" "~%N has TAKEN the ^4BLUE^* flag!"
+"wait" "45"
+"gameindex" "1"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"carried_nonteam_sound" "~sound/teamplay/voc_enemy_flag.wav"
+"targetname" "watchredflag"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"carried_message" "You have taken the ^1RED^* flag!"
+"carriedtarget" "red_flaggrab,redflaghud=~carried,reset_blue_bonus,red_flag_arc=~invisible"
+"activetarget" "redflaghud=~active"
+"inactivetarget" "red_flaggrab=~inactive,redflaghud=~inactive,red_flag_arc_activate"
+"wait" "45"
+"flags" "revealagent,showcarry"
+"allowteams" "blue"
+"groupname" "redflag"
+"sparkle" "1 0 0"
+"color" "1 0 0"
+"light" "150"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"classname" "func_goalitem"
+"origin" "1264 -2944 808"
+"gameindex" "1"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"carried_team_sound" "~sound/teamplay/voc_team_flag.wav"
+"carried_flaginfo" "%N has the ^1RED^* flag."
+"active_flaginfo" "The ^1RED^* flag has been dropped at $l."
+"inactive_flaginfo" "The ^1RED^* flag is at the red base."
+"inactive_all_message" "The ^1RED^* flag has returned."
+"active_all_message" "~%N has DROPPED the ^1RED^* flag!"
+"carried_all_message" "~%N has TAKEN the ^1RED^* flag!"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"holding" "blueflag"
+"slot" "1"
+"inactive_model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"origin" "2440 4432 -96"
+"classname" "func_hud"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Blue flag status indicator"
+}
+{
+"scale" ".5"
+"carried_shader" "textures/etf_hud/red_lost"
+"active_shader" "textures/etf_hud/red_down"
+"inactive_shader" "textures/etf_hud/red_safe"
+"slot" "3"
+"origin" "1856 4408 -96"
+"classname" "func_hud"
+"gameindex" "1,3"
+"groupname" "redflaghud"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Red flag status indicator"
+}
+{
+"groupname" "blueflaghud"
+"scale" ".5"
+"classname" "func_hud"
+"origin" "2440 4408 -96"
+"slot" "4"
+"inactive_shader" "textures/etf_hud/blue_safe"
+"active_shader" "textures/etf_hud/blue_down"
+"carried_shader" "textures/etf_hud/blue_lost"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Blue flag status indicator"
+}
+{
+"origin" "1920 4680 -96"
+"groupname" "blue_flaggrab"
+"classname" "info_notnull"
+"give" "score=+2"
+"active_message" "You scored 2 frags for taking the enemy flag!"
+"wait" ".25"
+"activetarget" "blue_flaggrab=~disabled"
+"gameindex" "1"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives +2 frags for grabbing the flag, then disables itself until the flag returns by timeout or cap. This prevents people from doing dropflag repeatedly to rack up frags."
+}
+{
+"active_message" "You scored 2 frags for taking the enemy flag!"
+"give" "score=+2"
+"classname" "info_notnull"
+"groupname" "red_flaggrab"
+"origin" "2160 4680 -96"
+"wait" ".25"
+"activetarget" "red_flaggrab=~disabled"
+"gameindex" "1"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives +2 frags for grabbing the flag, then disables itself until the flag returns by timeout or cap. This prevents people from doing dropflag repeatedly to rack up frags."
+}
+{
+"active_all_message" "%N killed the blue team's flag carrier!"
+"origin" "2160 4656 -96"
+"active_message" "You killed the enemy flag carrier! Bonus frag awarded!"
+"victimholding" "redflag"
+"classname" "misc_onkill"
+"wait" ".25"
+"notholding" "blueflag"
+"gameindex" "1"
+"allowteams" "red"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you're not holding the enemy flag."
+"give" "score=+1"
+}
+{
+"victimallowteams" "blue"
+"wait" ".25"
+"activetarget" "red_bonus_frag"
+"active_message" "You killed an enemy while holding the flag! Bonus!"
+"holding" "blueflag"
+"origin" "2160 4584 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"gameindex" "1"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This triggers the counter to keep track of frags (up to 10) that you achieve while holding the enemy flag.  This will count up to 10 frags, and is awarded when the flag carrier caps. It is reset every time the flag is dropped."
+}
+{
+"wait" ".25"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"holding" "redflag"
+"origin" "1920 4632 -96"
+"classname" "misc_onkill"
+"victimholding" "blueflag"
+"gameindex" "1"
+"active_all_message" "%N killed the red team's flag carrier while carrying the enemy flag himself!"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"give" "score=+2"
+}
+{
+"victimholding" "redflag"
+"classname" "misc_onkill"
+"origin" "2160 4632 -96"
+"holding" "blueflag"
+"active_message" "Holy Shit! You killed the enemy flag carrier! Bonus!"
+"wait" ".25"
+"gameindex" "1"
+"active_all_message" "%N killed the blue team's flag carrier while carrying the enemy flag himself!"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This gives a bonus for killing the enemy flag carrier if you are holding the enemy flag."
+"active_all_sound" "~sound/feedback/voc_holyshit.wav"
+"give" "score=+2"
+}
+{
+"gameindex" "1"
+"wait" ".25"
+"active_all_message" "%N teamkilled the red team's flag carrier!"
+"origin" "1920 4608 -96"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"victimholding" "blueflag"
+"allowteams" "red"
+"classname" "misc_onkill"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Punishes a player for teamkilling."
+"give" "score=-2"
+}
+{
+"classname" "misc_onkill"
+"victimholding" "redflag"
+"active_message" "You killed a friendly flag carrier! -2 frag penalty awarded."
+"origin" "2160 4608 -96"
+"active_all_message" "%N teamkilled the blue team's flag carrier!"
+"wait" ".25"
+"gameindex" "1"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Punishes a player for teamkilling."
+"give" "score=-2"
+}
+{
+"origin" "2368 4336 -96"
+"target_5" "red_bonus5=~inactive,red_bonus4=~disabled"
+"target_4" "red_bonus4=~inactive,red_bonus3=~disabled"
+"target_3" "red_bonus3=~inactive,red_bonus2=~disabled"
+"target_2" "red_bonus2=~inactive,red_bonus1=~disabled"
+"target_1" "red_bonus1=~inactive"
+"initialvalue" "0"
+"increment" "1"
+"classname" "target_accumulator"
+"groupname" "red_bonus_frag"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This is what actually accumulates and keeps track of the number of frags a flag carrier makes during his run.  Whatever *_bonus entity is inactive when the flag is capped is the one that will be activated, giving the person capping the appropriate score."
+}
+{
+"groupname" "blue_bonus_frag"
+"classname" "target_accumulator"
+"increment" "1"
+"initialvalue" "0"
+"target_1" "blue_bonus1=~inactive"
+"target_2" "blue_bonus2=~inactive,blue_bonus1=~disabled"
+"target_3" "blue_bonus3=~inactive,blue_bonus2=~disabled"
+"target_4" "blue_bonus4=~inactive,blue_bonus3=~disabled"
+"target_5" "blue_bonus5=~inactive,blue_bonus6=~disabled"
+"origin" "1928 4336 -96"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This is what actually accumulates and keeps track of the number of frags a flag carrier makes during his run.  Whatever *_bonus entity is inactive when the flag is capped is the one that will be activated, giving the person capping the appropriate score."
+}
+{
+"origin" "2368 4400 -96"
+"active_all_message" "%N scores 2 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+2"
+"groupname" "red_bonus2,red_bonus"
+"classname" "info_notnull"
+"initialstate" "disabled"
+"activetarget" "reset_red_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bonus3,red_bonus"
+"give" "score=+3"
+"active_all_message" "%N scores 3 bonus points for fragging enemies while capturing the flag!"
+"origin" "2368 4424 -96"
+"initialstate" "disabled"
+"activetarget" "reset_red_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bonus4,red_bonus"
+"give" "score=+4"
+"active_all_message" "%N scores 4 bonus points for fragging enemies while capturing the flag!"
+"origin" "2368 4448 -96"
+"initialstate" "disabled"
+"activetarget" "reset_red_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bonus5,red_bonus"
+"give" "score=+5"
+"active_all_message" "%N scores 5 bonus points for fragging enemies while capturing the flag!"
+"origin" "2368 4472 -96"
+"initialstate" "disabled"
+"activetarget" "reset_red_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "1928 4472 -96"
+"active_all_message" "%N scores 5 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+5"
+"groupname" "blue_bonus5,blue_bonus"
+"classname" "info_notnull"
+"initialstate" "disabled"
+"activetarget" "reset_blue_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "1928 4448 -96"
+"active_all_message" "%N scores 4 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+4"
+"groupname" "blue_bonus4,blue_bonus"
+"classname" "info_notnull"
+"initialstate" "disabled"
+"activetarget" "reset_blue_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "1928 4424 -96"
+"active_all_message" "%N scores 3 bonus points for fragging enemies while capturing the flag!"
+"give" "score=+3"
+"groupname" "blue_bonus3,blue_bonus"
+"classname" "info_notnull"
+"initialstate" "disabled"
+"activetarget" "reset_blue_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"classname" "info_notnull"
+"groupname" "blue_bonus2,blue_bonus"
+"give" "score=+2"
+"active_all_message" "%N scores 2 bonus points for fragging enemies while capturing the flag!"
+"origin" "1928 4400 -96"
+"initialstate" "disabled"
+"activetarget" "reset_blue_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "1928 4376 -96"
+"active_all_message" "%N scores 1 bonus point for fragging an enemy while capturing the flag!"
+"give" "score=+1"
+"groupname" "blue_bonus1,blue_bonus"
+"classname" "info_notnull"
+"initialstate" "disabled"
+"activetarget" "reset_blue_bonus"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "2368 4272 -96"
+"groupname" "reset_red_bonus"
+"classname" "info_notnull"
+"activetarget" "red_bonus_frag=~invisible,red_bonus1=~disabled,red_bonus2=~disabled,red_bonus3=~disabled,red_bonus4=~disabled,red_bonus5=~disabled,red_bonus6=~disabled,red_bonus7=~disabled,red_bonus8=~disabled,red_bonus9=~disabled,red_bonus10=~disabled"
+"inactivetarget" "red_bonus_frag=~inactive"
+"wait" ".25"
+"gameindex" "1,3"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "This resets the frag bonus for the flag carrier."
+}
+{
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"wait" ".5"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_all_message" "~%N has CAPTURED the ^4BLUE^* flag!"
+"active_message" "You have scored 2 frags for capturing the flag."
+"gameindex" "1"
+"give" "score=+2,health=+100,armor=+200,ammo_shells=+200,ammo_bullets=+200,ammo_cells=+200,ammo_rockets=+200,ammo_medikit=+50,ammo_charge=+1,gren1=+4,gren2=+2"
+"classname" "trigger_multiple"
+"holding" "blueflag"
+"teamscore" "10"
+"activetarget" "red_bonus,blueflag=~inactive,redcap"
+"active_all_sound" "~sound/teamplay/voc_red_scores.wav"
+"_etf_comment_1" "Advanced CTF entities"
+"model" "*60"
+}
+{
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"teamscore" "10"
+"allowteams" "blue"
+"activetarget" "respawner,oneflag=~inactive,one_bonus"
+"active_all_message" "%N has captured the flag in the ^1RED^* base!"
+"holding" "oneflag"
+"classname" "trigger_multiple"
+"gameindex" "2"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_all_sound" "~sound/teamplay/voc_blue_scores.wav"
+"active_message" "You have scored 2 frags for capturing the flag."
+"_etf_comment_1" "Advanced CTF entities"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"wait" ".25"
+"model" "*61"
+}
+{
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"activetarget" "respawner,blueflag=~inactive,blue_bonus"
+"teamscore" "10"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_all_message" "~%N has CAPTURED the ^4BLUE^* flag in the ^1RED^* base!"
+"active_message" "You have scored 2 frags for capturing the flag."
+"holding" "blueflag"
+"classname" "trigger_multiple"
+"gameindex" "3"
+"wait" ".25"
+"active_all_sound" "~sound/teamplay/voc_blue_scores.wav"
+"_etf_comment_1" "Advanced CTF entities"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"model" "*62"
+}
+{
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"activetarget" "respawner,redflag=~inactive,red_bonus"
+"teamscore" "10"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_all_message" "~%N has CAPTURED the ^1RED^* flag in the ^4BLUE^* base!"
+"active_message" "You have scored 2 frags for capturing the flag."
+"holding" "redflag"
+"classname" "trigger_multiple"
+"gameindex" "3"
+"wait" ".25"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_all_sound" "~sound/teamplay/voc_red_scores.wav"
+"_etf_comment_1" "Advanced CTF entities"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"model" "*63"
+}
+{
+"active_message" "You have scored 2 frags for capturing the flag."
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"allowteams" "red"
+"activetarget" "respawner,oneflag=~inactive,one_bonus"
+"teamscore" "10"
+"active_all_message" "%N has captured the flag in the ^4BLUE^* base!"
+"holding" "oneflag"
+"classname" "trigger_multiple"
+"gameindex" "2"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_all_sound" "~sound/teamplay/voc_red_scores.wav"
+"_etf_comment_1" "Advanced CTF entities"
+"inactivetarget" "delayed_resup,respawner=~inactive"
+"wait" ".25"
+"model" "*64"
+}
+{
+"active_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"wait" "10"
+"gameindex" "1"
+"active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
+"active_all_message" "~%N has CAPTURED the ^1RED^* flag!"
+"active_message" "You have scored 2 frags for capturing the flag."
+"give" "score=+2,health=+100,armor=+200,ammo_shells=+200,ammo_bullets=+200,ammo_cells=+200,ammo_rockets=+200,ammo_medikit=+50,ammo_charge=+1,gren1=+4,gren2=+2"
+"classname" "trigger_multiple"
+"holding" "redflag"
+"teamscore" "10"
+"activetarget" "blue_bonus,redflag=~inactive,bluecap"
+"active_nonteam_sound" "~sound/teamplay/flagcapture_opponent.wav"
+"active_all_sound" "~sound/teamplay/voc_blue_scores.wav"
+"_etf_comment_1" "Advanced CTF entities"
+"model" "*65"
+}
+{
+"simpleshader" "textures/etf_hud/red_safe.tga"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"active_all_message" "~%N^* has DROPPED the ^1RED^* flag!"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"gameindex" "3"
+"origin" "0 -1464 544"
+"classname" "func_goalitem"
+"model" "models/mapobjects/goalitem2nd/goalitem_red.md3"
+"light" "150"
+"color" "1 0 0"
+"sparkle" "1 0 0"
+"groupname" "redflag"
+"allowteams" "red"
+"carried_message" "You have taken the ^1RED^* flag!"
+"carried_all_message" "~%N^* has TAKEN the ^1RED^* flag!"
+"inactive_all_message" "The ^1RED^* flag has returned."
+"carried_flaginfo" "%N^* has the ^1RED^* flag."
+"active_flaginfo" "The ^1RED^* flag has been dropped at $l."
+"inactive_flaginfo" "The ^1RED^* flag is at the red base."
+"flags" "revealagent,showcarry"
+"wait" "45"
+"inactivetarget" "redflaghud=~inactive,red_flag_arc_activate"
+"activetarget" "redflaghud=~active,reset_red_bonus"
+"carriedtarget" "redflaghud=~carried,red_flag_arc=~invisible"
+"_etf_comment_1" "Advanced CTF entities"
+"targetname" "watchredflag_1"
+}
+{
+"simpleshader" "textures/etf_hud/blue_safe.tga"
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"sparkle" "0 0 1"
+"active_all_message" "~%N^* has DROPPED the ^4BLUE^* flag!"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"gameindex" "3"
+"wait" "45"
+"flags" "revealagent,showcarry"
+"inactive_flaginfo" "The ^4BLUE^* flag is at the blue base."
+"active_flaginfo" "The ^4BLUE^* flag has been dropped at $l."
+"carried_flaginfo" "%N^* has the ^4BLUE^* flag."
+"inactive_all_message" "The ^4BLUE^* flag has returned."
+"carried_all_message" "~%N^* has TAKEN the ^4BLUE^* flag!"
+"carried_message" "~You have the ^4BLUE^* flag!"
+"allowteams" "blue"
+"groupname" "blueflag"
+"color" "0 0 1"
+"light" "150"
+"model" "models/mapobjects/goalitem2nd/goalitem_blue.md3"
+"classname" "func_goalitem"
+"origin" "0 1464 544"
+"inactivetarget" "blueflaghud=~inactive,blue_flag_arc=~inactive,blue_flag_checker"
+"activetarget" "blueflaghud=~active"
+"carriedtarget" "blueflaghud=~carried,reset_blue_bonus,blue_flag_checker,blue_flag_arc=~invisible"
+"_etf_comment_1" "Advanced CTF entities"
+"targetname" "watchblueflag_1"
+}
+{
+"inactive_nonteam_sound" "~sound/teamplay/flagreturn_opponent.wav"
+"inactive_team_sound" "~sound/teamplay/flagreturn_yourteam.wav"
+"gameindex" "2,5"
+"carried_nonteam_sound" "~sound/teamplay/voc_enemy_1flag.wav"
+"carried_sound" "~sound/teamplay/voc_you_flag.wav"
+"carriedtarget" "oneflaghud=~carried,reset_one_bonus,change_possession"
+"activetarget" "oneflaghud=~active,possession=~disabled"
+"inactivetarget" "oneflaghud=~inactive,possession=~disabled"
+"wait" "45"
+"flags" "revealagent,showcarry"
+"inactive_flaginfo" "The flag is in the middle."
+"active_flaginfo" "The flag has been dropped at $l."
+"carried_flaginfo" "%N of the %T team has the flag."
+"inactive_all_message" "The flag has returned."
+"carried_all_message" "~%N of the %T team has TAKEN the flag!"
+"carried_message" "You have taken the flag!"
+"groupname" "oneflag"
+"color" "0.966324 1.000000 0.232248"
+"light" "150"
+"model" "models/mapobjects/goalitem2nd/goalitem_yellow.md3"
+"classname" "func_goalitem"
+"origin" "-16 0 108"
+"carried_team_sound" "~sound/teamplay/voc_team_1flag.wav"
+"targetname" "watchoneflag"
+"sparkle" ".9 .9 0"
+}
+{
+"gameindex" "1"
+"spawnflags" "5"
+"active_message" "^4Defense!^*"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "1864 4616 -96"
+"checkstate" "blueflag=inactive"
+"watch" "watchblueflag"
+"watchrange" "512"
+"give" "score=+1"
+"victimallowteams" "red"
+"active_all_message" "%N defends the blue flag at its base!"
+"active_sound" "~sound/feedback/defense.wav"
+"wait" ".25"
+"_etf_comment_1" "Give frag bonus for enemies killed near the flag"
+}
+{
+"classname" "target_respawn"
+"affectteams" "blue"
+"gameindex" "2"
+"holding" "oneflag"
+"origin" "2156 4472 -96"
+"groupname" "respawner"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+}
+{
+"wait" ".25"
+"spawnflags" "5"
+"active_message" "^4Assist!^*"
+"classname" "misc_onkill"
+"allowteams" "blue"
+"origin" "1864 4664 -96"
+"checkstate" "redflag=carried"
+"watch" "watchredflag"
+"watchrange" "512"
+"give" "score=+1"
+"victimallowteams" "red"
+"active_all_message" "%N defends the blue flag carrier!"
+"active_sound" "~sound/feedback/assist.wav"
+"gameindex" "1"
+"notholding" "redflag"
+"_etf_comment_1" "Give frag bonus for enemies killed near the flag carrier"
+}
+{
+"wait" ".25"
+"spawnflags" "5"
+"active_sound" "~sound/feedback/assist.wav"
+"active_all_message" "%N defends the red flag carrier!"
+"victimallowteams" "blue"
+"_etf_comment_2" "Give frag bonus for enemies killed near the flag carrier"
+"give" "score=+1"
+"watchrange" "512"
+"watch" "watchblueflag"
+"checkstate" "blueflag=carried"
+"origin" "2224 4664 -96"
+"allowteams" "red"
+"classname" "misc_onkill"
+"active_message" "^1Assist!^*"
+"gameindex" "1"
+"notholding" "blueflag"
+"_etf_comment_1" "Advanced CTF entities"
+}
+{
+"origin" "2072 4080 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "blue_bag1=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "blue_bag1_control"
+"classname" "info_notnull"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "blue_bag2_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "blue_bag2=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2096 4080 -96"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"origin" "2072 4056 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "red_bag1=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "red_bag1_control"
+"classname" "info_notnull"
+"allowteams" "red"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bag2_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "red_bag2=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2096 4056 -96"
+"allowteams" "red"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"origin" "2120 4056 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "red_bag3=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "red_bag3_control"
+"classname" "info_notnull"
+"allowteams" "red"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"origin" "2120 4080 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "blue_bag3=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "blue_bag3_control"
+"classname" "info_notnull"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "blue_bag4_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "blue_bag4=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2144 4080 -96"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bag4_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "red_bag4=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2144 4056 -96"
+"allowteams" "red"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"origin" "2168 4056 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "red_bag5=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "red_bag5_control"
+"classname" "info_notnull"
+"allowteams" "red"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"origin" "2168 4080 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "blue_bag5=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "blue_bag5_control"
+"classname" "info_notnull"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "blue_bag6_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "blue_bag6=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2192 4080 -96"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bag6_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "red_bag6=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2192 4056 -96"
+"allowteams" "red"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"origin" "2216 4080 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "blue_bag7=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "blue_bag7_control"
+"classname" "info_notnull"
+"allowteams" "blue"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "red_bag7_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "red_bag7=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2216 4056 -96"
+"allowteams" "red"
+"_etf_comment_1" "Advanced resupply system"
+}
+{
+"classname" "info_notnull"
+"groupname" "change_possession"
+"allowteams" "red"
+"activetarget" "blue_has_possession=~disabled,red_has_possession=~inactive"
+"failtarget" "blue_has_possession=~inactive,red_has_possession=~disabled"
+"origin" "2024 4896 -96"
+"wait" ".1"
+}
+{
+"gameindex" "2,3"
+"origin" "-1280 2944 824"
+"targetname" "watchbluecappoint"
+"classname" "info_notnull"
+}
+{
+"classname" "info_notnull"
+"groupname" "delayed_resup"
+"give" "score=+2,health=+100,armor=+200,ammo_shells=+200,ammo_bullets=+200,ammo_cells=+200,ammo_rockets=+200,ammo_medikit=+50,ammo_charge=+1,gren1=+4,gren2=+2"
+"origin" "2064 4360 -96"
+}
+{
+"_etf_comment_1" "Advanced resupply system"
+"allowteams" "red"
+"origin" "2240 4056 -96"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"wait" "10"
+"activetarget" "red_bag8=~active"
+"clientstats" "ammo_cells<!"
+"allowclasses" "engineer"
+"groupname" "red_bag8_control"
+"classname" "info_notnull"
+}
+{
+"_etf_comment_1" "Advanced resupply system"
+"allowteams" "blue"
+"classname" "info_notnull"
+"groupname" "blue_bag8_control"
+"allowclasses" "engineer"
+"clientstats" "ammo_cells<!"
+"activetarget" "blue_bag8=~active"
+"wait" "10"
+"give" "health=+50,armor=+100,ammo_shells=+50,ammo_nails=+100,ammo_rockets=+15,ammo_cells=+100,ammo_medikit=+50,gren1=+2"
+"origin" "2240 4080 -96"
+}
+{
+"active_message" "The respawn is no place for the flag."
+"activetarget" "oneflag=~inactive"
+"holding" "oneflag"
+"classname" "trigger_multiple"
+"gameindex" "2,5"
+"model" "*66"
+}
+{
+"gameindex" "2,5"
+"classname" "trigger_multiple"
+"holding" "oneflag"
+"activetarget" "oneflag=~inactive"
+"active_message" "The respawn is no place for the flag."
+"model" "*67"
+}
+{
+"active_message" "The respawn is no place for the flag."
+"activetarget" "oneflag=~inactive"
+"holding" "oneflag"
+"classname" "trigger_multiple"
+"gameindex" "2,5"
+"model" "*68"
+}
+{
+"_etf_comment_2" "Reverse CTF indicator"
+"_etf_comment_1" "Advanced CTF entities"
+"gameindex" "3"
+"classname" "func_hud"
+"origin" "2032 5160 -96"
+"slot" "2"
+"inactive_shader" "textures/etf_hud/reverse_ctf"
+"scale" ".5"
+}
+{
+"groupname" "respawn_blocker"
+"classname" "func_wall"
+"model" "*69"
+}
+{
+"classname" "func_wall"
+"groupname" "respawn_blocker"
+"model" "*70"
+}
+{
+"classname" "trigger_multiple"
+"groupname" "respawn_blocker_t"
+"activetarget" "respawn_blocker=~invisible,respawn_blocker_t=~disabled"
+"wait" "9999"
+"model" "*71"
+}
+{
+"wait" ".1"
+"inactivetarget" "red_flag_arc=~invisible"
+"origin" "1192 2792 136"
+"checkstate" "redflag=carried"
+"groupname" "red_flag_checker"
+"gameindex" "1,3"
+"classname" "info_notnull"
+}
+{
+"classname" "func_nobuild"
+"type" "autosentry,supplystation"
+"model" "*72"
+}
+{
+"wait" "9999"
+"activetarget" "respawn_blocker=~invisible,respawn_blocker_t=~disabled"
+"groupname" "respawn_blocker_t"
+"classname" "trigger_multiple"
+"model" "*73"
+}
+{
+"classname" "trigger_multiple"
+"groupname" "respawn_blocker_t"
+"activetarget" "respawn_blocker=~invisible,respawn_blocker_t=~disabled"
+"wait" "9999"
+"model" "*74"
+}
+{
+"script" "spirit/maps/muon_red_sparks.spirit"
+"dir" "0 0 1"
+"origin" "0 -1576 704"
+"classname" "misc_particlesystem"
+}
+{
+"classname" "misc_particlesystem"
+"origin" "0 1576 704"
+"dir" "0 0 1"
+"script" "spirit/maps/muon_blue_sparks.spirit"
+}
+{
+"wait" ".1"
+"inactivetarget" "blue_flag_arc=~invisible"
+"origin" "1168 2768 136"
+"checkstate" "blueflag=active"
+"groupname" "blue_flag_checker"
+"gameindex" "1,3"
+"classname" "info_notnull"
+}
+{
+"speed" "550"
+"height" "312"
+"classname" "func_plat"
+"model" "*75"
+}
+{
+"classname" "func_plat"
+"height" "312"
+"speed" "550"
+"model" "*76"
+}
+{
+"target" "r_laser_1_1"
+"origin" "-32 1576 704"
+"targetname" "r_laser_1_end_1"
+"classname" "info_notnull"
+"gameindex" "1,3"
+}
+{
+"classname" "info_notnull"
+"targetname" "r_laser_1_1"
+"origin" "32 1576 704"
+"gameindex" "1,3"
+}
+{
+"gameindex" "1,3"
+"origin" "0 1552 724"
+"target2" "r_laser_1_1"
+"target" "r_laser_1_end_1"
+"classname" "misc_beam"
+"shader" "textures/etf_muon/lightning"
+}
+{
+"random" "60"
+"wait" "30"
+"origin" "0 0 552"
+"noise" "sound/world/envo/thndr_far2.wav"
+"spawnflags" "0"
+"classname" "target_speaker"
+}
+{
+"classname" "misc_flare"
+"origin" "-436 1016 752"
+}
+{
+"origin" "-436 1144 752"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-436 1272 752"
+}
+{
+"wait" "1"
+"speed" "600"
+"team" "6d"
+"angle" "180"
+"classname" "func_door"
+"model" "*77"
+}
+{
+"wait" "1"
+"speed" "600"
+"team" "6d"
+"angle" "360"
+"classname" "func_door"
+"model" "*78"
+}
+{
+"wait" "1"
+"speed" "600"
+"team" "7b"
+"angle" "180"
+"classname" "func_door"
+"model" "*79"
+}
+{
+"wait" "1"
+"speed" "600"
+"team" "7b"
+"angle" "360"
+"classname" "func_door"
+"model" "*80"
+}
+{
+"classname" "misc_flare"
+"origin" "-436 -1312 752"
+}
+{
+"origin" "-436 -1184 752"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "-436 -1056 752"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"team" "7d"
+"speed" "600"
+"wait" "1"
+"model" "*81"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"team" "7d"
+"speed" "600"
+"wait" "1"
+"model" "*82"
+}
+{
+"origin" "1280 -2544 664"
+"noise" "sound/world/fan_fast.wav"
+"classname" "target_speaker"
+}
+{
+"message" "^4Blue^7 flagroom"
+"origin" "1112 -2480 800"
+"classname" "target_location"
+}
+{
+"origin" "-80 -988 1008"
+"classname" "misc_flare"
+}
+{
+"classname" "misc_flare"
+"origin" "80 -988 1008"
+}
+{
+"gameindex" "1,3"
+"classname" "info_notnull"
+"wait" "2"
+"groupname" "bluecap"
+"inactivetarget" "blue_cap_arcs=~disabled"
+"origin" "56 1544 712"
+"activetarget" "blue_cap_arcs=~inactive"
+}
+{
+"shader" "textures/etf_muon/lightning"
+"classname" "misc_beam"
+"target" "r_laser_1_1"
+"target2" "r_laser_1_2_2"
+"origin" "96 1568 724"
+"initialstate" "disabled"
+"groupname" "blue_cap_arcs"
+"gameindex" "1,3"
+}
+{
+"shader" "textures/etf_muon/lightning"
+"groupname" "blue_cap_arcs"
+"initialstate" "disabled"
+"origin" "-96 1568 724"
+"target2" "r_laser_1_2_1_1"
+"target" "r_laser_1_end_1"
+"classname" "misc_beam"
+"gameindex" "1,3"
+}
+{
+"classname" "info_notnull"
+"targetname" "r_laser_1_2_1_1"
+"origin" "-88 992 672"
+"gameindex" "1,3"
+}
+{
+"origin" "88 992 672"
+"targetname" "r_laser_1_2_2"
+"classname" "info_notnull"
+"gameindex" "1,3"
+}
+{
+"activetarget" "red_cap_arcs=~inactive"
+"origin" "-56 -1544 712"
+"inactivetarget" "red_cap_arcs=~disabled"
+"groupname" "redcap"
+"wait" "2"
+"classname" "info_notnull"
+"gameindex" "1,3"
+}
+{
+"gameindex" "1,3"
+"groupname" "red_cap_arcs"
+"initialstate" "disabled"
+"origin" "-96 -1568 724"
+"target2" "b_laser_1_2_2"
+"target" "b_laser_1"
+"classname" "misc_beam"
+"shader" "textures/etf_muon/lightning_red"
+}
+{
+"gameindex" "1,3"
+"classname" "misc_beam"
+"target" "b_laser_1_end"
+"target2" "b_laser_1_2_1_1"
+"origin" "56 -1568 724"
+"initialstate" "disabled"
+"groupname" "red_cap_arcs"
+"shader" "textures/etf_muon/lightning_red"
+}
+{
+"gameindex" "1,3"
+"origin" "88 -992 672"
+"targetname" "b_laser_1_2_1_1"
+"classname" "info_notnull"
+}
+{
+"gameindex" "1,3"
+"classname" "info_notnull"
+"targetname" "b_laser_1_2_2"
+"origin" "-88 -992 672"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "704 -704 544"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-704 -704 544"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-704 704 544"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "704 704 544"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "0 824 544"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "0 -776 544"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-280 -1136 176"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "280 -1136 176"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "208 -1512 176"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "280 1168 176"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-280 1168 176"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-208 1544 176"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "24 2688 768"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "240 2672 768"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-392 4096 1120"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "8 4096 1120"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-24 -2680 768"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-240 -2664 768"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "392 -4088 1120"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-8 -4088 1120"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-824 2920 896"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-1728 2928 896"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "832 -2936 896"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "1736 -2944 896"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "288 -2672 176"
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+}
+{
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+"origin" "-288 2672 176"
+"classname" "target_speaker"
+}
+{
+"flags" "nodrop,keepondeath"
+"gameindex" "9"
+"carriedtarget" "flag_timer=~active"
+"allowteams" "red"
+"groupname" "timeflag"
+"sparkle" "1 1 0"
+"color" "1 1 0"
+"light" "200"
+"model" "models/flags/y_flag.md3"
+"classname" "func_goalitem"
+"origin" "-1278 2944 796"
+"carried_sound" "sound/feedback/flagtk_you.wav"
+"wait" "9999999"
+"carried_all_message" "~^3Timer flag grabbed.\n^1You must capture the flag before timer can be reset."
+}
+{
+"give" "health=+100,armor=+200,ammo_cells=+200,ammo_shells=+200,ammo_bullets=+200,ammo_rockets=+200,gren1=+4,gren2=+4"
+"allowteams" "red"
+"gameindex" "9"
+"angle" "360"
+"origin" "-1576 2936 796"
+"classname" "info_player_deathmatch"
+}
+{
+"gameindex" "9"
+"inactive_all_message" "~%n captured the flag in ^1%x!"
+"groupname" "flag_timer"
+"origin" "-1262 2944 908"
+"classname" "misc_stopwatch"
+}
+{
+"gameindex" "9"
+"groupname" "time_flag_reset"
+"activetarget" "timeflag=~inactive,flag_timer=~inactive"
+"origin" "-1294 2944 908"
+"classname" "info_notnull"
+}
+{
+"gameindex" "9"
+"activetarget" "timeflag=~inactive,time_flag_reset,respawner"
+"holding" "timeflag"
+"classname" "trigger_multiple"
+"model" "*83"
+}
+{
+"classname" "target_respawn"
+"gameindex" "9"
+"holding" "timeflag"
+"origin" "2444 4232 -96"
+"groupname" "respawner"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Sends the activator back to their respawn after capping in the enemy base"
+}
+{
+"holding" "timeflag"
+"slot" "1"
+"inactive_model" "models/flags/y_flag.md3"
+"origin" "2444 4264 -96"
+"classname" "func_hud"
+"gameindex" "9"
+"_etf_comment_1" "Advanced CTF entities"
+"_etf_comment_2" "Blue flag status indicator"
+}
+{
+"spawnflags" "1"
+"gameindex" "1,3"
+"origin" "-1316 2944 844"
+"wait" "1"
+"inactivetarget" "blue_flag_arc=~inactive,blue_flag_checker"
+"groupname" "blue_flag_arc_activate"
+"classname" "info_notnull"
+}
