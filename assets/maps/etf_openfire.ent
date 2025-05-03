@@ -1574,7 +1574,7 @@
 "allowteams" "blue"
 "inactivetarget" "red_forcefield=inactive,redsechud=~active"
 "wait" "30"
-"activetarget" "red_forcefield=~invisible,redechud=~inactive"
+"activetarget" "red_forcefield=~invisible,redsechud=~inactive"
 "lip" "3"
 "angle" "270"
 "classname" "func_button"
