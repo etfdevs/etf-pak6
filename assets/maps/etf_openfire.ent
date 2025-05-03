@@ -1572,9 +1572,9 @@
 }
 {
 "allowteams" "blue"
-"inactivetarget" "red_forcefield=inactive,redsechud=~active"
+"inactivetarget" "red_forcefield=inactive,redsechud=~inactive"
 "wait" "30"
-"activetarget" "red_forcefield=~invisible,redsechud=~inactive"
+"activetarget" "red_forcefield=~invisible,redsechud=~active"
 "lip" "3"
 "angle" "270"
 "classname" "func_button"
