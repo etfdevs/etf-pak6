@@ -204,7 +204,7 @@
 		}
 
 		itemDef {
-			rect		30 310 80 13
+			rect		30 316 80 13
 			textaligny	10
 			textalignx	80
 			text		"Memory:"
@@ -214,16 +214,20 @@
 			decoration
 		}
 		itemDef {
-			type		ITEM_TYPE_MULTI
-			rect		114 310 100 13
+			type		ITEM_TYPE_EDITFIELD
+			rect		114 310 100 20
 			text		""
 			textaligny	10
-			textscale	.24
-			cvar		ui_memsize
-			cvarFloatList  { "< 256MB" 0 "256MB - 512MB" 1 "> 512MB" 2 }
-			tooltip		"Sets buffer sizes based on available memory"
+			textalignx	3
+			textscale	.25
+			cvar		ui_com_hunkmegs
+			forecolor	.8 .8 .8 1
+			backcolor 	.5 .5 .5 .25
+			style 		WINDOW_STYLE_FILLED
+			border 		WINDOW_BORDER_FULL
+			bordercolor .5 .5 .5 .5
+			tooltip		"Sets the amount of memory used by hunk memory manager (com_hunkmegs)"
 			visible		1
-			action		{ uiScript setMem }
 		}
 
 	FORT_BUTTONTT(ApplySets, "Start ETF", 18, 108, 355, 128, 26, .26, "", conditionalScript name 4 ( "hide Instructions ; show nameError ; setEditFocus namefield" ) ( "exec vid_restart" ) "ETF_Player", "Save these options and start playing ETF")

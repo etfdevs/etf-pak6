@@ -337,7 +337,7 @@
 	}
 
 	itemDef {
-		rect		380 270 80 13
+		rect		380 276 80 13
 		textaligny	10
 		text		"Memory:"
 		textalign 	ITEM_ALIGN_LEFT
@@ -347,17 +347,20 @@
 		decoration
 	}
 	itemDef {
-		type		ITEM_TYPE_MULTI
-		rect		430 270 150 13
+		type		ITEM_TYPE_EDITFIELD
+		rect		440 270 100 20
 		text		""
-		textaligny	10
+		textaligny	15
+		textalignx	3
 		textscale	.25
+		cvar		ui_com_hunkmegs
 		forecolor	.8 .8 .8 1
-		cvar		ui_memsize
-		cvarFloatList  { "< 256MB" 0 "256MB - 512MB" 1 "> 512MB" 2 }
-		tooltip		"Sets buffer sizes based on available memory"
+		backcolor 	.5 .5 .5 .25
+		style 		WINDOW_STYLE_FILLED
+		border 		WINDOW_BORDER_FULL
+		bordercolor .5 .5 .5 .5
+		tooltip		"Sets the amount of memory used by hunk memory manager (com_hunkmegs)"
 		visible		1
-		action		{ uiScript setMem }
 	}
 
 	}
