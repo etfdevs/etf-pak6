@@ -89,7 +89,7 @@
 "wait" "10"
 "gameindex" "1"
 "active_team_sound" "~sound/teamplay/flagcapture_yourteam.wav"
-"active_all_message" "~%N has CAPTURED the ^4BLUE* flag!"
+"active_all_message" "~%N has CAPTURED the ^4BLUE^* flag!"
 "active_message" "You have scored 2 frags for capturing the flag."
 "give" "score=+2,health=+100,armor=+200,ammo_shells=+200,ammo_bullets=+200,ammo_cells=+200,ammo_rockets=+200,ammo_medikit=+50,ammo_charge=+1,gren1=+4,gren2=+2"
 "classname" "trigger_multiple"
@@ -737,42 +737,20 @@
 "classname" "func_train"
 }
 {
-"target" "t14"
-"origin" "-1432 -2744 -136"
-"spawnflags" "4"
-"targetname" "blue_speaker2"
-"noise" "sound/q3f_sd2/blue_up.wav"
-"classname" "target_speaker"
-}
-{
-"groupname" "speaker_blue"
-"initialstate" "inactive"
-"origin" "-1400 -2744 -136"
-"wait" "90"
-"target" "blue_speaker2"
-"classname" "target_delay"
-}
-{
-"spawnflags" "4"
-"noise" "sound/q3f_sd2/blue_down.wav"
-"classname" "target_speaker"
-"origin" "-1376 -2744 -144"
-"groupname" "speaker_blue"
-"initialstate" "inactive"
-}
-{
 "model" "*11"
 "wait" "90"
-"inactivetarget" "laser_blue_hurt1=~inactive,light2=~disabled,speaker_blue=~inactive,bluesechud=~inactive"
-"activetarget" "laser_blue_hurt1=~disabled,speaker_blue=~active,light2=~inactive,bluesechud=~active"
+"inactivetarget" "laser_blue_hurt1=~inactive,light2=~disabled,speaker_blue=~inactive,bluesechud=~inactive,bluesectimer=~disabled"
+"activetarget" "laser_blue_hurt1=~disabled,speaker_blue=~active,light2=~inactive,bluesechud=~active,bluesectimer=~active"
 "angle" "270"
 "classname" "func_button"
 "allowteams" "red"
-"active_message" "~You have deactivated the Blue Laser !"
-"active_all_message" "~BlueSecurety is deactivated"
-"sound" "sound/q3f_sd2/blue_down.wav"
-"inactive_all_message" "~Blue Securety is now Operating"
-"inactive_message" "~Blue Securety is now Operating"
+"active_message" "You have deactivated the Blue Laser !"
+"active_all_message" "~%N deactivated BlueSecurety !"
+"inactive_all_message" "~Blue Securety is now Operating !"
+"active_flaginfo" "^4Blue^* Securety is deactive."
+"inactive_flaginfo" "^4Blue^* Securety is operating normally."
+"active_all_sound" "~sound/q3f_sd2/blue_down.wav"
+"inactive_all_sound" "~sound/q3f_sd2/blue_up.wav"
 }
 {
 "wait" ".1"
@@ -5348,17 +5326,19 @@
 }
 {
 "model" "*61"
-"inactive_message" "~red Securety is now Operating"
-"inactive_all_message" "~red Securety is now Operating"
-"sound" "sound/q3f_sd2/red_down.wav"
-"active_all_message" "~redSecurety is deactivated"
-"active_message" "~You have deactivated the red Laser !"
-"allowteams" "blue"
-"classname" "func_button"
-"angle" "90"
-"activetarget" "laser_red_hurt1=~disabled,speaker_red=~active,light1=~inactive,redsechud=~active"
-"inactivetarget" "laser_red_hurt1=~inactive,light1=~disabled,speaker_red=~inactive,redsechud=~inactive"
 "wait" "90"
+"inactivetarget" "laser_red_hurt1=~inactive,light1=~disabled,redsechud=~inactive,redsectimer=~disabled"
+"activetarget" "laser_red_hurt1=~disabled,light1=~inactive,redsechud=~active,redsectimer=~active"
+"angle" "90"
+"classname" "func_button"
+"allowteams" "blue"
+"active_message" "You have deactivated the Red Laser !"
+"active_all_message" "~%N deactivated RedSecurety !"
+"inactive_all_message" "~Red Securety is now Operating !"
+"active_flaginfo" "^1Red^* Securety is deactive."
+"inactive_flaginfo" "^1Red^* Securety is operating normally."
+"active_all_sound" "~sound/q3f_sd2/red_down.wav"
+"inactive_all_sound" "~sound/q3f_sd2/red_up.wav"
 }
 {
 "initialstate" "inactive"
@@ -5936,4 +5916,18 @@
 "active_shader" "textures/etf_hud/secdown"
 "_etf_comment_1" "Advanced CTF entities"
 "_etf_comment_2" "Blue security status indicator"
+}
+{
+"origin" "2968 -2176 -96"
+"wait" "80"
+"groupname" "bluesectimer"
+"classname" "info_notnull"
+"inactive_all_message" "~Blue Securety online in 10 seconds."
+}
+{
+"origin" "2648 -2176 -96"
+"wait" "80"
+"groupname" "redsectimer"
+"classname" "info_notnull"
+"inactive_all_message" "~Red Securety online in 10 seconds."
 }

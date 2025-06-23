@@ -2472,8 +2472,8 @@
 {
 "model" "*21"
 "allowteams" "blue"
-"inactivetarget" "redlasers=~inactive,redsechud=~inactive"
-"activetarget" "redlasers=~disabled,redsechud=~active"
+"inactivetarget" "redlasers=~inactive,redsechud=~inactive,redsectimer=~disabled"
+"activetarget" "redlasers=~disabled,redsechud=~active,redsectimer=~active"
 "classname" "func_button"
 "angle" "-1"
 "wait" "31"
@@ -2481,6 +2481,7 @@
 "lip" "16"
 "active_message" "You shut down the ^1Red^* forcefield!"
 "active_all_message" "~%N shut down the ^1Red^* forcefield!"
+"active_all_sound" "~sound/teamplay/secalarm.wav"
 "inactive_all_message" "~The ^1Red^* forcefield is back online."
 "inactive_flaginfo" "The ^1Red^* forcefield is online."
 "active_flaginfo" "The ^1Red^* forcefield is offline."
@@ -2747,10 +2748,11 @@
 "wait" "31"
 "angle" "-1"
 "classname" "func_button"
-"activetarget" "bluelasers=~disabled,bluesechud=~active"
-"inactivetarget" "bluelasers=~inactive,bluesechud=~inactive"
+"activetarget" "bluelasers=~disabled,bluesechud=~active,bluesectimer=~active"
+"inactivetarget" "bluelasers=~inactive,bluesechud=~inactive,bluesectimer=~disabled"
 "allowteams" "red"
 "active_all_message" "~%N shut down the ^4Blue^* forcefield!"
+"active_all_sound" "~sound/teamplay/secalarm.wav"
 "active_message" "You shut down the ^4Blue^* forcefield!"
 "inactive_all_message" "~The ^4Blue^* forcefield is back online."
 "active_flaginfo" "The ^4Blue^* forcefield is offline."
@@ -3665,4 +3667,17 @@
 "_etf_comment_1" "Advanced CTF entities"
 "_etf_comment_2" "Blue security status indicator"
 }
-
+{
+"origin" "2968 -2176 -96"
+"wait" "21"
+"groupname" "bluesectimer"
+"classname" "info_notnull"
+"inactive_all_message" "~^4Blue^* forcefield online in 10 seconds."
+}
+{
+"origin" "2648 -2176 -96"
+"wait" "21"
+"groupname" "redsectimer"
+"classname" "info_notnull"
+"inactive_all_message" "~^1Red^* forcefield online in 10 seconds."
+}
